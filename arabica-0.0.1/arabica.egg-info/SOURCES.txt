@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+arabica/__init__.py
+arabica/arabica_freq.py
+arabica/clean_numbers.py
+arabica/clean_tokens.py
+arabica/finalize.py
+arabica/group.py
+arabica/preprocess.py
+arabica/stopwords.py
+arabica.egg-info/PKG-INFO
+arabica.egg-info/SOURCES.txt
+arabica.egg-info/dependency_links.txt
+arabica.egg-info/requires.txt
+arabica.egg-info/top_level.txt

@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: arabica
+Version: 0.0.1
+Summary: A Python package for exploratory analysis of text data.
+Home-page: https://github.com/PetrKorab/Arabica
+Author: Petr Koráb
+Author-email: Petr Korab <xpetrkorab@gmail.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2022 Petr Korab
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/PetrKorab/Arabica
+Project-URL: Bug Tracker, https://github.com/PetrKorab/Arabica/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Arabica
+**A Python package for exploratory analysis of text data**
+
+Text data is often recorded as a time series with significant variability over time. Some examples of time-series text data include Twitter tweets, product reviews, and newspaper headlines. Arabica provides functions to make the exploratory analysis of such datasets simple.
+
+
+Arabica provides these methods:
+
+* **arabica_freq**: calculates unigram, bigram, and trigram frequencies over a period (year, month)
+
+It can apply all or a selected combination of the following cleaning operations:
+
+* Remove digits from the text
+* Remove punctuations from the text
+* Remove standard list of stopwords
+
+`arabica` uses `clean-text` for punctuation cleaning and `nltk` corpus of stopwords.
+
+
+
+## Installation
+
+Arabica requires [Python 3](https://www.python.org/downloads/), 
+[NLTK](http://www.nltk.org/install.html), and
+[clean-text](https://pypi.org/project/cleantext/#description), to execute. To install using pip, use:
+
+`pip install arabica`
+
+
+
+## Usage
+
+* **Import the library**:
+
+
+``` python
+from arabica import arabica_freq
+
+```
+
+
+
+* **Choose a method:**
+
+Arabica returns a dataframe with aggregated unigrams, bigrams, and trigrams frequencies over a period.
+To remove stopwords, select aggregation period, and choose a specific set of cleaning operations:
+
+``` python
+def arabica_freq(text: str, # Input string
+                 time: str, # Input time
+                 stopwords: str, # Language for stop words
+                 punct: bool = False, # Remove all punctuations
+                 max_words: int='', # Max number for unigrams, bigrams and trigrams displayed
+                 time_freq: str='', # Aggregation period, 'Y'/'M'
+                 numbers: bool = False # Remove all digits
+) 
+```
+
+## Example
+
+
+``` python
+import pandas as pd
+from arabica import arabica_freq
+```
+
+
+``` python
+data = pd.DataFrame({'text': ['The ordering process was very easy & straight forward. They have great customer service and sorted any issues out very quickly.',
+                              'So far seems to be the wrong product for me :-/',
+                              'Excellent, service, thank you really, really, really much!!!'],
+                     'time': ['2013-08-8', '2013-09-8','2014-10-8']})
+
+
+
+```
+
+``` python
+arabica_freq(text= data['text'],time=data['time'],time_freq='M',max_words=2,stopwords='english', numbers = True, punct=True)
+``` 
+
+## Tutorial
+
+This article shows the implementation with several examples: TBA
+
+
+
+## License
+
+##### MIT
+
+For any questions, issues, bugs, and suggestions, please visit [here](https://github.com/PetrKorab/arabica/issues)

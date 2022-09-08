@@ -1,0 +1,5 @@
+pandas
+nltk>3.6.1
+numpy
+regex
+cleantext

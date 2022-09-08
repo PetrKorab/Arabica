@@ -70,9 +70,6 @@ data = pd.DataFrame({'text': ['The ordering process was very easy & straight for
                               'So far seems to be the wrong product for me :-/',
                               'Excellent, service, thank you really, really, really much!!!'],
                      'time': ['2013-08-8', '2013-09-8','2014-10-8']})
-
-
-
 ```
 
 ``` python

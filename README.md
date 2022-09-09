@@ -78,4 +78,4 @@ arabica_freq(text= data['text'],time=data['time'],time_freq='M',max_words=2,stop
 
 ## Tutorial
 
-This article shows the implementation with several examples: TBA
+For more examples of coding, read a tutorial here.

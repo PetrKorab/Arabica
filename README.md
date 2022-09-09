@@ -46,7 +46,7 @@ Arabica returns a dataframe with aggregated unigrams, bigrams, and trigrams freq
 To remove stopwords, select aggregation period, and choose a specific set of cleaning operations:
 
 ``` python
-def arabica_freq(text: str, # Input string
+def arabica_freq(text: str, # Input text
                  time: str, # Input time
                  stopwords: str, # Language for stop words
                  punct: bool = False, # Remove all punctuations

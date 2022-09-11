@@ -78,4 +78,4 @@ arabica_freq(text= data['text'],time=data['time'],time_freq='M',max_words=2,stop
 
 ## Tutorial
 
-For more examples of coding, read a tutorial here.
+For more examples of coding, read a tutorial [here](https://petrkorab.medium.com/arabica-a-python-package-for-exploratory-analysis-of-text-data-3bb8d7379bd7).

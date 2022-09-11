@@ -49,7 +49,7 @@ To remove stopwords, select aggregation period, and choose a specific set of cle
 def arabica_freq(text: str, # Text
                  time: str, # Time
                  stopwords: str, # Language for stop words
-                 punct: bool = False, # Remove all punctuations
+                 punct: bool = False, # Remove all punctuation
                  max_words: int='', # Max number for unigrams, bigrams and trigrams displayed
                  time_freq: str='', # Aggregation period, 'Y'/'M'
                  numbers: bool = False # Remove all digits

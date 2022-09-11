@@ -11,7 +11,7 @@ Arabica provides these methods:
 It can apply all or a selected combination of the following cleaning operations:
 
 * Remove digits from the text
-* Remove punctuations from the text
+* Remove punctuation from the text
 * Remove standard list of stopwords
 
 `arabica` uses `clean-text` for punctuation cleaning and `nltk` corpus of stopwords.

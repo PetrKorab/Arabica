@@ -1,5 +1,6 @@
 pandas
 nltk>3.6.1
-numpy
+numpy>=1.23.1
 regex
-cleantext
+cleantext>=1.1.4
+ipython>=7.26.0

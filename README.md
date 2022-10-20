@@ -26,8 +26,8 @@ It is preferable to use the US-style dates (MM/DD/YYYY) rather than the European
 
 Arabica requires [Python 3](https://www.python.org/downloads/),
 [NLTK](http://www.nltk.org/install.html),
-[clean-text](https://pypi.org/project/cleantext/#description),
-[numpy](https://pypi.org/project/numpy/), and [ipython](https://pypi.org/project/ipython/) to execute. To install using pip, use:
+[clean-text](https://pypi.org/project/cleantext/#description), and
+[numpy](https://pypi.org/project/numpy/) to execute. To install using pip, use:
 
 `pip install arabica`
 

@@ -3,4 +3,3 @@ nltk>3.6.1
 numpy>=1.23.1
 regex
 cleantext>=1.1.4
-ipython>=7.26.0

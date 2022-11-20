@@ -20,7 +20,7 @@ It can apply all or a selected combination of the following cleaning operations:
 Arabica works with **texts** of languages based on the Latin alphabet and enables stopword removal for languages in the ntlk corpus of stopwords. 
 
 It reads **dates** in standard date and datetime formats (e.g., 2013–12–31, 2013/12/31, 09-Feb-2009, 2013–12–31 11:46:17, 09/02/2009 09:26).
-It is preferable to use the US-style dates (MM/DD/YYYY) rather than the European-style date format (DD/MM/YYYY) since there might be a mismatch between months and days in small datasets.
+It is preferable to use the US-style dates (MM/DD/YYYY) rather than the European-style date format (DD/MM/YYYY) since there might be a mismatch between months and days in small and incomplete datasets.
 
 ## Installation
 

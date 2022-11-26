@@ -118,9 +118,9 @@ arabica_freq(text = data['text'],
              lower_case = True)
 ``` 
 
-## Tutorial
+## Documentation and tutorials
 
-For more examples of coding, read these tutorials:
+Read Arabica's documentation [here](https://arabica.readthedocs.io/en/latest/index.html). For more examples of coding, read these tutorials:
 
 **Text as Time Series: Arabica 1.0 Brings New Features for Exploratory Text Data Analysis** [here](https://towardsdatascience.com/text-as-time-series-arabica-1-0-brings-new-features-for-exploratory-text-data-analysis-88eaabb84deb?sk=229ec0602d0b8514f25bce501ed9ecb9)
 

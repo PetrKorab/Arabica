@@ -132,4 +132,4 @@ Read Arabica's documentation [here](https://arabica.readthedocs.io/en/latest/ind
 
 ##### MIT
 
-For any questions, issues, bugs, and suggestions, please visit [here](https://github.com/PetrKorab/arabica/issues).
+Please visit [here](https://github.com/PetrKorab/arabica/issues) for any questions, issues, bugs, and suggestions.

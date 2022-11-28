@@ -120,12 +120,9 @@ arabica_freq(text = data['text'],
 
 ## Documentation and tutorials
 
-Read the documentation [here](https://arabica.readthedocs.io/en/latest/index.html). For more examples of coding, read these tutorials:
+Read the documentation [here](https://arabica.readthedocs.io/en/latest/index.html). For more examples of coding, read this  tutorial:
 
 **Text as Time Series: Arabica 1.0 Brings New Features for Exploratory Text Data Analysis** [here](https://towardsdatascience.com/text-as-time-series-arabica-1-0-brings-new-features-for-exploratory-text-data-analysis-88eaabb84deb?sk=229ec0602d0b8514f25bce501ed9ecb9)
-
-**Arabica: A Python Package for Exploratory Analysis of Text Data** [here](https://towardsdatascience.com/arabica-a-python-package-for-exploratory-analysis-of-text-data-3bb8d7379bd7?sk=cc91cabb56d44e0f285825d9a666b064)
-
 
 
 ## License

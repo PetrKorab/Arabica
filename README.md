@@ -51,13 +51,13 @@ To remove stopwords, select aggregation period, and choose a specific set of cle
 ``` python
 def arabica_freq(text: str,                # Text
                  time: str,                # Time
+                 time_freq: str ='',       # Aggregation period: 'Y'/'M'/'D', if no aggregation: 'ungroup'
+                 max_words: int ='',       # Max number for unigrams, bigrams and trigrams displayed
                  stopwords: [],            # Languages for stop words
                  skip: [],                 # Remove additional strings
+                 numbers: bool = False     # Remove all digits
                  punct: bool = False,      # Remove all punctuation
                  lower_case: bool = False, # Lowercase text before cleaning and frequency analysis
-                 max_words: int ='',       # Max number for unigrams, bigrams and trigrams displayed
-                 time_freq: str ='',       # Aggregation period: 'Y'/'M'/'D', if no aggregation: 'ungroup'
-                 numbers: bool = False     # Remove all digits
 ) 
 ```
 

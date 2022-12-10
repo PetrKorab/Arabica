@@ -93,12 +93,12 @@ data = pd.DataFrame({'text': ['The ordering process was very easy & straight for
 arabica_freq(text = data['text'],
              time = data['time'],
              time_freq = 'M',           # Calculates monthly n-gram frequencies
-             max_words = 2,             # Displays only the first two most frequent unigrams, bigrams, and trigrams
+             max_words = 2,             # Displays two most frequent unigrams, bigrams, and trigrams
              stopwords = ['english'],   # Removes English set of stopwords
              skip = ['grrrrr'],         # Excludes string from n-gram calculation
              numbers = True,            # Removes numbers
              punct = True,              # Removes punctuation
-             lower_case = True)         # Makes all text lowercase before n-gram calculation     
+             lower_case = True)         # Lowercase text before cleaning and n-gram calculation
 ``` 
 
 ### Descriptive n-gram analysis

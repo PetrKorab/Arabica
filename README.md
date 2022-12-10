@@ -23,7 +23,7 @@ It is preferable to use the US-style dates (MM/DD/YYYY) rather than the European
 
 ## Installation
 
-Arabica requires [Python 3](https://www.python.org/downloads/),
+Arabica requires [Python >=3.7](https://www.python.org/downloads/),
 [NLTK](http://www.nltk.org),
 [clean-text](https://pypi.org/project/cleantext/#description), and
 [numpy](https://pypi.org/project/numpy/) to execute. To install using pip, use:

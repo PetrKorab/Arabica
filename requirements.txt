@@ -2,4 +2,8 @@ pandas
 nltk>3.6.1
 numpy>=1.21.6
 regex
+matplotlib
+matplotlib-inline
+plotnine
+wordcloud
 cleantext>=1.1.4

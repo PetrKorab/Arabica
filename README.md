@@ -61,7 +61,7 @@ def arabica_freq(text: str,                # Text
                  max_words: int ='',       # Max number for most frequent displayed for each period
                  stopwords: [],            # Languages for stop words
                  skip: [],                 # Remove additional strings
-                 numbers: bool = False     # Remove all digits
+                 numbers: bool = False,    # Remove all digits
                  punct: bool = False,      # Remove all punctuation
                  lower_case: bool = False  # Lowercase text before cleaning and frequency analysis
 ) 
@@ -79,9 +79,9 @@ def cappuccino(text: str,                # Text
                max_words int ='',        # Max number for most frequent displayed for each period
                stopwords = [],           # Languages for stop words
                skip: [ ],                # Remove additional strings
-               numbers: bool = False     # Remove numbers
+               numbers: bool = False,    # Remove numbers
+               punct: bool = False,      # Remove punctuation
                lower_case: bool = False  # Lowercase text before cleaning and frequency analysis
-               punct: bool = False       # Remove punctuation
 )
 ```
 

@@ -8,7 +8,7 @@ Arabica provides these methods:
 
 * **arabica_freq**: calculates unigram, bigram, and trigram frequencies over a period (year, month, day)
 
-* **cappuccino**: provides plots for descriptive (word cloud) and time-series (heatmap, line plot) text data visualization (year, month)
+* **cappuccino**: provides plots for descriptive (word cloud) and time-series (heatmap, line plot) text data visualization
 
 
 It can apply all or a selected combination of the following cleaning operations:
@@ -58,7 +58,7 @@ To remove stopwords, select aggregation period and choose a specific set of clea
 def arabica_freq(text: str,                # Text
                  time: str,                # Time
                  time_freq: str ='',       # Aggregation period: 'Y'/'M'/'D', if no aggregation: 'ungroup'
-                 max_words: int ='',       # Max number for most frequent displayed for each period
+                 max_words: int ='',       # Max number for most frequent n-grams displayed for each period
                  stopwords: [],            # Languages for stop words
                  skip: [],                 # Remove additional strings
                  numbers: bool = False,    # Remove all digits
@@ -76,7 +76,7 @@ def cappuccino(text: str,                # Text
                plot: str ='',            # Chart type: 'wordcloud'/'heatmap'/'line'
                ngram: int ='',           # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
                time_freq: int ='',       # Aggregation period: 'Y'/'M'', if no aggregation: 'ungroup'
-               max_words int ='',        # Max number for most frequent displayed for each period
+               max_words int ='',        # Max number for most frequent n-grams displayed for each period
                stopwords = [],           # Languages for stop words
                skip: [ ],                # Remove additional strings
                numbers: bool = False,    # Remove numbers

@@ -1,4 +1,4 @@
-pandas
+pandas>=1.4.0
 nltk>3.6.1
 regex
 matplotlib

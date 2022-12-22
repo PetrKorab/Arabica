@@ -96,13 +96,12 @@ It is possible to remove more sets of stopwords at once by `stopwords = ['langua
 
 ## Documentation, examples and tutorials
 
-Read the documentation [here](https://arabica.readthedocs.io/en/latest/index.html). For more examples of coding, read this  tutorial:
+* Read the documentation [here](https://arabica.readthedocs.io/en/latest/index.html). 
+
+* For more examples of coding, read this  tutorial:
 
 **Text as Time Series: Arabica 1.0 Brings New Features for Exploratory Text Data Analysis** [here](https://towardsdatascience.com/text-as-time-series-arabica-1-0-brings-new-features-for-exploratory-text-data-analysis-88eaabb84deb?sk=229ec0602d0b8514f25bce501ed9ecb9)
 
-
-## License
-
-##### MIT
+---
 
 Please visit [here](https://github.com/PetrKorab/arabica/issues) for any questions, issues, bugs, and suggestions.

@@ -96,7 +96,7 @@ It is possible to remove more sets of stopwords at once by `stopwords = ['langua
 
 ## Documentation, examples and tutorials
 
-* Read the documentation [here](https://arabica.readthedocs.io/en/latest/index.html). 
+* Read the [documentation](https://arabica.readthedocs.io/en/latest/index.html). 
 
 * For more examples of coding, read this  tutorial:
 

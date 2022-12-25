@@ -67,7 +67,7 @@ Here is the output:
 
 .. image:: line_plot_2.png
    :height: 450 px
-   :width: 830 px
+   :width: 835 px
    :alt: alternate text
    :align: left
 

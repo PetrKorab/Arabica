@@ -1,7 +1,7 @@
 Heatmap
 ======
 
-**Heatmap** displays n-grams through time. It plots n-gram-frequencies by time and assigns a color to each frequency based on the value of the n-gram.
+**Heatmap** plots n-gram-frequencies by time in a matrix and assigns a color to each frequency based on the value of the n-gram.
 
 Graph displays unigrams (single words) and bigrams over a monthly or yearly period.
 

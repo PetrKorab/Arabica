@@ -58,7 +58,7 @@ aggregated by monthly frequency, and displayed in a heatmap.
               time_freq = 'M',                  # Aggregation period, 'M' = monthly, 'Y' = yearly
               max_words = 8,                    # Displays 8 most frequent unigrams for each period
               stopwords = ['english'],          # Remove English stopwords
-              skip = ['zz top','donald trump'],  # Remove additional strings
+              skip = ['zz top','donald trump'], # Remove additional strings
               numbers = True,                   # Remove numbers
               lower_case = True,                # Lowercase text before cleaning and frequency analysis
               punct = True)                     # Remove punctuation

@@ -26,7 +26,7 @@ It is preferable to use the US-style dates (MM/DD/YYYY) rather than the European
 
 ## Installation
 
-Arabica requires [Python >=3.8](https://www.python.org/downloads/), [NLTK](http://www.nltk.org) - stop words removal,
+Arabica requires [Python 3.8 - 3.10](https://www.python.org/downloads/), [NLTK](http://www.nltk.org) - stop words removal,
 [clean-text](https://pypi.org/project/cleantext/#description) - text cleaning, [wordcloud](https://pypi.org/project/wordcloud) - word cloud visualization,
 [plotnine](https://pypi.org/project/plotnine) - heatmaps and line graphs, and [matplotlib](https://pypi.org/project/matplotlib/) for graphical operations.
 

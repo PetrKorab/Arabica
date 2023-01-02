@@ -18,10 +18,9 @@ It can apply all or a selected combination of the following cleaning operations:
 * Remove standard list of stopwords
 * Remove an additional specific list of words
 
-Arabica works with **texts** of languages based on the Latin alphabet, uses `clean-text` for punctuation cleaning, and enables stop words removal for languages in the `NLTK` corpus of stopwords.
+Arabica works with **texts** of languages based on the Latin alphabet, uses `clean-text` for punctuation cleaning, and enables stop words removal for languages in the `NLTK` corpus of stopwords. 
 
-It reads **dates** in standard date and datetime formats (e.g., 2013–12–31, 2013/12/31, Feb-09-2009, 2013–12–31 11:46:17, 09/02/2009 09:26).
-It is preferable to use the US-style dates (MM/DD/YYYY) rather than the European-style date format (DD/MM/YYYY).
+It reads **dates** in the **US-style** (MM/DD/YYYY) date and datetime formats (e.g., 2013–12–31, 2013/12/31, Feb-09-2009, 2013–12–31 11:46:17, 09/02/2009 09:26).
 
 
 ## Installation

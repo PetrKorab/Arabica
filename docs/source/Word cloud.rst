@@ -5,7 +5,7 @@ Word cloud
 frequently in a source text. The bigger and bolder the n-gram appears, the more frequently it appears in the text.
 
 
-The graph displays unigram (single words), bigram, and trigram frequencies for the source text, reflecting the time-series structure of the dataset.
+Graph displays unigram (single words), bigram, and trigram frequencies for the source text, reflecting the time-series structure of the dataset.
 
 ---------------------------------------
 

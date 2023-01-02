@@ -3,7 +3,7 @@ Heatmap
 
 **Heatmap** plots n-gram-frequencies by time in a matrix and assigns a color to each frequency based on the value of the n-gram.
 
-Graph displays unigrams (single words) and bigrams over a monthly or yearly period.
+The graph displays unigram (single words) and bigram frequencies over a monthly or yearly period, reflecting the time-series structure of the dataset.
 
 ------------------------------------
 

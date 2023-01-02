@@ -30,7 +30,8 @@ It is possible to remove more sets of stopwords at once by:
     stopwords = ['language 1', 'language2','etc..']
 
 
-It reads dates in standard `date and datetime formats <https://docs.python.org/3.8/library/datetime.html>`_.
+It reads dates in the **US-style** (MM/DD/YYYY) date and datetime formats (e.g., 2013–12–31, 2013/12/31, Feb-09-2009, 2013–12–31 11:46:17, 09/02/2009 09:26). <https://docs.python.org/3.8/library/datetime.html>`_.
+
 These aggregation combinations are provided:
 
 * input time in **second frequency** - aggregated daily, monthly, and yearly output
@@ -38,16 +39,4 @@ These aggregation combinations are provided:
 * input time in **monthly frequency** - aggregated yearly output
 * input time in **yearly frequency** - aggregated yearly output
 
-Arabica works well with the US-style date format, and it is recommended to use the US-style  (MM/DD/YYYY) rather than the European-style (DD/MM/YYYY) dates.
-
 For :doc:`Descriptive n-gram analysis`, we don't aggregate data over time and make exploratory data analysis of the whole text corpus.
-
-
-
-
-
-
-
-
-
-

@@ -30,7 +30,7 @@ Coding:
     data.head(2)
 
 
-The data subset looks liks this:
+The data subset looks like this:
 
 +--------------------------------------------------------------------------------------------------------+------------+
 | headline                                                                                               | date       |

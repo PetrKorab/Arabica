@@ -1,15 +1,13 @@
 # Arabica
 **Python package for exploratory text data analysis**
 
-Text data is often recorded as a time series with significant variability over time. Some examples of time-series text data include Twitter tweets, research article metadata, product reviews, and newspaper headlines. Arabica simplifies exploratory analysis of such datasets and helps answer the complex questions of time-series text data with simple coding.
+Text data is often recorded as a time series with significant variability over time. Some examples of time-series text data include Twitter tweets, research article metadata, product reviews, and newspaper headlines. 
 
+Arabica makes exploratory analysis of these datasets simple by providing:
 
-Arabica provides these methods:
-
-* **arabica_freq**: calculates unigram, bigram, and trigram frequencies over a period (year, month, day)
-
-* **cappuccino**: provides plots for descriptive (word cloud) and time-series (heatmap, line plot) text data visualization
-
+* **Descriptive n-gram analysis**: n-gram frequencies
+* **Time-series n-gram analysis**: n-gram frequencies over a period
+* **Text visualization**: n-gram heatmap, line plot, word cloud
 
 It can apply all or a selected combination of the following cleaning operations:
 

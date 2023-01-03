@@ -12,7 +12,7 @@ Arabica makes exploratory analysis of these datasets simple by providing:
 
 - **Descriptive n-gram analysis**: n-gram frequencies
 - **Time-series n-gram analysis**: n-gram frequencies over a period
-- **Time-series text visualization**: n-gram heatmap, line plot, word cloud
+- **Text visualization**: n-gram heatmap, line plot, word cloud
 
 *N-grams* are continuous sequences of words in a document. In technical terms, they are the neighboring sequences of items in a text.
 Some examples include:

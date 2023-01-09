@@ -5,7 +5,7 @@
 
 Welcome to Arabica's documentation!
 ===================================
-**Arabica** is a Python library for exploratory data analysis specifically designed for time-series text data.
+**Arabica** is a python library for exploratory data analysis specifically designed for time-series text data.
 It reflects the reality that many text datasets are currently collected as repeated observations over time (product reviews, communication on social media, article headlines, etc.).
 
 Arabica makes exploratory analysis of these datasets simple by providing:

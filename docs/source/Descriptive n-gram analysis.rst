@@ -33,8 +33,6 @@ data licence: `CC0: Public Domain <https://creativecommons.org/publicdomain/zero
    :linenos:
 
     data = pd.read_csv('reviews_subset.csv',encoding='utf8')
-    data.head(2)
-
 
 By randomly picking a product from the reviews, a subset of 25 reviews looks like this:
 

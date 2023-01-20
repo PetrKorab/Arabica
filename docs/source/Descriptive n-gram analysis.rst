@@ -47,7 +47,7 @@ It procceeds in this way:
 
 * **lowercasing**: reviews are made lowercase - capital letters don't affect n-gram calculations (e.g., "Ginger" is not treated differently from "ginger")
 
-* **punctuation cleaning**
+* **punctuation** cleaning
 
 * **digits** removal
 

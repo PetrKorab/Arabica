@@ -98,4 +98,4 @@ The output is a dataframe with n-gram frequencies:
 *perceived the product positively. The reasons might be less sugar and overall health effects - "half, sugar, much",*
 *"health, food, store", and "much, sugar". A more detailed inspection should confirm this.*
 
-Download the jupyter notebook with the code and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/examples.ipynb>`_.
+Download the jupyter notebook with the code and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/arabica_freq_examples.ipynb>`_.

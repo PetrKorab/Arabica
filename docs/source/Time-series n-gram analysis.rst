@@ -72,7 +72,7 @@ It procceeds in this way:
             time = data['date'],
             date_format = 'us',       # Uses US-style date format to parse dates
             time_freq = 'M',          # Calculates monthly n-gram frequencies
-            max_words = 3,            # Displays  three most frequent unigrams, bigrams, and trigrams
+            max_words = 3,            # Displays  three most frequent unigrams, bigrams, and trigrams for each period
             stopwords = ['english'],  # Removes English set of stopwords
             skip = ['grrrrr'],        # Removes additional string
             numbers = True,           # Removes numbers

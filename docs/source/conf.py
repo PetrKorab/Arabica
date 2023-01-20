@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Arabica'
-copyright = '2022, Petr Korab'
+copyright = '2023, Petr Korab'
 author = 'Petr Korab'
 
 # The full version, including alpha/beta/rc tags
-release = '1.2.0'
+release = '1.2.1'
 
 
 # -- General configuration ---------------------------------------------------

@@ -63,7 +63,7 @@ It procceeds in this way:
 
    cappuccino(text = data['headline'],
               time = data['date'],
-              date_format = 'us'                # Uses US-style date format to parse dates
+              date_format = 'us',               # Uses US-style date format to parse dates
               plot = 'wordcloud',
               ngram = 2,                        # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
               time_freq = 'ungroup',            # No period aggregation

@@ -16,7 +16,8 @@ It can apply all or a selected combination of the following cleaning operations:
 
 Arabica works with **texts** of languages based on the Latin alphabet, uses `clean-text` for punctuation cleaning, and enables stop words removal for languages in the `NLTK` corpus of stopwords. 
 
-It reads **dates** in the **US-style** (MM/DD/YYYY) date and datetime formats (e.g., 2013–12–31, 2013/12/31, Feb-09-2009, 2013–12–31 11:46:17, 09/02/2009 09:26).
+It reads **dates** in the **US-style** (MM/DD/YYYY, e.g., 2013–12–31, Feb-09-2009, 2013–12–31 11:46:17) and
+**European-style** (DD/MM/YYYY, e.g., 2013–31–12, 09-Feb-2009, 2013–31–12 11:46:17) date and datetime formats.
 
 
 ## Installation
@@ -52,6 +53,7 @@ To remove stopwords, select aggregation period and choose a specific set of clea
 ``` python
 def arabica_freq(text: str,                # Text
                  time: str,                # Time
+                 date_format: str,         # Date format: 'eur' - European, 'us' - American
                  time_freq: str ='',       # Aggregation period: 'Y'/'M'/'D', if no aggregation: 'ungroup'
                  max_words: int ='',       # Max number for most frequent n-grams displayed for each period
                  stopwords: [],            # Languages for stop words
@@ -68,6 +70,7 @@ plots for descriptive (word cloud) and time-series (heatmap, line plot) text dat
 ``` python
 def cappuccino(text: str,                # Text
                time: str,                # Time
+               date_format: str,         # Date format: 'eur' - European, 'us' - American
                plot: str ='',            # Chart type: 'wordcloud'/'heatmap'/'line'
                ngram: int ='',           # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
                time_freq: int ='',       # Aggregation period: 'Y'/'M', if no aggregation: 'ungroup'
@@ -93,11 +96,9 @@ It is possible to remove more sets of stopwords at once by `stopwords = ['langua
 
 * Read the [documentation](https://arabica.readthedocs.io/en/latest/index.html). 
 
-* For more examples of coding, read the tutorials:
+* For more examples of coding, read this  tutorial:
 
 **Text as Time Series: Arabica 1.0 Brings New Features for Exploratory Text Data Analysis** [here](https://towardsdatascience.com/text-as-time-series-arabica-1-0-brings-new-features-for-exploratory-text-data-analysis-88eaabb84deb?sk=229ec0602d0b8514f25bce501ed9ecb9)
-
-**Visualization Module in Arabica Speeds Up Text Data Exploration** [here](https://petrkorab.medium.com/47114ad646ce)
 
 ---
 

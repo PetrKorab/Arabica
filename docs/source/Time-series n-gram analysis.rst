@@ -82,7 +82,7 @@ It procceeds in this way:
             lower_case = True)         # Lowercase text before cleaning and frequency analysis
 
 
-Here is the output:
+The output is a dataframe with n-grams in monthly frequency:
 
 .. csv-table::
    :file: results.csv

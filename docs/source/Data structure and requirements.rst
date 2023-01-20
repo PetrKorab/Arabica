@@ -29,7 +29,10 @@ It is possible to remove more sets of stopwords at once by:
 
     stopwords = ['language 1', 'language2','etc..']
     
-It reads **dates** in the US-style: MM/DD/YYYY (e.g., *2013–12–31, Feb-09-2009, 2013–12–31 11:46:17*) and European-style: DD/MM/YYYY (e.g., *2013–31–12, 09-Feb-2009, 2013–31–12 11:46:17*) date and datetime formats.
+It reads **dates** in:
+
+* **US-style MM/DD/YYYY** (e.g., *2013–12–31, Feb-09-2009, 2013–12–31 11:46:17*)
+* **European-style DD/MM/YYYY** (e.g., *2013–31–12, 09-Feb-2009, 2013–31–12 11:46:17*) date and datetime formats.
 
 These aggregation combinations are provided:
 

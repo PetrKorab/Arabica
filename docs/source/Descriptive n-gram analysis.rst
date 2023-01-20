@@ -13,9 +13,10 @@ It can apply all or a selected combination of the following cleaning operations:
 * Remove standard list of stop words (using `NLTK <https://www.nltk.org/>`_)
 * Remove an additional specific list of words
 
-----
+
 Coding example
-----
+^^^^^^
+
 **Use case:** Customer perception of Amazon products
 
 **Data**: Amazon Product Reviews dataset, source: `Amazon.com <https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews>`_,

@@ -34,7 +34,7 @@ data licence: `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_.
 
     data = pd.read_csv('headlines.csv', encoding='utf8')
 
-The data subset looks like this:
+The data looks like this:
 
 +---------------------------------------------------------------------------------------------------------+--------------+
 | headline                                                                                                | date         |

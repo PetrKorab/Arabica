@@ -30,7 +30,7 @@ Coding:
 
     data = pd.read_csv('headlines.csv', encoding='utf8')
 
-The data looks liks this:
+The data looks like this:
 
 +--------------------------------------------------------------------------------------------------------+------------+
 | headline                                                                                               | date       |

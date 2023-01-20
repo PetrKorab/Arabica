@@ -45,9 +45,9 @@ The data subset looks liks this:
 
 It procceeds in this way:
 
-* **lowercasing**: reviews are made lowercase - capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree")
+* **lowercasing**: headlines are made lowercase - capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree")
 
-* **punctuation cleaning**
+* **punctuation** cleaning
 
 * **digits** removal
 

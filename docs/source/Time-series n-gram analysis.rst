@@ -12,7 +12,7 @@ or a selected combination of the following cleaning operations:
 * Remove standard list of stop words (using `NLTK <https://www.nltk.org/>`_) corpus of stop words
 * Remove an additional specific list of words
 
-^^^^^^
+
 Coding example
 ^^^^^^
 

@@ -88,4 +88,4 @@ Here is the output:
 -----
 
 Download the jupyter notebook with the code
-and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/cappuccino.ipynb>`_.
+and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/cappuccino_examples.ipynb>`_.

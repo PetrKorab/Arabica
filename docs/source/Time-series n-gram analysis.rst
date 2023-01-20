@@ -33,10 +33,8 @@ data licence: `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_.
    :linenos:
 
     data = pd.read_csv('headlines.csv', encoding='utf8')
-    data.head(5)
 
-
-The data subset looks liks this:
+The data subset looks like this:
 
 +---------------------------------------------------------------------------------------------------------+--------------+
 | headline                                                                                                | date         |

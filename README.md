@@ -16,8 +16,10 @@ It can apply all or a selected combination of the following cleaning operations:
 
 Arabica works with **texts** of languages based on the Latin alphabet, uses `clean-text` for punctuation cleaning, and enables stop words removal for languages in the `NLTK` corpus of stopwords. 
 
-It reads **dates** in the **US-style**: MM/DD/YYYY (e.g., *2013–12–31, Feb-09-2009, 2013–12–31 11:46:17*) and
-**European-style**: DD/MM/YYYY (e.g., *2013–31–12, 09-Feb-2009, 2013–31–12 11:46:17*) date and datetime formats.
+It reads dates in:
+
+* **US-style** - MM/DD/YYYY (*2013–12–31, Feb-09-2009, 2013–12–31 11:46:17, etc.*)
+* **European-style** - DD/MM/YYYY (*2013–31–12, 09-Feb-2009, 2013–31–12 11:46:17, etc.*) date and datetime formats.
 
 
 ## Installation

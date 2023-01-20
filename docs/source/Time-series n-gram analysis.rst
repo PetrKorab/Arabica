@@ -72,7 +72,7 @@ It procceeds in this way:
 
    arabica_freq(text = data['headline'],
             time = data['date'],
-            date_format = 'us'         # Uses US-style date format to parse dates
+            date_format = 'us',        # Uses US-style date format to parse dates
             time_freq = 'M',           # Calculates monthly n-gram frequencies
             max_words = 3,             # Displays only the first three most frequent unigrams, bigrams, and trigrams
             stopwords = ['english'],   # Removes English set of stopwords

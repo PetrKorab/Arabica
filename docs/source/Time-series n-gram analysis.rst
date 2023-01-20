@@ -95,4 +95,4 @@ The output is a dataframe with trigrams in monthly frequency:
 *the fake news in public debate.*
 
 
-Download the jupyter notebook with the code and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/examples.ipynb>`_.
+Download the jupyter notebook with the code and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/arabica_freq_examples.ipynb>`_.

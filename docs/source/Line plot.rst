@@ -27,10 +27,8 @@ Coding:
    :linenos:
 
     data = pd.read_csv('headlines.csv', encoding='utf8')
-    data.head(5)
 
-
-The data subset looks liks this:
+The data looks like this:
 
 +--------------------------------------------------------------------------------------------------------+------------+
 | headline                                                                                               | date       |

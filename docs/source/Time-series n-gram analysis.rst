@@ -70,14 +70,14 @@ It procceeds in this way:
 
    arabica_freq(text = data['headline'],
             time = data['date'],
-            date_format = 'us',        # Uses US-style date format to parse dates
-            time_freq = 'M',           # Calculates monthly n-gram frequencies
-            max_words = 3,             # Displays only the first three most frequent unigrams, bigrams, and trigrams
-            stopwords = ['english'],   # Removes English set of stopwords
-            skip = ['grrrrr'],         # Removes additional string
-            numbers = True,            # Removes numbers
-            punct = True,              # Removes punctuation
-            lower_case = True)         # Lowercase text before cleaning and frequency analysis
+            date_format = 'us',       # Uses US-style date format to parse dates
+            time_freq = 'M',          # Calculates monthly n-gram frequencies
+            max_words = 3,            # Displays  three most frequent unigrams, bigrams, and trigrams
+            stopwords = ['english'],  # Removes English set of stopwords
+            skip = ['grrrrr'],        # Removes additional string
+            numbers = True,           # Removes numbers
+            punct = True,             # Removes punctuation
+            lower_case = True)        # Lowercase text before cleaning and frequency analysis
 
 
 The output is a dataframe with trigrams in monthly frequency:

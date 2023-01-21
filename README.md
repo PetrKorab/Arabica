@@ -18,8 +18,8 @@ Arabica works with **texts** of languages based on the Latin alphabet, uses `cle
 
 It reads dates in:
 
-* **US-style** - MM/DD/YYYY (*2013–12–31, Feb-09-2009, 2013–12–31 11:46:17, etc.*)
-* **European-style** - DD/MM/YYYY (*2013–31–12, 09-Feb-2009, 2013–31–12 11:46:17, etc.*) date and datetime formats.
+* **US-style** - MM/DD/YYYY (2013–12–31, Feb-09-2009, 2013–12–31 11:46:17, etc.)
+* **European-style** - DD/MM/YYYY (2013–31–12, 09-Feb-2009, 2013–31–12 11:46:17, etc.) date and datetime formats.
 
 
 ## Installation

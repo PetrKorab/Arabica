@@ -14,7 +14,7 @@ It can apply all or a selected combination of the following cleaning operations:
 * Remove standard list of stopwords
 * Remove an additional specific list of words
 
-Arabica works with **texts** of languages based on the Latin alphabet, uses `clean-text` for punctuation cleaning, and enables stop words removal for languages in the `NLTK` corpus of stopwords. 
+Arabica works with **texts** of languages based on the Latin alphabet, uses `cleantext` for punctuation cleaning, and enables stop words removal for languages in the `NLTK` corpus of stopwords. 
 
 It reads dates in:
 

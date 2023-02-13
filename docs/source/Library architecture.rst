@@ -1,4 +1,4 @@
-Backend model
+Library architecture
 =====
 
 .. image:: arabica_backend.png

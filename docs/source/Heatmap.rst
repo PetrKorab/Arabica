@@ -1,13 +1,11 @@
-Word cloud
-=====
+Heatmap
+======
 
-**Word cloud** is a visual representation of n-grams that give greater importance to words that appear more
-frequently in a source text. The bigger and bolder the n-gram appears, the more frequently it appears in the text.
+**Heatmap** displays n-grams through time. It plots n-gram-frequencies by time and assigns a color to each frequency based on the value of the n-gram.
 
+Graph displays unigrams (single words) and bigrams over a monthly or yearly period.
 
-Graph display unigrams (single words), bigrams, and trigrams for the source text.
-
----------------------------------------
+------------------------------------
 
 **Coding example:**
 
@@ -15,6 +13,8 @@ Graph display unigrams (single words), bigrams, and trigrams for the source text
 
 **Data**: Million News Headlines dataset, source: `Australian Broadcasting Corporation <https://www.kaggle.com/datasets/therohk/million-headlines?resource=download>`_,
 data licence: `CC0 1.0: Public Domain <https://creativecommons.org/publicdomain/zero/1.0/>`_.
+
+
 
 
 Coding:
@@ -55,8 +55,7 @@ It procceeds in this way:
 
 * **additional unnnecessary strings** removal
 
-* n-gram frequencies for each headline are calculated, summed, and displayed in a word cloud.
-
+* n-gram frequencies for each headline are calculated, aggregated by monthly frequency, and displayed in a heatmap.
 
 .. code-block:: python
    :linenos:
@@ -64,12 +63,12 @@ It procceeds in this way:
    cappuccino(text = data['headline'],
               time = data['date'],
               date_format = 'us'                # Uses US-style date format to parse dates
-              plot = 'wordcloud',
-              ngram = 2,                        # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
-              time_freq = 'ungroup',            # No period aggregation
-              max_words = 150,                  # Displays 150 most frequent bigrams
+              plot = 'heatmap',
+              ngram = 1,                        # N-gram size, 1 = unigram, 2 = bigram
+              time_freq = 'M',                  # Aggregation period, 'M' = monthly, 'Y' = yearly
+              max_words = 8,                    # Displays 8 most frequent unigrams for each period
               stopwords = ['english'],          # Remove English stopwords
-              skip = ['zz top','donald trump'], # Remove additional strings
+              skip = ['zz top','donald trump'],  # Remove additional strings
               numbers = True,                   # Remove numbers
               lower_case = True,                # Lowercase text before cleaning and frequency analysis
               punct = True)                     # Remove punctuation
@@ -79,8 +78,8 @@ Here is the output:
 
 
 
-.. image:: word_cloud.png
-   :height: 500 px
+.. image:: heatmap.png
+   :height: 450 px
    :width: 800 px
    :alt: alternate text
    :align: left

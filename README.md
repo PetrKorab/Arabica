@@ -93,6 +93,11 @@ print(stopwords.fileids())
 
 It is possible to remove more sets of stopwords at once by `stopwords = ['language 1', 'language2','etc..']`
 
+![alt text](https://github.com/[PetrKorab]/[Arabica]/arabica_backend.png?raw=true)
+
+
+https://github.com/PetrKorab/Arabica/tree/main/docs/source
+
 
 ## Documentation, examples and tutorials
 

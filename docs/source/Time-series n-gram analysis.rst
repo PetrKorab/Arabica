@@ -36,19 +36,16 @@ data licence: `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_.
 
 The data looks like this:
 
-+---------------------------------------------------------------------------------------------------------+--------------+
-| headline                                                                                                | date         |
-+=========================================================================================================+==============+
-|Illinois “got into fiscal problems because of a Republican governor who was governor there”              | May 8, 2020  |
-+---------------------------------------------------------------------------------------------------------+--------------+
-| Black cats in Vietnam are being killed and consumed as a COVID-19 cure.                                 | May 8, 2020  |
-+---------------------------------------------------------------------------------------------------------+--------------+
-| Georgia Gov. Brian Kemp “mandates restaurants reopen”                                                   | May 8, 2020  |
-+---------------------------------------------------------------------------------------------------------+--------------+
-| Central Park hospital tents housed thousands of abused children released from underground captivity.    | May 8, 2020  |
-+---------------------------------------------------------------------------------------------------------+--------------+
-| “New autopsy reports suggest Jeffrey Epstein most likely died from COVID-19 complications.”             | May 8, 2020  |
-+---------------------------------------------------------------------------------------------------------+--------------+
+.. csv-table::
+   :header: "headline", "date"
+   :widths: 88, 12
+   :align: left
+
+   "Illinois “got into fiscal problems because of a Republican governor who was governor there", "May 8, 2020"
+   "Black cats in Vietnam are being killed and consumed as a COVID-19 cure ", "May 8, 2020"
+   "Georgia Gov. Brian Kemp “mandates restaurants reopen", "May 8, 2020"
+   "Central Park hospital tents housed thousands of abused children released from underground captivity", "May 8, 2020"
+   "New autopsy reports suggest Jeffrey Epstein most likely died from COVID-19 complications", "May 8, 2020"
 
 It procceeds in this way:
 

@@ -74,6 +74,9 @@ It procceeds in this way:
 
 The output is a dataframe with n-gram frequencies:
 
+.. table::
+   :align: left
+
 +-------------+---------------+---------------------+-------------+------------------------+--------------+
 |unigram      | unigram _freq | bigram              | bigram_freq | trigram                | trigram_freq |
 +=============+===============+=====================+=============+========================+==============+

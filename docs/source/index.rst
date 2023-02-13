@@ -26,7 +26,7 @@ Contents
 .. toctree::
 
    Installation
-   Backend model
+   Model architecture
    Descriptive n-gram analysis
    Time-series n-gram analysis
    Time-series text visualization

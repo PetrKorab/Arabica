@@ -26,7 +26,7 @@ Contents
 .. toctree::
 
    Installation
-   Model architecture
+   Library architecture
    Descriptive n-gram analysis
    Time-series n-gram analysis
    Time-series text visualization

@@ -32,4 +32,4 @@ Contents
    Time-series text visualization
    Word cloud
    Heatmap
-   Line plot two
+   Line plot

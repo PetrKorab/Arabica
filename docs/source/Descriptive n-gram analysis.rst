@@ -96,7 +96,6 @@ The output is a dataframe with n-gram frequencies:
 |crystallized   | 11            | baby,ginger           | 4           | think,product,first      | 1            |
 +---------------+---------------+-----------------------+-------------+--------------------------+--------------+
 
----
 
 *The frequency of "love" and  "ginger, unique, taste" and no n-grams with negative meanings suggest that customers*
 *perceived the product positively. The reasons might be less sugar and overall health effects - "half, sugar, much",*

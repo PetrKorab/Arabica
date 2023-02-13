@@ -75,7 +75,7 @@ It procceeds in this way:
 The output is a dataframe with n-gram frequencies:
 
 .. table::
-   :widths: 15, 15, 20, 15, 20, 15
+   :widths: 15, 15, 25, 15, 25, 15
    :align: left
 
 +-------------+---------------+---------------------+-------------+------------------------+--------------+

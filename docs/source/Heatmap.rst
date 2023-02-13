@@ -34,13 +34,13 @@ Coding:
 
 The data subset looks liks this:
 
-+--------------------------------------------------------------------------------------------------------+------------+
-| headline                                                                                               | date       |
-+========================================================================================================+============+
-|aba decides against community broadcasting licence                                                      | 2003-2-19  |
-+--------------------------------------------------------------------------------------------------------+------------+
-| act fire witnesses must be aware of defamation                                                         | 2003-2-19  |
-+--------------------------------------------------------------------------------------------------------+------------+
+.. csv-table::
+   :header: "headline", "date"
+   :widths: 90, 10
+   :align: left
+
+   "aba decides against community broadcasting licence", 2003-2-19
+   "act fire witnesses must be aware of defamation", 2003-2-19
 
 
 It procceeds in this way:

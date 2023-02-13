@@ -41,6 +41,7 @@ By randomly picking a product from the reviews, a subset of 25 reviews looks lik
    :file: subset.csv
    :widths: 5, 95
    :header-rows: 1
+   :align: left
 
 It procceeds in this way:
 

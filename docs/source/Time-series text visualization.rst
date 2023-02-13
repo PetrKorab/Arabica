@@ -25,5 +25,5 @@ greater prominence to words that appear more frequently in a source text.
 (boxes) by time and assigns a color to each category based on the value of the n-gram.
 
 
-:doc:`Line plot two` displays n-grams as a series of data points called 'markers' connected
+:doc:`Line plot` displays n-grams as a series of data points called 'markers' connected
 by straight line segments. It is a basic type of chart common in many fields.

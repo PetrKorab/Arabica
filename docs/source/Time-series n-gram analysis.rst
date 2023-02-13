@@ -81,7 +81,7 @@ The output is a dataframe with trigrams in monthly frequency:
 
 .. csv-table::
    :header: "period",	"unigram",	"bigram",	"trigram"
-   :widths: 10, 14, 45, 45
+   :widths: 10, 20, 30, 45
    :align: left
 
    "2019-12", "says: 48,trump: 12,president: 12",	"says,photo: 6,donald,trump: 6,photo,shows: 5",	"says,photo,shows: 5,president,donald,trump: 4,dirtier,dirtier,dirtier: 2"

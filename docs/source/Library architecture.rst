@@ -7,6 +7,13 @@ Library architecture
 
 - **Time** is a time specification for the recorded text
 
+It reads dates in:
+
+- **US-style**: MM/DD/YYYY (2013-12-31, Feb-09-2009, 2013-12-31 11:46:17, etc.)
+- **European-style**: DD/MM/YYYY (2013-31-12, 09-Feb-2009, 2013-31-12 11:46:17, etc.) date and datetime formats.
+
+Latin alphabet languages (English, French, Swedish, etc.) are supported.
+
 These aggregation combinations are provided:
 
 * input time in **second frequency** - aggregated daily, monthly, and yearly output
@@ -15,14 +22,6 @@ These aggregation combinations are provided:
 * input time in **yearly frequency** - aggregated yearly output
 
 In :doc:`Descriptive n-gram analysis`, we don't aggregate data over time and make exploratory analysis of the whole dataset.
-
-
-It reads dates in:
-
-- **US-style**: MM/DD/YYYY (2013-12-31, Feb-09-2009, 2013-12-31 11:46:17, etc.)
-- **European-style**: DD/MM/YYYY (2013-31-12, 09-Feb-2009, 2013-31-12 11:46:17, etc.) date and datetime formats.
-
-Latin alphabet languages (English, French, Swedish, etc.) are supported.
 
 .
 

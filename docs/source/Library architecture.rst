@@ -36,27 +36,3 @@ It reads dates in:
 - **European-style**: DD/MM/YYYY (2013-31-12, 09-Feb-2009, 2013-31-12 11:46:17, etc.) date and datetime formats.
 
 Latin alphabet languages (English, French, Swedish, etc.) are supported.
-
------
-Data cleaning
------
-
-**Stop words** are generally the most common words in a language with no significant meaning, such as *"is"*, *"am"*, *"the"*, *"this"*, *"are"*, etc.
-They are often filtered out because they bring low or zero information value. Arabica enables stopword removal for languages in the
-`NLTK <https://www.nltk.org/>`_ corpus.
-
-To print all available languages:
-
-.. code-block:: python
-   :linenos:
-
-    from nltk.corpus import stopwords
-    print(stopwords.fileids())
-
-
-It is possible to remove more sets of stopwords at once by:
-
-.. code-block:: python
-   :linenos:
-
-    stopwords = ['language 1', 'language2','etc..']

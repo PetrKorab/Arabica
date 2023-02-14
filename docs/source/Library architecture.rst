@@ -1,10 +1,6 @@
 Library architecture
 =====
 
------
-Period aggregation
------
-
 **Arabica** accepts text and time columns as inputs:
 
 - **Text** is a written record (speech, review, title, article, ..)
@@ -20,9 +16,6 @@ These aggregation combinations are provided:
 
 For :doc:`Descriptive n-gram analysis`, we don't aggregate data over time and make exploratory data analysis of the whole text corpus.
 
------
-Date and language format
------
 
 It reads dates in:
 

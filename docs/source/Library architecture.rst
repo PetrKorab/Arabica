@@ -14,7 +14,7 @@ These aggregation combinations are provided:
 * input time in **monthly frequency** - aggregated yearly output
 * input time in **yearly frequency** - aggregated yearly output
 
-In :doc:`Descriptive n-gram analysis`, we don't aggregate data over time and make exploratory data analysis of the whole dataset.
+In :doc:`Descriptive n-gram analysis`, we don't aggregate data over time and make exploratory analysis of the whole dataset.
 
 
 It reads dates in:

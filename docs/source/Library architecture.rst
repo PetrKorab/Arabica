@@ -1,12 +1,6 @@
 Library architecture
 =====
 
-.. image:: arabica_backend.png
-   :height: 700 px
-   :width: 800 px
-   :alt: alternate text
-   :align: center
-
 -----
 Period aggregation
 -----
@@ -36,3 +30,11 @@ It reads dates in:
 - **European-style**: DD/MM/YYYY (2013-31-12, 09-Feb-2009, 2013-31-12 11:46:17, etc.) date and datetime formats.
 
 Latin alphabet languages (English, French, Swedish, etc.) are supported.
+
+.
+
+.. image:: arabica_backend.png
+   :height: 700 px
+   :width: 800 px
+   :alt: alternate text
+   :align: center

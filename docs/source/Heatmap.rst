@@ -30,7 +30,7 @@ Coding:
 
     data = pd.read_csv('headlines.csv', encoding='utf8')
 
-The data subset looks liks this:
+The data looks liks this:
 
 .. csv-table::
    :header: "headline", "date"

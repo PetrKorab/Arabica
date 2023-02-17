@@ -28,7 +28,7 @@ Coding:
 .. code-block:: python
    :linenos:
 
-    data = pd.read_csv('headlines.csv', encoding='utf8')
+    data = pd.read_csv('abcnews_data.csv', encoding='utf8')
 
 The data looks liks this:
 

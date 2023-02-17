@@ -62,7 +62,7 @@ It procceeds in this way:
               plot = 'line',
               ngram = 1,                        # N-gram size, 1 = unigram, 2 = bigram
               time_freq = 'M',                  # Aggregation period, 'M' = monthly, 'Y' = yearly
-              max_words = 8,                    # Displays 8 most frequent unigrams for each period
+              max_words = 5,                    # Displays 4 most frequent unigrams for each period
               stopwords = ['english'],          # Remove English stopwords
               skip = ['zz top','donald trump'], # Remove additional strings
               numbers = True,                   # Remove numbers
@@ -75,7 +75,7 @@ Here is the output:
 
 
 .. image:: line_plot_2.png
-   :height: 450 px
+   :height: 400 px
    :width: 900 px
    :alt: alternate text
    :align: left

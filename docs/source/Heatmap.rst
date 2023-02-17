@@ -78,7 +78,7 @@ Here is the output:
 
 .. image:: heatmap.png
    :height: 450 px
-   :width: 850 px
+   :width: 900 px
    :alt: alternate text
    :align: left
 

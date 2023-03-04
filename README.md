@@ -6,6 +6,7 @@ Text data is often recorded as a time series with significant variability over t
 * **Descriptive n-gram analysis**: n-gram frequencies
 * **Time-series n-gram analysis**: n-gram frequencies over a period
 * **Text visualization**: n-gram heatmap, line plot, word cloud
+* **Sentiment analysis and structural breaks identification**: VADER sentiment classifier, Jenks Optimisation Method 
 
 It can apply all or a selected combination of the following cleaning operations:
 
@@ -26,7 +27,8 @@ It reads dates in:
 
 Arabica requires [Python 3.8 - 3.10](https://www.python.org/downloads/), [NLTK](http://www.nltk.org) - stop words removal,
 [cleantext](https://pypi.org/project/cleantext/#description) - text cleaning, [wordcloud](https://pypi.org/project/wordcloud) - word cloud visualization,
-[plotnine](https://pypi.org/project/plotnine) - heatmaps and line graphs, and [matplotlib](https://pypi.org/project/matplotlib/) for graphical operations.
+[plotnine](https://pypi.org/project/plotnine) - heatmaps and line graphs, [matplotlib](https://pypi.org/project/matplotlib/) - word clouds and graphical operations,
+[vaderSentiment](https://pypi.org/project/vaderSentiment) - sentiment analysis, and [jenskpy](https://pypi.org/project/jenkspy/) for breakpoint identification.
 
 To install using pip, use:
 
@@ -42,6 +44,7 @@ To install using pip, use:
 ``` python
 from arabica import arabica_freq
 from arabica import cappuccino
+from arabica import coffee_break 
 ```
 
 
@@ -76,14 +79,26 @@ def cappuccino(text: str,                # Text
                plot: str = '',           # Chart type: 'wordcloud'/'heatmap'/'line'
                ngram: int = '',          # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
                time_freq: str = '',      # Aggregation period: 'Y'/'M', if no aggregation: 'ungroup'
-               max_words: int = '',      # Max number for most frequent n-grams displayed for each period
-               stopwords: [],            # Languages for stop words
+               max_words int = '',       # Max number for most frequent n-grams displayed for each period
+               stopwords = [],           # Languages for stop words
                skip: [ ],                # Remove additional strings
                numbers: bool = False,    # Remove numbers
                punct: bool = False,      # Remove punctuation
                lower_case: bool = False  # Lowercase text before cleaning and frequency analysis
 )
 ```
+**coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment.
+
+``` python
+def coffee_break(text: str,                 # Text
+                 time: str,                 # Time
+                 date_format: str,          # Date format: 'eur' - European, 'us' - American
+                 preprocess: bool = False,  # Clean data from numbers and punctuation
+                 time_freq: str ='',        # Aggregation period: 'Y'/'M'
+                 n_breaks: int =''          # Number of breaks: min. 2
+)
+```
+
 
 A list of available languages for stopwords is printed with:
 ``` python

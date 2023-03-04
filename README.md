@@ -75,7 +75,7 @@ def cappuccino(text: str,                # Text
                date_format: str,         # Date format: 'eur' - European, 'us' - American
                plot: str ='',            # Chart type: 'wordcloud'/'heatmap'/'line'
                ngram: int ='',           # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
-               time_freq: int ='',       # Aggregation period: 'Y'/'M', if no aggregation: 'ungroup'
+               time_freq: str ='',       # Aggregation period: 'Y'/'M', if no aggregation: 'ungroup'
                max_words int ='',        # Max number for most frequent n-grams displayed for each period
                stopwords = [],           # Languages for stop words
                skip: [ ],                # Remove additional strings

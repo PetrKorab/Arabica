@@ -67,7 +67,7 @@ It proceeds in this way:
 * **sentiment classification**: sentiment in each row is classified with VADER sentiment classifier
 * **period aggregation**: sentiment is aggregated for a specified frequency (year or month)
 * **breakpoint identification**: Fisher-Jenks algorithm identifies breakpoints in the aggregated time series of sentiment
-* **visualization**: time series is displayed in a line plot
+* **visualization**: time series and breakpoints are displayed in a line plot
 
 Here is the output:
 

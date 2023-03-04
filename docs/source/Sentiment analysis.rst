@@ -6,6 +6,14 @@ Sentiment analysis
 **coffee_brek** calculates sentiment in each row of the dataset, aggregates it over a specified period, and returns a
 plot and a dataframe with a corresponding time series.
 
+**VADER (Valence Aware Dictionary and sEntiment Reasoner)** is a lexicon and rule-based sentiment classifier that is specifically attuned to sentiments expressed in social media.
+It works universally on most other types of datasets.
+
+It was developed by C. J. Hutto and E. E. Gilbert in:
+
+*Vader is a Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.*
+
+
 Coding example
 ^^^^^^
 

@@ -6,7 +6,8 @@ Text data is often recorded as a time series with significant variability over t
 * **Descriptive n-gram analysis**: n-gram frequencies
 * **Time-series n-gram analysis**: n-gram frequencies over a period
 * **Text visualization**: n-gram heatmap, line plot, word cloud
-* **Sentiment analysis and structural breaks identification**: VADER sentiment classifier, Jenks Optimisation Method 
+* **Sentiment analysis**: VADER sentiment classifier
+*  **Structural breaks identification**: Jenks Optimisation Method 
 
 It can apply all or a selected combination of the following cleaning operations:
 

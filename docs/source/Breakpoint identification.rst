@@ -97,7 +97,7 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
    df.to_csv('sentiment_data.csv')
 
 
-*Structural break analysis in yearly frequency statstically confirmed what we can see from the time series of sentiment.Fisher-Jenks algorithm
+*Structural break analysis statstically confirmed what we can see from the time series of sentiment. Fisher-Jenks algorithm
 identified three structural breaks in 2009, 2017, and 2021. We can only guess what caused the decline in 2009 and between 2016 and 2018. The 2021's drop is
 likely reasoned by the Covid-19 crisis.*
 

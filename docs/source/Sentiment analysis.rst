@@ -96,8 +96,8 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
    df.to_csv('sentiment_data.csv')
 
 
-*We can see that sentiment significantly dropped after Pfizer vaccines*
-*started to be used to tackle Covid in 2021. The reason is likely*
-*the global pandemic the world faced and the generally negative mood in these years.*
+*We can see that sentiment significantly dropped after Pfizer vaccines* 
+*started to be used to tackle Covid in 2021. The reason is likely* 
+*the global pandemic and the generally negative mood in these years.*
 
 Download the jupyter notebook with the code and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/coffee_break_examples.ipynb>`_.

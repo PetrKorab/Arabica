@@ -4,8 +4,7 @@ Structural break analysis
 **Arabica** takes text data as the input, enables digits and punctuation cleaning, and provides time-series sentiment analysis
 with breakpoint identification.
 
-**coffee_brek** calculates sentiment in each row of the dataset, aggregates it over a specified period, identifies breakpoints with
-Jenks optimisation method and returns a plot and a dataframe with a corresponding time series.
+**coffee_brek** calculates sentiment in each row of the dataset, aggregates it over a specified period, identifies breakpoints with Jenks optimization method, and returns a plot and a dataframe with a corresponding time series.
 
 ------
 
@@ -97,8 +96,6 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
    df.to_csv('sentiment_data.csv')
 
 
-*Structural break analysis statstically confirmed what we can see from the time series of sentiment. Fisher-Jenks algorithm
-identified three structural breaks in 2009, 2017, and 2021. We can only guess what caused the decline in 2009 and between 2016 and 2018. The 2021's drop is
-likely reasoned by the Covid-19 crisis.*
+*Structural break analysis statistically confirmed what we can see from the time series of sentiment. Fisher-Jenks algorithm identified three structural breaks in 2009, 2017, and 2021. We can only guess what caused the decline in 2009 and between 2016 and 2018. The 2021’s drop is likely caused by the Covid-19 crisis.*
 
 Download the jupyter notebook with the code and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/coffee_break_examples.ipynb>`_.

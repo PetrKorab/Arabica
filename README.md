@@ -120,6 +120,8 @@ It is possible to remove more sets of stopwords at once by `stopwords = ['langua
 
 **Visualization Module in Arabica Speeds Up Text Data Exploration** [here](https://medium.com/towards-data-science/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce)
 
+**Sentiment Analysis and Structural Breaks in Time-Series Text Data** [here](https://medium.com/towards-data-science/sentiment-analysis-and-structural-breaks-in-time-series-text-data-8109c712ca2)
+
 ---
 
 Please visit [here](https://github.com/PetrKorab/arabica/issues) for any questions, issues, bugs, and suggestions.

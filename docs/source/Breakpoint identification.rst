@@ -14,6 +14,10 @@ It was developed by:
 
 *Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.*
 
+Structural breaks in the time series are identified with the **Jenks Optimisation Method** proposed initially by:
+
+*Jenks, G.F. (1977). Optimal data classification for choropleth maps. Kansas. University. Dept. of Geography-Meteorology. Occasional paper no. 2.*
+
 
 Coding example
 ^^^^^^

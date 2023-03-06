@@ -63,7 +63,7 @@ The data looks like this:
 It proceeds in this way:
 
 * **pre-processing**: tweets are cleaned from numbers, punctuation, and blank rows
-* **sentiment classification**: sentiment in each row is classified with VADER sentiment classifier
+* **sentiment classification**: sentiment in each row is classified with VADER sentiment classifier. The aggregate sentiment ranges between -1 (most extreme negative) and 1 (most extreme positive).
 * **period aggregation**: sentiment is aggregated for a specified frequency (year or month)
 * **visualization**: aggregated time series of sentiment is displayed in a line plot
 

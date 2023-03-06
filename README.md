@@ -88,7 +88,13 @@ def cappuccino(text: str,                # Text
                lower_case: bool = False  # Lowercase text before cleaning and frequency analysis
 )
 ```
-**coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment.
+**coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment. 
+
+The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media. It works universally on most other types of datasets.
+
+It was developed by C.J. Hutto and E.E. Gilbert in:
+
+*Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.*
 
 ``` python
 def coffee_break(text: str,                 # Text

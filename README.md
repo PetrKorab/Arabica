@@ -90,7 +90,7 @@ def cappuccino(text: str,                # Text
 ```
 **coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment. 
 
-The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media.
+The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media. The aggregate sentiment ranges between -1 (most extreme negative) and 1 (most extreme positive).
 
 It was developed by:
 

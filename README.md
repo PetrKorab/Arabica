@@ -93,9 +93,9 @@ def cappuccino(text: str,                # Text
 The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media.
 
 It was developed by: 
-*Hutto, & Gilbert, 2014. VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.*
+*Hutto, & Gilbert, 2014. VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14).*
 
-Structural breaks in the time series are identified with the Fisher-Jenks algorithm, or **Jenks Optimisation Method** (Jenks, 1977. Optimal data classification for choropleth maps. Kansas. University. Dept. of Geography-Meteorology. Occasional paper no. 2.)
+Structural breaks in the time series are identified with the Fisher-Jenks algorithm, or **Jenks Optimisation Method** (Jenks, 1977. Optimal data classification for choropleth maps).
 
 ``` python
 def coffee_break(text: str,                 # Text

@@ -8,7 +8,7 @@ plot and a dataframe with a corresponding time series.
 
 ------
 
-The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media. It works universally on most other types of datasets.
+The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned to sentiments expressed in social media. It works universally on most other types of datasets.
 
 It was developed by:
 

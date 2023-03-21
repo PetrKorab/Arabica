@@ -64,7 +64,7 @@ It procceeds in this way:
               plot = 'heatmap',
               ngram = 1,                         # N-gram size, 1 = unigram, 2 = bigram
               time_freq = 'M',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
-              max_words = 10,                    # Displays 10 most frequent unigrams for each period
+              max_words = 8,                     # Displays 8 most frequent unigrams for each period
               stopwords = ['english'],           # Remove English stopwords
               skip = ['trump','g'],              # Remove additional strings
               numbers = True,                    # Remove numbers
@@ -76,7 +76,7 @@ Here is the output:
 
 
 
-.. image:: heatmap_4.png
+.. image:: heatmap_5.png
    :height: 400 px
    :width: 900 px
    :alt: alternate text

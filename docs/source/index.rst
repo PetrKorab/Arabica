@@ -33,7 +33,7 @@ Contents
    Time-series text visualization
    Word cloud
    Heatmap
+   Line plot
    Sentiment analysis
    Structural break analysis
    Breakpoint identification
-   Line plot

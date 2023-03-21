@@ -77,7 +77,7 @@ Here is the output:
 
 
 
-.. image:: word_cloud_3.png
+.. image:: word_cloud_4.png
    :height: 500 px
    :width: 800 px
    :alt: alternate text

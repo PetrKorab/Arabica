@@ -76,7 +76,7 @@ Here is the output:
 
 
 
-.. image:: heatmap_3.png
+.. image:: heatmap_4.png
    :height: 400 px
    :width: 900 px
    :alt: alternate text

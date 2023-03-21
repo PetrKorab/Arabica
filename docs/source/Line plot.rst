@@ -72,7 +72,7 @@ It procceeds in this way:
 
 Here is the output:
 
-.. image:: line_plot_3.png
+.. image:: line_plot_4.png
    :height: 400 px
    :width: 900 px
    :alt: alternate text

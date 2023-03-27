@@ -74,7 +74,7 @@ It procceeds in this way:
 
 * **additional unnnecessary strings** removal
 
-* n-gram frequencies for each headline are calculated and summed.
+* n-gram frequencies for each headline are calculated and summed for the whole dataset.
 
 .. code-block:: python
    :linenos:

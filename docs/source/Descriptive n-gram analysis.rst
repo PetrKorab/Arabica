@@ -1,9 +1,7 @@
 Descriptive n-gram analysis
 =====
 
-**Arabica** takes text data, enables standard cleaning operations, and provides n-gram (unigram, bigram, and trigram) frequencies for the whole dataset.
-
-**arabica_freq** method with *time_freq = 'ungroup'* provides descriptive analysis for the most frequent n-grams.
+**arabica_freq** method takes text data, enables standard cleaning operations, and with *time_freq = 'ungroup'* provides descriptive analysis for the most frequent words, bigrams, and trigrams.
 
 It can apply all or a selected combination of the following cleaning operations:
 

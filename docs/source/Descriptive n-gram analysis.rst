@@ -70,9 +70,7 @@ It procceeds in this way:
 
 * **digits** removal
 
-* **stop words** removal
-
-* **additional unnnecessary strings** removal
+* **stop words** and **additional redundant strings** removal
 
 * n-gram frequencies for each headline are calculated and summed for the whole dataset.
 

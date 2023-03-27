@@ -18,7 +18,7 @@ In :doc:`Descriptive n-gram analysis`, we don't aggregate data over time and mak
 
 .
 
-.. image:: arabica_backend_FULL.png
+.. image:: arabica_backend_FULL_2.png
    :height: 430 px
    :width: 800 px
    :alt: alternate text

@@ -89,7 +89,7 @@ It procceeds in this way:
    arabica_freq(text = data['headline'],
             time = data['date'],
             date_format = 'us',       # Uses US-style date format to parse dates
-            time_freq = 'M',          # Aggregation period: 'Y'/'M'/'D', calculates monthly n-gram frequencies in this case
+            time_freq = 'M',          # Aggregation period: 'Y'/'M'/'D'
             max_words = 3,            # Displays thee most n-grams for each period
             stopwords = ['english'],  # Removes English set of stopwords
             skip = ['grrrrr'],        # Removes additional string

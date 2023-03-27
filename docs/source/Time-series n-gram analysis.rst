@@ -72,7 +72,7 @@ It procceeds in this way:
 
 * **punctuation** cleaning
 
-* **digits** removal
+* **digits** cleaning
 
 * **stop words** and **additional redundant strings** removal
 

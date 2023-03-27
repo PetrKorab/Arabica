@@ -1,7 +1,7 @@
 Time-series n-gram analysis
 =====
 
-**Arabica** takes text data as the input, enables standard cleaning operations,
+**Arabica** takes text data, enables standard cleaning operations,
 and provides n-gram (unigram, bigram, and trigram) frequencies over a specified period.
 
 **arabica_freq** method calculates n-gram frequencies over a year, month, or day. It can apply all

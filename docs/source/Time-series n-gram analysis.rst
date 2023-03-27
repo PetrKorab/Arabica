@@ -1,11 +1,9 @@
 Time-series n-gram analysis
 =====
 
-**Arabica** takes text data, enables standard cleaning operations,
-and provides n-gram (unigram, bigram, and trigram) frequencies over a specified period.
+**arabica_freq**  method takes text data, enables standard cleaning operations, and provides n-gram (unigram, bigram, and trigram) frequencies over a year, month, or day. 
 
-**arabica_freq** method calculates n-gram frequencies over a year, month, or day. It can apply all
-or a selected combination of the following cleaning operations:
+It can apply all or a selected combination of the following cleaning operations:
 
 * Remove digits from the text
 * Remove punctuation from the text (using `cleantext <https://pypi.org/project/cleantext/#description>`_)

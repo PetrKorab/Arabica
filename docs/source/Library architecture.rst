@@ -14,13 +14,6 @@ It reads dates in:
 
 Latin alphabet languages (English, French, Swedish, etc.) are supported.
 
-These aggregation combinations are provided:
-
-* input time in **second frequency** - aggregated daily, monthly, and yearly output
-* input time in **daily frequency** - aggregated monthly, yearly output
-* input time in **monthly frequency** - aggregated yearly output
-* input time in **yearly frequency** - aggregated yearly output
-
 In :doc:`Descriptive n-gram analysis`, we don't aggregate data over time and make exploratory analysis of the whole dataset.
 
 .

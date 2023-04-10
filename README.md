@@ -122,10 +122,15 @@ It is possible to remove more sets of stopwords at once by `stopwords = ['langua
 * Read the [documentation](https://arabica.readthedocs.io/en/latest/index.html). 
 
 * For more examples of coding, read these  tutorials:
+                     
+-> **Visualization Module in Arabica Speeds Up Text Data Exploration** [here](https://medium.com/towards-data-science/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce)                                                                                                        
+-> **Sentiment Analysis and Structural Breaks in Time-Series Text Data** [here](https://medium.com/towards-data-science/sentiment-analysis-and-structural-breaks-in-time-series-text-data-8109c712ca2)                        
+-> **Text as Time Series: Arabica 1.0 Brings New Features for Exploratory Text Data Analysis** [here](https://towardsdatascience.com/text-as-time-series-arabica-1-0-brings-new-features-for-exploratory-text-data-analysis-88eaabb84deb?sk=229ec0602d0b8514f25bce501ed9ecb9)   
 
-**Text as Time Series: Arabica 1.0 Brings New Features for Exploratory Text Data Analysis** [here](https://towardsdatascience.com/text-as-time-series-arabica-1-0-brings-new-features-for-exploratory-text-data-analysis-88eaabb84deb?sk=229ec0602d0b8514f25bce501ed9ecb9)                        
-**Visualization Module in Arabica Speeds Up Text Data Exploration** [here](https://medium.com/towards-data-science/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce)                                                                                                        
-**Sentiment Analysis and Structural Breaks in Time-Series Text Data** [here](https://medium.com/towards-data-science/sentiment-analysis-and-structural-breaks-in-time-series-text-data-8109c712ca2)
+**Applications:**
+
+-> **Business Intelligence:** TBA                      
+-> **Meta-data description:** TBA
 
 ---
 

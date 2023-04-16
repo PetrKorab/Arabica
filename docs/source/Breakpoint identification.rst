@@ -53,15 +53,16 @@ The data looks like this:
 
    coffee_break(text = data['text'],
                 time = data['date'],
-                date_format = 'eur', # Read dates in European format
-                preprocess = True,   # Clean data - digits and punctuation
-                n_breaks = 3,        # 3 breaktpoints
-                time_freq = 'Y')     # Yearly aggregation
+                date_format = 'eur',              # Read dates in European format
+                skip = ['brrrr', 'donald trump'], # Removes additional string
+                preprocess = True,                # Clean data - digits and punctuation
+                n_breaks = 3,                     # 3 breaktpoints
+                time_freq = 'Y')                  # Yearly aggregation
 
 
 It proceeds in this way:
 
-* **pre-processing**: tweets are cleaned from numbers, punctuation, and blank rows
+* **pre-processing**: tweets are cleaned from numbers, punctuation, blank rows and a list of unwanted strings ('brrrr', 'donald trump')
 * **sentiment classification**: sentiment in each row is classified with VADER sentiment classifier. The aggregate sentiment ranges between -1 (most extreme negative) and 1 (most extreme positive).
 * **period aggregation**: sentiment is aggregated for a specified frequency (year or month), as follows: *aggregate sentiment* = :math:`\frac { sum(sentiment)_{t} } { count(rows)_{t}}`, where *t* is the aggregation period.
 * **breakpoint identification**: Fisher-Jenks algorithm identifies breakpoints in the aggregated time series of sentiment
@@ -87,6 +88,7 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
    df = coffee_break(text = data['text'],
                      time = data['date'],
                      date_format = 'eur',
+                     skip = ['brrrr', 'donald trump'],
                      preprocess = True,
                      n_breaks = None,
                      time_freq = 'Y')

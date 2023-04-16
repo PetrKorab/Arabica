@@ -84,10 +84,10 @@ It procceeds in this way:
             date_format = 'us',          # Uses US-style date format to parse dates
             time_freq = 'M',             # Aggregation period: 'D' = daily, 'M' = monthly, 'Y' = yearly
             max_words = 3,               # Displays thee most n-grams for each period
-            stopwords = ['english'],     # Removes English set of stopwords
-            skip = ['grrrrr', 'ZZ Top'], # additional unwanted strings
-            numbers = True,              # Removes numbers
-            punct = True,                # Removes punctuation
+            stopwords = ['english'],     # Remove English set of stopwords
+            skip = ['grrrrr', 'ZZ Top'], # Remove additional unwanted strings
+            numbers = True,              # Remove numbers
+            punct = True,                # Remove punctuation
             lower_case = True)           # Lowercase text before cleaning and frequency analysis
 
 

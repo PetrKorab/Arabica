@@ -45,13 +45,11 @@ It procceeds in this way:
 
 * **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree")
 
-* **punctuation cleaning**
-
 * **digits** removal
 
 * **stop words** removal
 
-* **additional unnnecessary strings** removal
+* **additional strings** removal
 
 * n-gram frequencies for each headline are calculated, summed, and displayed in a word cloud.
 
@@ -67,11 +65,9 @@ It procceeds in this way:
               time_freq = 'ungroup',            # No period aggregation
               max_words = 150,                  # Displays 150 most frequent bigrams
               stopwords = ['english'],          # Remove English stopwords
-              skip = ['br','g'],                # Remove additional strings
+              skip = ['br','great day today'],  # Remove additional strings
               numbers = True,                   # Remove numbers
-              lower_case = True,                # Lowercase text before cleaning and frequency analysis
-              punct = True)                     # Remove punctuation
-
+              lower_case = True)                # Lowercase text before cleaning and frequency analysis
 
 Here is the output:
 

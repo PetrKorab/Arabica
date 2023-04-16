@@ -9,7 +9,7 @@ Text data is often recorded as a time series with significant variability over t
 * **Sentiment analysis**: VADER sentiment classifier
 * **Structural breaks identification**: Jenks Optimization Method
 
-It automatically cleans data from punctuation on input. Furthermore, it can apply all or a selected combination of the following cleaning operations:
+It automatically cleans data from punctuation on input. It can also apply all or a selected combination of the following cleaning operations:
 
 * Remove digits from the text
 * Remove the standard list(s) of stopwords

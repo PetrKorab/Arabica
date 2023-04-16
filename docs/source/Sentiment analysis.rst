@@ -53,16 +53,17 @@ The data looks like this:
 
    coffee_break(text = data['text'],
                 time = data['date'],
-                date_format = 'eur',  # Read dates in European format
-                preprocess = True,    # Clean data - digits and punctuation
-                n_breaks = None,      # No structural break analysis
-                time_freq = 'Y')      # Yearly aggregation
+                date_format = 'eur',              # Read dates in European format
+                skip = ['brrrr', 'donald trump'], # Removes additional string
+                preprocess = True,                # Clean data - digits and punctuation
+                n_breaks = None,                  # No structural break analysis
+                time_freq = 'Y')                  # Yearly aggregation
 
 
 
 It proceeds in this way:
 
-* **pre-processing**: tweets are cleaned from numbers, punctuation, and blank rows
+* **pre-processing**: tweets are cleaned from numbers, punctuation, blank rows and a list of unwanted strings ('brrrr', 'donald trump')
 * **sentiment classification**: sentiment in each row is classified with VADER sentiment classifier. The aggregate sentiment ranges between -1 (most extreme negative) and 1 (most extreme positive).
 * **period aggregation**: sentiment is aggregated for a specified frequency (year or month), as follows: *aggregate sentiment* = :math:`\frac { sum(sentiment)_{t} } { count(rows)_{t}}`, where *t* is the aggregation period.
 * **visualization**: aggregated time series of sentiment is displayed in a line plot

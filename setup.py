@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
     setuptools.setup(
         name="arabica",
-        version="1.0.2",
+        version="1.4.3",
         author="Petr Koráb",
         author_email="xpetrkorab@gmail.com",
         packages=["arabica"],

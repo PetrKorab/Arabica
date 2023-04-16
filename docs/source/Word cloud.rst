@@ -59,15 +59,15 @@ It procceeds in this way:
 
    cappuccino(text = data['headline'],
               time = data['date'],
-              date_format = 'eur',              # Uses US-style date format to parse dates
+              date_format = 'eur',                # Uses US-style date format to parse dates
               plot = 'wordcloud',
-              ngram = 2,                        # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
-              time_freq = 'ungroup',            # No period aggregation
-              max_words = 150,                  # Displays 150 most frequent bigrams
-              stopwords = ['english'],          # Remove English stopwords
-              skip = ['br','great day today'],  # Remove additional unwanted strings
-              numbers = True,                   # Remove numbers
-              lower_case = True)                # Lowercase text before cleaning and frequency analysis
+              ngram = 2,                          # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
+              time_freq = 'ungroup',              # No period aggregation
+              max_words = 150,                    # Displays 150 most frequent bigrams
+              stopwords = ['english'],            # Remove English stopwords
+              skip = ['covid','great day today'], # Remove additional unwanted strings
+              numbers = True,                     # Remove numbers
+              lower_case = True)                  # Lowercase text before cleaning and frequency analysis
 
 Here is the output:
 

@@ -4,14 +4,12 @@ Time-series text visualization
 **Arabica** provides n-gram visualization methods to describe the dataset
 and discover variability over time.
 
-**cappuccino** method enables standard cleaning operations (stop words, numbers, and punctuation removal),
-and provides plots for descriptive (word cloud) and time-series (heatmap, line plot) text data visualization.
+**cappuccino** method enables standard cleaning operations and provides plots for descriptive (word cloud) and time-series (heatmap, line plot) visualization.
 
-It can apply all or a selected combination of the following cleaning operations:
+It automatically cleans data from punctuation (using `cleantext <https://pypi.org/project/cleantext/#description>`_) on input. It can also apply all or a selected combination of the following cleaning operations:
 
 * Remove digits from the text
-* Remove punctuation from the text (using `cleantext <https://pypi.org/project/cleantext/#description>`_)
-* Remove standard list of stop words (using `NLTK <https://www.nltk.org/>`_)
+* Remove standard list(s) of stop words (using `NLTK <https://www.nltk.org/>`_)
 * Remove an additional specific list of words
 
 

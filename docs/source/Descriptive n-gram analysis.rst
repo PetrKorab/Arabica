@@ -3,13 +3,11 @@ Descriptive n-gram analysis
 
 **arabica_freq** method takes text data, enables standard cleaning operations, and with *time_freq = 'ungroup'* provides descriptive analysis for the most frequent words, bigrams, and trigrams.
 
-It can apply all or a selected combination of the following cleaning operations:
+It automatically cleans data from punctuation (using `cleantext <https://pypi.org/project/cleantext/#description>`_) on input. It can also apply all or a selected combination of the following cleaning operations:
 
 * Remove digits from the text
-* Remove punctuation from the text (using `cleantext <https://pypi.org/project/cleantext/#description>`_)
-* Remove standard list of stop words (using `NLTK <https://www.nltk.org/>`_)
+* Remove standard list(s) of stop words (using `NLTK <https://www.nltk.org/>`_)
 * Remove an additional specific list of words
-
 
 
 **Stop words** are generally the most common words in a language with no significant meaning, such as *"is"*, *"am"*, *"the"*, *"this"*, *"are"*, etc.

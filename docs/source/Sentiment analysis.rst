@@ -88,6 +88,7 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
    df = coffee_break(text = data['text'],
                      time = data['date'],
                      date_format = 'eur',
+                     skip = ['brrrr', 'donald trump']
                      preprocess = True,
                      n_breaks = None,
                      time_freq = 'Y')

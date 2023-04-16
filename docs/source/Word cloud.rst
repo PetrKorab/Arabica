@@ -49,7 +49,7 @@ It procceeds in this way:
 
 * **stop words** removal
 
-* **additional strings** removal
+* **additional unwanted strings** removal
 
 * n-gram frequencies for each headline are calculated, summed, and displayed in a word cloud.
 
@@ -65,7 +65,7 @@ It procceeds in this way:
               time_freq = 'ungroup',            # No period aggregation
               max_words = 150,                  # Displays 150 most frequent bigrams
               stopwords = ['english'],          # Remove English stopwords
-              skip = ['br','great day today'],  # Remove additional strings
+              skip = ['br','great day today'],  # Remove additional unwanted strings
               numbers = True,                   # Remove numbers
               lower_case = True)                # Lowercase text before cleaning and frequency analysis
 

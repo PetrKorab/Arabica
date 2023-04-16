@@ -3,11 +3,10 @@ Time-series n-gram analysis
 
 **arabica_freq**  method takes text data, enables standard cleaning operations, and provides n-gram (unigram, bigram, and trigram) frequencies over a year, month, or day. 
 
-It can apply all or a selected combination of the following cleaning operations:
+It automatically cleans data from punctuation (using `cleantext <https://pypi.org/project/cleantext/#description>`_) on input. It can also apply all or a selected combination of the following cleaning operations:
 
 * Remove digits from the text
-* Remove punctuation from the text (using `cleantext <https://pypi.org/project/cleantext/#description>`_)
-* Remove standard list of stop words (using `NLTK <https://www.nltk.org/>`_) corpus of stop words
+* Remove standard list(s) of stop words (using `NLTK <https://www.nltk.org/>`_)
 * Remove an additional specific list of words
 
 
@@ -70,11 +69,9 @@ It procceeds in this way:
 
 * **lowercasing**: headlines are made lowercase - capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree")
 
-* **punctuation** cleaning
-
 * **digits** cleaning
 
-* **stop words** and **additional redundant strings** removal
+* **stop words** and **additional strings** removal
 
 * n-gram frequencies for each headline are calculated, summed, and aggregated by a specified frequency.
 
@@ -84,14 +81,14 @@ It procceeds in this way:
 
    arabica_freq(text = data['headline'],
             time = data['date'],
-            date_format = 'us',       # Uses US-style date format to parse dates
-            time_freq = 'M',          # Aggregation period: 'D' = daily, 'M' = monthly, 'Y' = yearly
-            max_words = 3,            # Displays thee most n-grams for each period
-            stopwords = ['english'],  # Removes English set of stopwords
-            skip = ['grrrrr'],        # Removes additional string
-            numbers = True,           # Removes numbers
-            punct = True,             # Removes punctuation
-            lower_case = True)        # Lowercase text before cleaning and frequency analysis
+            date_format = 'us',          # Uses US-style date format to parse dates
+            time_freq = 'M',             # Aggregation period: 'D' = daily, 'M' = monthly, 'Y' = yearly
+            max_words = 3,               # Displays thee most n-grams for each period
+            stopwords = ['english'],     # Removes English set of stopwords
+            skip = ['grrrrr', 'ZZ Top'], # Removes additional string
+            numbers = True,              # Removes numbers
+            punct = True,                # Removes punctuation
+            lower_case = True)           # Lowercase text before cleaning and frequency analysis
 
 
 The output is a dataframe with n-grams in monthly frequency:

@@ -71,7 +71,7 @@ It procceeds in this way:
 
 * **digits** cleaning
 
-* **stop words** and **additional strings** removal
+* **stop words** and **additional unwanted strings** removal
 
 * n-gram frequencies for each headline are calculated, summed, and aggregated by a specified frequency.
 
@@ -85,7 +85,7 @@ It procceeds in this way:
             time_freq = 'M',             # Aggregation period: 'D' = daily, 'M' = monthly, 'Y' = yearly
             max_words = 3,               # Displays thee most n-grams for each period
             stopwords = ['english'],     # Removes English set of stopwords
-            skip = ['grrrrr', 'ZZ Top'], # Removes additional string
+            skip = ['grrrrr', 'ZZ Top'], # additional unwanted strings
             numbers = True,              # Removes numbers
             punct = True,                # Removes punctuation
             lower_case = True)           # Lowercase text before cleaning and frequency analysis

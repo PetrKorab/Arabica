@@ -66,7 +66,7 @@ It procceeds in this way:
 
 * **digits** cleaning
 
-* **stop words** and **additional strings** removal
+* **stop words** and **additional unwanted strings** removal
 
 * n-gram frequencies for each headline are calculated and summed for the whole dataset.
 
@@ -79,7 +79,7 @@ It procceeds in this way:
             time_freq = 'ungroup',            # Calculates n-grams frequencies without period aggregation
             max_words = 7,                    # Displays 7 most frequent unigrams, bigrams, and trigrams
             stopwords = ['english'],          # Removes English set of stopwords
-            skip = ['brrrr', 'donald trump'], # Removes additional string
+            skip = ['brrrr', 'donald trump'], # Removes additional unwanted strings
             numbers = True,                   # Removes numbers
             lower_case = True)                # Lowercase text before cleaning and frequency analysis
 

@@ -64,11 +64,9 @@ It procceeds in this way:
 
 * **lowercasing**: reviews are made lowercase - capital letters don't affect n-gram calculations (e.g., "Ginger" is not treated differently from "ginger")
 
-* **punctuation** cleaning
-
 * **digits** cleaning
 
-* **stop words** and **additional redundant strings** removal
+* **stop words** and **additional strings** removal
 
 * n-gram frequencies for each headline are calculated and summed for the whole dataset.
 
@@ -77,14 +75,13 @@ It procceeds in this way:
 
    arabica_freq(text = data['review'],
             time = data['time'],
-            date_format = 'us',        # Uses US-style date format to parse dates
-            time_freq = 'ungroup',     # Calculates n-grams frequencies without period aggregation
-            max_words = 7,             # Displays 7 most frequent unigrams, bigrams, and trigrams
-            stopwords = ['english'],   # Removes English set of stopwords
-            skip = ['br'],             # Removes additional string
-            numbers = True,            # Removes numbers
-            punct = True,              # Removes punctuation
-            lower_case = True)         # Lowercase text before cleaning and frequency analysis
+            date_format = 'us',               # Uses US-style date format to parse dates
+            time_freq = 'ungroup',            # Calculates n-grams frequencies without period aggregation
+            max_words = 7,                    # Displays 7 most frequent unigrams, bigrams, and trigrams
+            stopwords = ['english'],          # Removes English set of stopwords
+            skip = ['brrrr', 'donald trump'], # Removes additional string
+            numbers = True,                   # Removes numbers
+            lower_case = True)                # Lowercase text before cleaning and frequency analysis
 
 
 The output is a dataframe with n-gram frequencies:

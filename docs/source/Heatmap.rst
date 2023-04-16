@@ -49,7 +49,7 @@ It procceeds in this way:
 
 * **stop words** removal
 
-* **additional strings** removal
+* **additional unwanted strings** removal
 
 * n-gram frequencies for each headline are calculated, aggregated by monthly frequency, and displayed in a heatmap.
 
@@ -64,7 +64,7 @@ It procceeds in this way:
               time_freq = 'M',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
               max_words = 8,                     # Displays 8 most frequent unigrams for each period
               stopwords = ['english'],           # Remove English stopwords
-              skip = ['br','Donald Trump'],      # Remove additional strings
+              skip = ['br','Donald Trump'],      # Remove additional unwanted strings
               numbers = True,                    # Remove numbers
               lower_case = True)                 # Lowercase text before cleaning and frequency analysis
 

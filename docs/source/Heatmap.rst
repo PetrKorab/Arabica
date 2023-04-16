@@ -45,13 +45,11 @@ It procceeds in this way:
 
 * **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree")
 
-* **punctuation cleaning**
-
 * **digits** removal
 
 * **stop words** removal
 
-* **additional unnnecessary strings** removal
+* **additional strings** removal
 
 * n-gram frequencies for each headline are calculated, aggregated by monthly frequency, and displayed in a heatmap.
 
@@ -66,11 +64,9 @@ It procceeds in this way:
               time_freq = 'M',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
               max_words = 8,                     # Displays 8 most frequent unigrams for each period
               stopwords = ['english'],           # Remove English stopwords
-              skip = ['br','g'],                 # Remove additional strings
+              skip = ['br','Donald Trump'],      # Remove additional strings
               numbers = True,                    # Remove numbers
-              lower_case = True,                 # Lowercase text before cleaning and frequency analysis
-              punct = True)                      # Remove punctuation
-
+              lower_case = True)                 # Lowercase text before cleaning and frequency analysis
 
 Here is the output:
 

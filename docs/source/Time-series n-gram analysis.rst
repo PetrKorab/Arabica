@@ -88,7 +88,7 @@ It procceeds in this way:
             skip = ['grrrrr', 'ZZ Top'], # Remove additional unwanted strings
             numbers = True,              # Remove numbers
             punct = True,                # Remove punctuation
-            lower_case = True)           # Lowercase text before cleaning and frequency analysis
+            lower_case = True)           # Lowercase text
 
 
 The output is a dataframe with n-grams in monthly frequency:

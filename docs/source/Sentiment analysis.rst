@@ -54,10 +54,11 @@ The data looks like this:
    coffee_break(text = data['text'],
                 time = data['date'],
                 date_format = 'eur',              # Read dates in European format
-                skip = ['brrrr', 'donald trump'], # Removes additional string
+                time_freq = 'Y',                  # Yearly aggregation
                 preprocess = True,                # Clean data - digits and punctuation
-                n_breaks = None,                  # No structural break analysis
-                time_freq = 'Y')                  # Yearly aggregation
+                skip = ['brrrr', 'donald trump'], # Removes additional strings
+                n_breaks = None)                  # No structural break analysis
+
 
 
 

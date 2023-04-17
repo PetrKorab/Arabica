@@ -49,9 +49,9 @@ It procceeds in this way:
 
 * **punctuation** cleaning - performs automatically
 
-* **digits** removal, , if ``numbers = True``
-
 * **stop words** removal, if ``stopwords is not None``
+
+* **digits** removal, , if ``numbers = True``
 
 * n-gram frequencies for each headline are calculated, summed, and displayed in a word cloud.
 

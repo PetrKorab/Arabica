@@ -64,7 +64,7 @@ It procceeds in this way:
               plot = 'heatmap',
               ngram = 1,                         # N-gram size, 1 = unigram, 2 = bigram
               time_freq = 'M',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
-              max_words = 10,                    # Displays 10 most frequent unigrams for each period
+              max_words = 10,                    # Displays 10 most frequent unigrams (words) for each period
               stopwords = ['english'],           # Remove English stopwords
               skip = ['covid','Donald Trump'],   # Remove additional unwanted strings
               numbers = True,                    # Remove numbers

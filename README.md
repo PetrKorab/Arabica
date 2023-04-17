@@ -69,7 +69,7 @@ def arabica_freq(text: str,                # Text
 ) 
 ```
 
-**cappuccino**  enables a specific set of cleaning operations (lower casing, numbers, stop words, and additional strings
+**cappuccino**  enables cleaning operations (lower casing, numbers, stop words, and additional strings
 removal) and provides plots for descriptive (word cloud) and time-series (heatmap, line plot) visualization.
 
 ``` python

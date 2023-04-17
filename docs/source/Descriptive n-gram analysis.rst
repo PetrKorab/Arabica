@@ -95,7 +95,6 @@ The output is a dataframe with n-gram frequencies:
    :widths: 17, 17, 20, 17, 20, 17
    :header-rows: 1
 
-
 *The frequency of "love" and  "ginger, unique, taste" and no n-grams with negative meanings suggest that customers*
 *perceived the product positively. The reasons might be less sugar and overall health effects - "half, sugar, much",*
 *"health, food, store", and "much, sugar". A more detailed inspection should confirm this.*

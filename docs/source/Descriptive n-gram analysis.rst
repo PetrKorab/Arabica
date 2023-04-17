@@ -91,7 +91,7 @@ It procceeds in this way:
 The output is a dataframe with n-gram frequencies:
 
 .. csv-table::
-   :file: descriptive_results_GOOD.csv
+   :file: descriptive_results_GOOD_2.csv
    :widths: 17, 17, 20, 17, 20, 17
    :header-rows: 1
 

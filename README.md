@@ -104,16 +104,6 @@ def coffee_break(text: str,                 # Text
 )
 ```
 
-
-A list of available languages for stopwords is printed with:
-``` python
-from nltk.corpus import stopwords
-print(stopwords.fileids())
-```
-
-It is possible to remove more sets of stopwords at once by `stopwords = ['language 1', 'language2','etc..']`
-
-
 ## Documentation, examples and tutorials
 
 * Read the [documentation](https://arabica.readthedocs.io/en/latest/index.html)

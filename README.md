@@ -65,7 +65,7 @@ def arabica_freq(text: str,                # Text
                  stopwords: [],            # Languages for stop words
                  skip: [],                 # Remove additional strings
                  numbers: bool = False,    # Remove all digits
-                 lower_case: bool = False  # Lowercase text before cleaning and frequency analysis
+                 lower_case: bool = False  # Lowercase text
 ) 
 ```
 
@@ -83,9 +83,9 @@ def cappuccino(text: str,                # Text
                stopwords: [],            # Languages for stop words
                skip: [] ,                # Remove additional strings
                numbers: bool = False,    # Remove numbers
-               lower_case: bool = False  # Lowercase text before cleaning and frequency analysis
-)
+               lower_case: bool = False  # Lowercase text
 ```
+
 **coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment. 
 
 The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media.

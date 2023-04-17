@@ -57,7 +57,7 @@ The data looks like this:
                 time = data['date'],
                 date_format = 'eur',              # Read dates in European format
                 time_freq = 'Y',                  # Yearly aggregation
-                skip = ['brrrr', 'donald trump'], # Remove additional string
+                skip = ['brrrr', 'donald trump'], # Remove additional strings
                 preprocess = True,                # Clean data - digits and punctuation
                 n_breaks = 3)                     # 3 breaktpoints
 

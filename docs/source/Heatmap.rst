@@ -43,7 +43,7 @@ The data looks liks this:
 
 It procceeds in this way:
 
-* **additional unwanted strings** removal, if :math:`skip` is not :math:`None`
+* **additional unwanted strings** removal, if ``skip`` is not ``None``
 
 * **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if :math:`lower_case` = :math:`True`
 

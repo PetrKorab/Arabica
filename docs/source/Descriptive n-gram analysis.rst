@@ -62,11 +62,13 @@ By randomly picking a product from the reviews, a subset of 25 reviews looks lik
 
 It procceeds in this way:
 
-* **lowercasing**: reviews are made lowercase - capital letters don't affect n-gram calculations (e.g., "Ginger" is not treated differently from "ginger")
+* **additional unwanted strings** removal, if ``skip is not None``
 
-* **digits** cleaning
+* **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case = True``
 
-* **stop words** and **additional unwanted strings** removal
+* **punctuation** cleaning - performs automatically
+
+* **digits** removal, , if ``numbers = True``
 
 * n-gram frequencies for each headline are calculated and summed for the whole dataset.
 

@@ -87,12 +87,12 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
 
    # generate a dataframe
    df = coffee_break(text = data['text'],
-                     time = data['date'],
-                     date_format = 'eur',
-                     skip = ['brrrr', 'donald trump']
-                     preprocess = True,
-                     n_breaks = None,
-                     time_freq = 'Y')
+                time = data['date'],
+                date_format = 'eur',              
+                time_freq = 'Y',                  
+                preprocess = True,                
+                skip = ['brrrr', 'donald trump'], 
+                n_breaks = None)                  
 
    # save is as a csv
    df.to_csv('sentiment_data.csv')

@@ -43,13 +43,15 @@ The data looks liks this:
 
 It procceeds in this way:
 
-* **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree")
+* **additional unwanted strings** removal, if :math:`skip` is not :math:`None`
 
-* **digits** removal
+* **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if :math:`lower_case` = :math:`True`
 
-* **stop words** removal
+* **punctuation** cleaning - performs automatically
 
-* **additional unwanted strings** removal
+* **digits** removal, , if :math:`numbers` = :math:`True`
+
+* **stop words** removal, if :math:`stopwords` is not :math:`None`
 
 * n-gram frequencies for each headline are calculated, summed, and displayed in a word cloud.
 

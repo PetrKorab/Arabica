@@ -14,8 +14,6 @@ It reads dates in:
 
 Latin alphabet languages (English, French, Swedish, etc.) are supported.
 
-In :doc:`Descriptive n-gram analysis`, we don't aggregate data over time and make exploratory analysis of the whole dataset.
-
 .
 
 .. image:: arabica_backend_FULL_2.png

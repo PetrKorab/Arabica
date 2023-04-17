@@ -58,11 +58,11 @@ It procceeds in this way:
 
    cappuccino(text = data['headline'],
               time = data['date'],
-              date_format = 'eur',              # Uses US-style date format to parse dates
+              date_format = 'us',              # Uses US-style date format to parse dates
               plot = 'line',
               ngram = 1,                        # N-gram size, 1 = unigram, 2 = bigram
               time_freq = 'M',                  # Aggregation period, 'M' = monthly, 'Y' = yearly
-              max_words = 6,                    # Displays 6 most frequent unigrams for each period
+              max_words = 6,                    # Displays 6 most frequent unigrams (word) for each period
               stopwords = ['english'],          # Remove English stopwords
               skip = ['covid','donald trump'],  # Remove additional unwanted strings
               numbers = True,                   # Remove numbers

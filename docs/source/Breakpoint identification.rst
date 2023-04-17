@@ -10,7 +10,9 @@ with breakpoint identification.
 
 The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned to sentiments expressed in social media. It works universally on most other types of datasets. *coffee_break* uses VADER's compound indicator for sentiment evaluation.
 
-The model was developed by *Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.*
+The model was developed by:
+
+*Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.*
 
 Structural breaks in the time series are identified with the **Jenks Optimisation Method** initially proposed by *Jenks, G.F. (1977). Optimal data classification for choropleth maps. Kansas. University. Dept. of Geography-Meteorology. Occasional paper no. 2.*
 
@@ -55,7 +57,7 @@ The data looks like this:
                 time = data['date'],
                 date_format = 'eur',              # Read dates in European format
                 time_freq = 'Y',                  # Yearly aggregation
-                skip = ['brrrr', 'donald trump'], # Removes additional string
+                skip = ['brrrr', 'donald trump'], # Remove additional string
                 preprocess = True,                # Clean data - digits and punctuation
                 n_breaks = 3)                     # 3 breaktpoints
 

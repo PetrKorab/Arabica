@@ -68,7 +68,7 @@ It procceeds in this way:
               stopwords = ['english'],           # Remove English stopwords
               skip = ['covid','Donald Trump'],   # Remove additional unwanted strings
               numbers = True,                    # Remove numbers
-              lower_case = True)                 # Lowercase text before cleaning and frequency analysis
+              lower_case = True)                 # Lowercase text
 
 Here is the output:
 

@@ -43,15 +43,15 @@ The data looks liks this:
 
 It procceeds in this way:
 
-* **additional unwanted strings** removal, if ``skip`` is not ``None``
+* **additional unwanted strings** removal, if :math:`skip` is not :math:`None`
 
-* **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if :math:`lower_case` = :math:`True`
+* **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case`` = ``True``
 
 * **punctuation** cleaning - performs automatically
 
-* **digits** removal, , if :math:`numbers` = :math:`True`
+* **digits** removal, , if ``numbers`` = ``True``
 
-* **stop words** removal, if :math:`stopwords` is not :math:`None`
+* **stop words** removal, if ``stopwords`` is not ``None``
 
 * n-gram frequencies for each headline are calculated, aggregated by monthly frequency, and displayed in a heatmap.
 

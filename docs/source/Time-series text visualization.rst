@@ -31,7 +31,7 @@ It is possible to remove more sets of stopwords at once by:
 .. code-block:: python
    :linenos:
 
-    stopwords = ['language 1', 'language2','etc..']
+    stopwords = ['english', 'french','etc..']
 
 -----------------------------------------
 

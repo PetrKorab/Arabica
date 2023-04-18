@@ -81,7 +81,7 @@ It procceeds in this way:
                  time = data['time'],
                  date_format = 'us',        # Uses US-style date format to parse dates
                  time_freq = 'ungroup',     # Calculates n-grams frequencies without period aggregation
-                 max_words = 10,            # Displays only the first 7 most frequent unigrams, bigrams, and trigrams
+                 max_words = 10,            # Displays only the first 10 most frequent unigrams, bigrams, and trigrams
                  stopwords = ['english'],   # Removes English set of stopwords
                  skip = ['any long string', # Removes additional strings
                          'another string'], 
@@ -97,7 +97,7 @@ The output is a dataframe with n-gram frequencies:
    :header-rows: 1
 
 *The frequency of "love" and  "ginger, unique, taste" and no n-grams with negative meanings suggest that customers*
-*perceived the product positively. The reasons might be less sugar and overall health effects - "half, sugar, much",*
-*"health, food, store", and "much, sugar". A more detailed inspection should confirm this.*
+*perceived the product positively. The reasons might be less sugar and overall health effects - "health,food",*
+*"much,sugar", and "good,without,much". A more detailed inspection should confirm this.*
 
 Download the jupyter notebook with the code and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/arabica_freq_examples.ipynb>`_.

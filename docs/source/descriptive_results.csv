@@ -1,0 +1,11 @@
+,unigram,unigram_freq,bigram,bigram_freq,trigram,trigram_freq
+0,ginger, 76,"crystallized,ginger", 9,"health,food,store", 3
+1,one, 15,"ginger,candy", 8,"ginger,peoples,organic", 2
+2,reeds, 14,"reeds,ginger", 5,"know,ginger,candy", 2
+3,would, 13,"crystalized,ginger", 5,"ginger,unique,taste", 2
+4,love, 11,"ginger,ale", 4,"ginger,ale,love", 2
+5,candy, 11,"baby,ginger", 4,"charged,credit,card", 2
+6,crystallized, 11,"ginger,flavor", 4,"ginger,candy,would", 2
+7,taste, 10,"much,sugar", 4,"medications,science,behind", 1
+8,flavor, 10,"health,food", 3,"strong,listen,medical", 1
+9,much, 10,"strong,ginger", 3,"good,without,much", 1

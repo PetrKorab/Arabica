@@ -81,13 +81,12 @@ It procceeds in this way:
                  time = data['time'],
                  date_format = 'us',        # Uses US-style date format to parse dates
                  time_freq = 'ungroup',     # Calculates n-grams frequencies without period aggregation
-                 max_words = 10,            # Displays only the first 10 most frequent unigrams, bigrams, and trigrams
+                 max_words = 10,            # Displays first 10 most frequent unigrams, bigrams, and trigrams
                  stopwords = ['english'],   # Removes English set of stopwords
                  skip = ['any long string', # Removes additional strings
                          'another string'], 
                  numbers = True,            # Removes numbers
-                 lower_case = True)         # Lowercase text before cleaning and frequency analysis
-
+                 lower_case = True)         # Lowercase text
 
 The output is a dataframe with n-gram frequencies:
 

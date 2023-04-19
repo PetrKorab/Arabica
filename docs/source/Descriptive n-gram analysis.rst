@@ -78,14 +78,14 @@ It procceeds in this way:
    :linenos:
 
    arabica_freq(text = data['review'],
-                 time = data['time'],
-                 date_format = 'us',          # Use US-style date format to parse dates
-                 time_freq = 'ungroup',       # Calculate n-grams frequencies without period aggregation
-                 max_words = 10,              # Display 10 most frequent unigrams, bigrams, and trigrams
-                 stopwords = ['english'],     # Remove English set of stopwords
-                 skip = ['grrrrr', 'ZZ Top'], # Remove additional strings
-                 numbers = True,              # Remove numbers
-                 lower_case = True)           # Lowercase text
+                time = data['time'],
+                date_format = 'us',          # Use US-style date format to parse dates
+                time_freq = 'ungroup',       # Calculate n-grams frequencies without period aggregation
+                max_words = 10,              # Display 10 most frequent unigrams, bigrams, and trigrams
+                stopwords = ['english'],     # Remove English set of stopwords
+                skip = ['<br />'],           # Remove additional strings
+                numbers = True,              # Remove numbers
+                lower_case = True)           # Lowercase text
 
 The output is a dataframe with n-gram frequencies:
 

@@ -84,14 +84,14 @@ It procceeds in this way:
    :linenos:
 
    arabica_freq(text = data['headline'],
-            time = data['date'],
-            date_format = 'us',          # Uses US-style date format to parse dates
-            time_freq = 'M',             # Aggregation period: 'D' = daily, 'M' = monthly, 'Y' = yearly
-            max_words = 3,               # Displays thee most n-grams for each period
-            stopwords = ['english'],     # Remove English set of stopwords
-            skip = ['grrrrr', 'ZZ Top'], # Remove additional strings
-            numbers = True,              # Remove numbers
-            lower_case = True)           # Lowercase text
+                time = data['date'],
+                date_format = 'us',          # Uses US-style date format to parse dates
+                time_freq = 'M',             # Aggregation period: 'D' = daily, 'M' = monthly, 'Y' = yearly
+                max_words = 3,               # Displays thee most n-grams for each period
+                stopwords = ['english'],     # Remove English set of stopwords
+                skip = ['<br />'],           # Remove additional unwanted strings
+                numbers = True,              # Remove numbers
+                lower_case = True)           # Lowercase text
 
 
 The output is a dataframe with n-grams in monthly frequency:

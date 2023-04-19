@@ -93,5 +93,9 @@ The output is a dataframe with n-gram frequencies:
    :file: descriptive_results_GOOD_2.csv
    :widths: 17, 17, 20, 17, 20, 17
    :header-rows: 1
+   
+*The frequency of "love" and "ginger, unique, taste" and no n-grams with negative meanings suggest that customers*
+*perceived the product positively. The reasons might be less sugar and overall health effects - "health,food",*
+*"much,sugar", and "less,half,sugar". A more detailed inspection should confirm this.*
 
 Download the jupyter notebook with the code and the data `here <https://github.com/PetrKorab/Arabica/blob/main/docs/examples/arabica_freq_examples.ipynb>`_.

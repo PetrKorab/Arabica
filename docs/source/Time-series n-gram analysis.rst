@@ -91,7 +91,6 @@ It procceeds in this way:
             stopwords = ['english'],     # Remove English set of stopwords
             skip = ['grrrrr', 'ZZ Top'], # Remove additional unwanted strings
             numbers = True,              # Remove numbers
-            punct = True,                # Remove punctuation
             lower_case = True)           # Lowercase text
 
 

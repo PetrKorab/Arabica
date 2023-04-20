@@ -37,3 +37,12 @@ Contents
    Sentiment analysis
    Structural break analysis
    Breakpoint identification
+   
+--------
+
+I have created this project in my free time, and I hope Arabica will save you some time. You can invite me for coffee with this [link] (https://www.buymeacoffee.com/PetrKorab) if it helps you with your business project, thesis, or research paper.
+
+Thanks, and cheers!
+Petr 
+   
+ 

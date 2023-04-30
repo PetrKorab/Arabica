@@ -17,15 +17,6 @@ The model was developed by:
 Structural breaks in the time series are identified with the **Jenks Optimisation Method** initially proposed by *Jenks, G.F. (1977). Optimal data classification for choropleth maps. Kansas. University. Dept. of Geography-Meteorology. Occasional paper no. 2.*
 
 
-Coding example
-^^^^^^
-
-**Use case:** Sentiment analysis of Twitter tweets about Pfizer & BioNTech vaccine
-
-**Data**: Pfizer Vaccine Tweets dataset, period: 15/07/2006: 18/11/2021, source: `Twitter API <https://www.kaggle.com/datasets/gpreda/pfizer-vaccine-tweets>`_,
-data licence: `CC0: Public Domain <https://creativecommons.org/publicdomain/zero/1.0/>`_.
-
-
     
 ------
 
@@ -33,6 +24,12 @@ data licence: `CC0: Public Domain <https://creativecommons.org/publicdomain/zero
 
 
 
+**Use case:** Sentiment analysis of Twitter tweets about Pfizer & BioNTech vaccine
+
+**Data**: Pfizer Vaccine Tweets dataset, period: 15/07/2006: 18/11/2021, source: `Twitter API <https://www.kaggle.com/datasets/gpreda/pfizer-vaccine-tweets>`_,
+data licence: `CC0: Public Domain <https://creativecommons.org/publicdomain/zero/1.0/>`_.
+
+   
 
 
 .. code-block:: python

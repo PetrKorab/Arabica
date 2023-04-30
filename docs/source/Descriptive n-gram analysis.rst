@@ -29,10 +29,15 @@ It is possible to remove more sets of stopwords at once by:
    :linenos:
 
     stopwords = ['english', 'french','etc..']
+    
 
+    
+------
 
-Coding example
-^^^^^^
+**Coding example**
+
+------
+
 
 **Use case:** Customer perception of Amazon products
 

@@ -69,11 +69,11 @@ It procceeds in this way:
 
 * **stop words** removal, if ``stopwords is not None``
 
-* **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case = True``
-
 * **punctuation** cleaning - performs automatically
 
 * **digits** removal, , if ``numbers = True``
+
+* **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case = True``
 
 * n-gram frequencies for each headline are calculated and summed for the whole dataset.
 

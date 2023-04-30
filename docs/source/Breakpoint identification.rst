@@ -25,7 +25,15 @@ Coding example
 **Data**: Pfizer Vaccine Tweets dataset, period: 15/07/2006: 18/11/2021, source: `Twitter API <https://www.kaggle.com/datasets/gpreda/pfizer-vaccine-tweets>`_,
 data licence: `CC0: Public Domain <https://creativecommons.org/publicdomain/zero/1.0/>`_.
 
-**Coding**:
+
+    
+------
+
+**Coding example**
+
+
+
+
 
 .. code-block:: python
    :linenos:

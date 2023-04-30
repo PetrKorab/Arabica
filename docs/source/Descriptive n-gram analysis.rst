@@ -36,8 +36,6 @@ It is possible to remove more sets of stopwords at once by:
 
 **Coding example**
 
-------
-
 
 **Use case:** Customer perception of Amazon products
 

@@ -28,7 +28,8 @@ It reads dates in:
 Arabica requires [Python 3.8 - 3.10](https://www.python.org/downloads/), [NLTK](http://www.nltk.org) - stop words removal,
 [cleantext](https://pypi.org/project/cleantext/#description) - text cleaning, [wordcloud](https://pypi.org/project/wordcloud) - word cloud visualization,
 [plotnine](https://pypi.org/project/plotnine) - heatmaps and line graphs, [matplotlib](https://pypi.org/project/matplotlib/) - word clouds and graphical operations,
-[vaderSentiment](https://pypi.org/project/vaderSentiment) - sentiment analysis, and [jenskpy](https://pypi.org/project/jenkspy/) for breakpoint identification.
+[vaderSentiment](https://pypi.org/project/vaderSentiment) - sentiment analysis, [finvader](https://pypi.org/project/finvader) - financial sentiment analysis,
+and [jenskpy](https://pypi.org/project/jenkspy/) for breakpoint identification.
 
 To install using pip, use:
 
@@ -88,7 +89,11 @@ def cappuccino(text: str,                # Text
 
 **coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment. 
 
-The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media. See: *Hutto, & Gilbert, 2014. VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text.* Available from [here](https://ojs.aaai.org/index.php/ICWSM/article/view/14550).
+The implemented models are:
+
+* **VADER** is a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media. Available from [here](https://ojs.aaai.org/index.php/ICWSM/article/view/14550).
+
+* **FinVADER** improves VADER's classification accuracy, including two financial lexicons. Available from [here](https://pypi.org/project/finvader/).
 
 Structural breaks in the time series are identified with the **Fisher-Jenks algorithm** (Jenks, 1977. Optimal data classification for choropleth maps).
 
@@ -97,6 +102,7 @@ Structural breaks in the time series are identified with the **Fisher-Jenks algo
 def coffee_break(text: str,                 # Text
                  time: str,                 # Time
                  date_format: str,          # Date format: 'eur' - European, 'us' - American
+                 model: str,                # Sentiment classifier, 'vader' - general language, 'finvader' - financial text                
                  skip: [] ,                 # Remove additional strings
                  preprocess: bool = False,  # Clean data from numbers and punctuation
                  time_freq: str ='',        # Aggregation period: 'Y'/'M'

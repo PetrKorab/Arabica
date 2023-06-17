@@ -57,7 +57,7 @@ The data looks like this:
    coffee_break(text = data['text'],
                 time = data['date'],
                 date_format = 'eur',              # Read dates in European format
-                model = 'vader',                   # Use VADER classifier
+                model = 'vader',                  # Use VADER classifier
                 time_freq = 'Y',                  # Yearly aggregation
                 preprocess = True,                # Clean data - digits and punctuation
                 skip = ['brrrr', 'donald trump'], # Remove additional strings

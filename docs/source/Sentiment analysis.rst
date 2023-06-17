@@ -8,13 +8,11 @@ plot and a dataframe with a corresponding time series.
 
 ------
 
-The implemented model is **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a lexicon and rule-based sentiment classifier attuned to sentiments expressed in social media. It works universally on most other types of datasets. *coffee_break* uses VADER's compound indicator for sentiment evaluation.
+The implemented models are:
 
-The model was developed by:
+* **VADER** is a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media. It works best on general-language texts.
 
-*Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.*
-
-
+* **FinVADER** improves VADER's classification accuracy, including two financial lexicons. It should be applied to texts in the financial and economic domain.
 
     
 ------
@@ -59,6 +57,7 @@ The data looks like this:
    coffee_break(text = data['text'],
                 time = data['date'],
                 date_format = 'eur',              # Read dates in European format
+                model = 'vader',                   # Use VADER classifier
                 time_freq = 'Y',                  # Yearly aggregation
                 preprocess = True,                # Clean data - digits and punctuation
                 skip = ['brrrr', 'donald trump'], # Remove additional strings

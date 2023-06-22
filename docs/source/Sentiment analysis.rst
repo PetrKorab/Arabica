@@ -60,7 +60,7 @@ The data looks like this:
                 model = 'vader',                  # Use VADER classifier
                 time_freq = 'Y',                  # Yearly aggregation
                 preprocess = True,                # Clean data - digits and punctuation
-                skip = ['brrrr', 'donald trump'], # Remove additional strings
+                skip = ['brrrr', 'donald trump'], # Remove additional stop words
                 n_breaks = None)                  # No structural break analysis
 
 

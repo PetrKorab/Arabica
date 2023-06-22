@@ -60,7 +60,7 @@ The data looks like this:
                 date_format = 'eur',              # Read dates in European format
                 model = 'vader',                  # Use VADER classifier
                 time_freq = 'Y',                  # Yearly aggregation
-                skip = ['brrrr', 'donald trump'], # Remove additional strings
+                skip = ['brrrr', 'donald trump'], # Remove additional stop words
                 preprocess = True,                # Clean data - digits and punctuation
                 n_breaks = 3)                     # 3 breaktpoints
 

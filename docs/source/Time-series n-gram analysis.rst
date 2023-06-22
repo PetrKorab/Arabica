@@ -70,7 +70,7 @@ The data looks like this:
 
 It procceeds in this way:
 
-* **additional unwanted strings** removal, if ``skip is not None``
+* **additional stop words** cleaning, if ``skip is not None``
 
 * **stop words** removal, if ``stopwords is not None``
 

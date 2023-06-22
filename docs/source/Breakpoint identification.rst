@@ -67,7 +67,7 @@ The data looks like this:
 
 It proceeds in this way:
 
-* **pre-processing**: tweets are cleaned from numbers, punctuation, blank rows and a list of unwanted strings ("brrrr", "donald trump")
+* **pre-processing**: tweets are cleaned from numbers, punctuation, blank rows and a list of additional stopwords ("brrrr", "donald trump")
 * **sentiment classification**: sentiment in each row is classified with VADER sentiment classifier. The aggregate sentiment ranges between -1 (most extreme negative) and 1 (most extreme positive).
 * **period aggregation**: sentiment is aggregated for a specified frequency (year or month), as follows: *aggregate sentiment* = :math:`\frac { sum(sentiment)_{t} } { count(rows)_{t}}`, where *t* is the aggregation period.
 * **breakpoint identification**: Fisher-Jenks algorithm identifies breakpoints in the aggregated time series of sentiment

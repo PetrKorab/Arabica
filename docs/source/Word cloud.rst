@@ -67,7 +67,7 @@ It procceeds in this way:
               time_freq = 'ungroup',              # No period aggregation
               max_words = 150,                    # Displays 150 most frequent bigrams
               stopwords = ['english'],            # Remove English stopwords
-              skip = ['covid','great day today'], # Remove additional unwanted strings
+              skip = ['covid','great day today'], # Remove additional stop words
               numbers = True,                     # Remove numbers
               lower_case = True)                  # Lowercase text 
 

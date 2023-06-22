@@ -52,7 +52,7 @@ from arabica import coffee_break
 
 * **Choose a method:**
 
-**arabica_freq** enables a specific set of cleaning operations (lower casing, numbers, stop words, and additional strings 
+**arabica_freq** enables a specific set of cleaning operations (lower casing, numbers, stop words, and additional stop words 
 removal) and returns a dataframe with aggregated unigrams, bigrams, and trigrams frequencies over a period.
 
 
@@ -64,13 +64,13 @@ def arabica_freq(text: str,                # Text
                  time_freq: str = '',      # Aggregation period: 'Y'/'M'/'D', if no aggregation: 'ungroup'
                  max_words: int = '',      # Maximum of most frequent n-grams displayed for each period
                  stopwords: [],            # Languages for stop words
-                 skip: [],                 # Remove additional strings
+                 skip: [],                 # Remove additional stop words
                  numbers: bool = False,    # Remove all digits
                  lower_case: bool = False  # Lowercase text
 ) 
 ```
 
-**cappuccino**  enables cleaning operations (lower casing, numbers, stop words, and additional strings
+**cappuccino**  enables cleaning operations (lower casing, numbers, stop words, and additional stop words
 removal) and provides plots for descriptive (word cloud) and time-series (heatmap, line plot) visualization.
 
 ``` python
@@ -82,7 +82,7 @@ def cappuccino(text: str,                # Text
                time_freq: str = '',      # Aggregation period: 'Y'/'M', if no aggregation: 'ungroup'
                max_words int = '',       # Maximum of most frequent n-grams displayed for each period
                stopwords: [],            # Languages for stop words
-               skip: [] ,                # Remove additional strings
+               skip: [],                 # Remove additional stop words
                numbers: bool = False,    # Remove numbers
                lower_case: bool = False  # Lowercase text
 ```
@@ -103,7 +103,7 @@ def coffee_break(text: str,                 # Text
                  time: str,                 # Time
                  date_format: str,          # Date format: 'eur' - European, 'us' - American
                  model: str,                # Sentiment classifier, 'vader' - general language, 'finvader' - financial text                
-                 skip: [] ,                 # Remove additional strings
+                 skip: [],                  # Remove additional stop words
                  preprocess: bool = False,  # Clean data from numbers and punctuation
                  time_freq: str ='',        # Aggregation period: 'Y'/'M'
                  n_breaks: int =''          # Number of breaks: min. 2

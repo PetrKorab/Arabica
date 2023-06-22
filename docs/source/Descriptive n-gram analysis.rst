@@ -86,7 +86,7 @@ It procceeds in this way:
                 time_freq = 'ungroup',       # Calculate n-grams frequencies without period aggregation
                 max_words = 10,              # Display 10 most frequent unigrams, bigrams, and trigrams
                 stopwords = ['english'],     # Remove English set of stopwords
-                skip = ['<br />'],           # Remove additional strings
+                skip = ['<br />'],           # Remove additional stop words
                 numbers = True,              # Remove numbers
                 lower_case = True)           # Lowercase text
 

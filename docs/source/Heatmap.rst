@@ -66,7 +66,7 @@ It procceeds in this way:
               time_freq = 'M',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
               max_words = 10,                    # Displays 10 most frequent unigrams (words) for each period
               stopwords = ['english'],           # Remove English stopwords
-              skip = ['covid','Donald Trump'],   # Remove additional unwanted strings
+              skip = ['covid','Donald Trump'],   # Remove additional stop words
               numbers = True,                    # Remove numbers
               lower_case = True)                 # Lowercase text
 

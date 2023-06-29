@@ -3,7 +3,7 @@ Line plot
 
 **Line plot** displays n-grams as a series of data points connected by straight line segments. It suits homogenous datasets with a rather low number of periods (max T=10).
 
-Graph display unigrams (single words) and bigrams over a monthly or yearly period.
+The graph display unigrams (single words) and bigrams over a monthly or yearly period.
 
 -------------------------------------
 

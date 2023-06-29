@@ -52,7 +52,7 @@ from arabica import coffee_break
 
 * **Choose a method:**
 
-**arabica_freq** enables a specific set of cleaning operations (lower casing, numbers, stop words, and additional stop words 
+**arabica_freq** enables a specific set of cleaning operations (lower casing, numbers, common stop words, and additional stop words 
 removal) and returns a dataframe with aggregated unigrams, bigrams, and trigrams frequencies over a period.
 
 
@@ -70,7 +70,7 @@ def arabica_freq(text: str,                # Text
 ) 
 ```
 
-**cappuccino**  enables cleaning operations (lower casing, numbers, stop words, and additional stop words
+**cappuccino**  enables cleaning operations (lower casing, numbers, common stop words, and additional stop words
 removal) and provides plots for descriptive (word cloud) and time-series (heatmap, line plot) visualization.
 
 ``` python

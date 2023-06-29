@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
     setuptools.setup(
         name="arabica",
-        version="1.6.6",
+        version="1.6.7",
         author="Petr Koráb",
         author_email="xpetrkorab@gmail.com",
         packages=["arabica"],
@@ -16,8 +16,8 @@ with open("README.md", "r") as fh:
         long_description=description,
         long_description_content_type="text/markdown",
         url="https://github.com/PetrKorab/Arabica",
-        python_requires='=3.10',
-        install_requires = ['pandas >= 1.4.0',
+        python_requires='>3.9, <3.11',
+        install_requires = ['pandas == 1.4.0',
                             'nltk == 3.6.2',
                             'regex == 2022.10.31',
                             'finvader',

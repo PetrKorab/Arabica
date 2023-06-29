@@ -17,7 +17,7 @@ with open("README.md", "r") as fh:
         long_description_content_type="text/markdown",
         url="https://github.com/PetrKorab/Arabica",
         python_requires='>3.6, <3.11',
-        install_requires = ['pandas == 1.4.0',
+        install_requires = ['pandas >= 1.4.0',
                             'nltk == 3.6.2',
                             'regex == 2022.10.31',
                             'finvader',

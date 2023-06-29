@@ -87,9 +87,7 @@ def cappuccino(text: str,                # Text
                lower_case: bool = False  # Lowercase text
 ```
 
-**coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment. 
-
-The implemented models are:
+**coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment. The implemented models are:
 
 * **VADER** is a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media. Available from [here](https://ojs.aaai.org/index.php/ICWSM/article/view/14550).
 

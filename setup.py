@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
     setuptools.setup(
         name="arabica",
-        version="1.4.6",
+        version="1.6.6",
         author="Petr Koráb",
         author_email="xpetrkorab@gmail.com",
         packages=["arabica"],
@@ -16,11 +16,17 @@ with open("README.md", "r") as fh:
         long_description=description,
         long_description_content_type="text/markdown",
         url="https://github.com/PetrKorab/Arabica",
-        python_requires='>=3.7',
-        license='MIT',
-        install_requires=['pandas',
-                          'nltk>3.6.1',
-                          'numpy>=1.21.6',
-                          'regex',
-                          'cleantext>=1.1.4']
+        python_requires='>=3.8, !=3.11',
+        install_requires = ['pandas == 1.4.0',
+                            'nltk == 3.6.2',
+                            'regex == 2022.10.31',
+                            'finvader',
+                            'matplotlib == 3.6.0',
+                            'matplotlib-inline == 0.1.6',
+                            'plotnine == 0.10.1',
+                            'wordcloud == 1.8.2.2',
+                            'jenkspy == 0.3.2',
+                            'vaderSentiment == 3.3.2',
+                            'cleantext == 1.1.4'],
+        license='OSI Approved :: Apache Software License'
     )

@@ -3,7 +3,7 @@ Heatmap
 
 **Heatmap** displays n-grams through time. It plots n-gram-frequencies by time and assigns a color to each frequency based on the value of the n-gram.
 
-Heatmap is a suitable visualization for datasets with large T (many periods). The Graph displays unigrams (single words) and bigrams over a monthly or yearly period.
+Heatmap is a suitable visualization for datasets with large T (many periods). The graph displays unigrams (single words) and bigrams over a monthly or yearly period.
 
 ------------------------------------
 

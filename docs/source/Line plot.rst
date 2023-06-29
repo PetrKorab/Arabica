@@ -1,9 +1,9 @@
 Line plot
 =====
 
-**Line plot** displays n-grams as a series of data points connected by straight line segments.
+**Line plot** displays n-grams as a series of data points connected by straight line segments. It suits homogenous datasets with rather low T (max T=10).
 
-Graph display unigrams (single words), and bigrams over monthly or yearly period.
+Graph display unigrams (single words) and bigrams over a monthly or yearly period.
 
 -------------------------------------
 

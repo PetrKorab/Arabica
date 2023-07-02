@@ -35,8 +35,6 @@ To install using pip, use:
 
 `pip install arabica`
 
-Using the recent pip version (23.1.2) is recommended, but it also works well with the older ones.
-
 ## Usage
 
 * **Import the library**:

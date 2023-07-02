@@ -1,6 +1,6 @@
 pandas == 1.4.0
 nltk == 3.6.2
-regex
+regex == 2022.10.31
 finvader
 matplotlib == 3.6.0
 matplotlib-inline == 0.1.6

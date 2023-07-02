@@ -1,3 +1,9 @@
+
+[![pypi](https://img.shields.io/pypi/v/arabica.svg)](https://pypi.python.org/pypi/arabica)
+[![python](https://img.shields.io/pypi/pyversions/arabica.svg)](https://pypi.python.org/pypi/arabica)
+[![License: MIT](https://badgen.net/badge/license/MIT/blue)](https://opensource.org/licenses/MIT)
+
+
 # Arabica
 **Python package for exploratory text data analysis**
 

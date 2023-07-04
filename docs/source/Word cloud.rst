@@ -45,13 +45,13 @@ It procceeds in this way:
 
 * **additional stop words** cleaning, if ``skip is not None``
 
-* **stop words** removal, if ``stopwords is not None``
+* **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case = True``
 
 * **punctuation** cleaning - performs automatically
 
-* **digits** removal, , if ``numbers = True``
+* **stop words** removal, if ``stopwords is not None``
 
-* **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case = True``
+* **digits** removal, , if ``numbers = True``
 
 * n-gram frequencies for each headline are calculated, summed, and displayed in a word cloud.
 

@@ -1,4 +1,3 @@
-
 [![pypi](https://img.shields.io/pypi/v/arabica.svg)](https://pypi.python.org/pypi/arabica)
 [![python](https://img.shields.io/pypi/pyversions/arabica.svg)](https://pypi.python.org/pypi/arabica)
 [![License: MIT](https://badgen.net/badge/license/apache-2-0/blue)]([https://opensource.org/licenses/MIT](https://opensource.org/license/apache-2-0/))

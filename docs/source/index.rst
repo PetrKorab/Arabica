@@ -14,7 +14,7 @@ It reflects the reality that many text datasets are currently collected as repea
 * **Sentiment analysis**: VADER sentiment classifier 
 * **Structural breaks identification**: Jenks Optimisation Method
 
-*N-grams* are continuous sequences of words in a document. In technical terms, they are the neighboring sequences of items in a text.
+*N-grams* are continuous sequences of words in a document. Technically, they are the neighboring sequences of items in a text.
 Some examples include:
 
 * **unigram**: "dog", **bigram**: "dog, goes", **trigram**: "dog, goes, home"

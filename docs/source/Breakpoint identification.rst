@@ -57,14 +57,15 @@ The data looks like this:
 .. code-block:: python
    :linenos:
 
-   coffee_break(text = data['text'],
-                time = data['date'],
-                date_format = 'eur',              # Read dates in European format
-                model = 'vader',                  # Use VADER classifier
-                time_freq = 'Y',                  # Yearly aggregation
-                skip = ['brrrr', 'donald trump'], # Remove additional stop words
-                preprocess = True,                # Clean data - digits and punctuation
-                n_breaks = 3)                     # 3 breaktpoints
+    coffee_break(text = data['text'],
+                 time = data['date'],
+                 date_format = 'eur',      # Read dates in European format
+                 model = 'vader',          # Use VADER classifier
+                 time_freq = 'Y',          # Yearly aggregation
+                 preprocess = True,        # Clean data - punctuation + numbers
+                 skip = ["brrrr",
+                         "donald trump"],  # Remove additional stop words
+                 n_breaks = 3)             # 3 breakpoints identified
 
 
 It proceeds in this way:
@@ -93,12 +94,14 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
 
    # generate a dataframe
    df = coffee_break(text = data['text'],
-                     time = data['date'],
-                     date_format = 'eur',
-                     skip = ['brrrr', 'donald trump'],
-                     preprocess = True,
-                     n_breaks = None,
-                     time_freq = 'Y')
+        time = data['date'],
+        date_format = 'eur',      # Read dates in European format
+        model = 'vader',          # Use VADER classifier
+        time_freq = 'Y',          # Yearly aggregation
+        preprocess = True,        # Clean data - punctuation + numbers
+        skip = ["brrrr",
+                "donald trump"],  # Remove additional stop words
+        n_breaks = 3)             # 3 breakpoints identified
 
    # save is as a csv
    df.to_csv('sentiment_data.csv')

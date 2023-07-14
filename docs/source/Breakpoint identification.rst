@@ -94,14 +94,14 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
 
    # generate a dataframe
    df = coffee_break(text = data['text'],
-        time = data['date'],
-        date_format = 'eur',      # Read dates in European format
-        model = 'vader',          # Use VADER classifier
-        time_freq = 'Y',          # Yearly aggregation
-        preprocess = True,        # Clean data - punctuation + numbers
-        skip = ["brrrr",
-                "donald trump"],  # Remove additional stop words
-        n_breaks = 3)             # 3 breakpoints identified
+                     time = data['date'],
+                     date_format = 'eur',      # Read dates in European format
+                     model = 'vader',          # Use VADER classifier
+                     time_freq = 'Y',          # Yearly aggregation
+                     preprocess = True,        # Clean data - punctuation + numbers
+                     skip = ["brrrr",
+                     "donald trump"],  # Remove additional stop words
+                     n_breaks = 3)             # 3 breakpoints identified
 
    # save is as a csv
    df.to_csv('sentiment_data.csv')

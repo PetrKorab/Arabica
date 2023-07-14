@@ -92,7 +92,7 @@ def cappuccino(text: str,                # Text
 
 **coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment. The implemented models are:
 
-* [VADER](https://ojs.aaai.org/index.php/ICWSM/article/view/14550) is a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media
+* [VADER](https://ojs.aaai.org/index.php/ICWSM/article/view/14550) is a lexicon and rule-based sentiment classifier attuned explicitly to general language expressed in social media
   
 * [FinVADER](https://pypi.org/project/finvader/) improves VADER's classification accuracy on financial texts, including two financial lexicons
 

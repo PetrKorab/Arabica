@@ -100,7 +100,7 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
                      time_freq = 'Y',          # Yearly aggregation
                      preprocess = True,        # Clean data - punctuation + numbers
                      skip = ["brrrr",
-                     "donald trump"],  # Remove additional stop words
+                             "donald trump"],  # Remove additional stop words
                      n_breaks = 3)             # 3 breakpoints identified
 
    # save is as a csv

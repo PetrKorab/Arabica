@@ -54,14 +54,14 @@ The data looks like this:
 .. code-block:: python
    :linenos:
 
-   coffee_break(text = data['text'],
-                time = data['date'],
-                date_format = 'eur',              # Read dates in European format
-                model = 'vader',                  # Use VADER classifier
-                time_freq = 'Y',                  # Yearly aggregation
-                preprocess = True,                # Clean data - digits and punctuation
-                skip = ['brrrr', 'donald trump'], # Remove additional stop words
-                n_breaks = None)                  # No structural break analysis
+    coffee_break(text = data['text'],
+                 time = data['date'],
+                 date_format = 'eur',  # Read dates in European format
+                 model = 'vader',      # Use VADER classifier
+                 time_freq = 'Y',      # Yearly aggregation
+                 preprocess = True,    # Clean data - punctuation + numbers
+                 skip = None,         # No other strings removed
+                 n_breaks = None)      # No structural break analysis
 
 
 
@@ -90,13 +90,15 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
    :linenos:
 
    # generate a dataframe
-   df = coffee_break(text = data['text'],
-                time = data['date'],
-                date_format = 'eur',              
-                time_freq = 'Y',                  
-                preprocess = True,                
-                skip = ['brrrr', 'donald trump'], 
-                n_breaks = None)                  
+    df = coffee_break(text = data['text'],
+                      time = data['date'],
+                      date_format = 'eur',
+                      model = 'vader',
+                      time_freq = 'Y',
+                      preprocess = True,
+                      skip = None,
+                      n_breaks = None)
+          
 
    # save is as a csv
    df.to_csv('sentiment_data.csv')

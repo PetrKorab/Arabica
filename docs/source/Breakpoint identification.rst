@@ -10,9 +10,9 @@ with breakpoint identification.
 
 The implemented models are:
 
-* `VADER <https://ojs.aaai.org/index.php/ICWSM/article/view/14550>`_ is a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media. It works best with general-language texts.
+* `VADER <https://ojs.aaai.org/index.php/ICWSM/article/view/14550>`_ is a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media. It works best with general-language texts
 
-* `FinVADER <https://pypi.org/project/finvader/>`_ improves VADER's classification accuracy, including two financial lexicons. It should be applied to texts in the financial and economic domain.
+* `FinVADER <https://pypi.org/project/finvader/>`_ improves VADER's classification accuracy, including two financial lexicons. It should be applied to texts in the financial and economic domain
 
 Break points are identified with **Fisher-Jenks algorithm**. The method was originally published in George Jenks’ (1977) *Optimal Data Classification for Choropleth Maps*. The method primarily derived from Walter Fisher’s *On grouping for maximum homogeneity* (1958) has become a popular statistical method of breakpoint analysis since then.
 

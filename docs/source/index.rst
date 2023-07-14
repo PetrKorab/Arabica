@@ -11,7 +11,8 @@ It reflects the reality that many text datasets are currently collected as repea
 * **Descriptive n-gram analysis**: n-gram frequencies
 * **Time-series n-gram analysis**: n-gram frequencies over a period
 * **Text visualization**: n-gram heatmap, line plot, word cloud
-* **Sentiment analysis**: VADER sentiment classifier 
+* **Sentiment analysis**: VADER sentiment classifier
+* **Financial sentiment analysis**: with FinVADER
 * **Structural breaks identification**: Jenks Optimisation Method
 
 *N-grams* are continuous sequences of words in a document. Technically, they are the neighboring sequences of items in a text.

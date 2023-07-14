@@ -96,7 +96,7 @@ def cappuccino(text: str,                # Text
   
 * [FinVADER](https://pypi.org/project/finvader/) improves VADER's classification accuracy on financial texts, including two financial lexicons
 
-Structural breaks in the time series are identified with the **Fisher-Jenks algorithm** (Jenks, 1977. Optimal data classification for choropleth maps).
+Break points in the time series are identified with the **Fisher-Jenks algorithm** (Jenks, 1977. Optimal data classification for choropleth maps).
 
 
 ``` python
@@ -107,7 +107,7 @@ def coffee_break(text: str,                 # Text
                  skip: [],                  # Remove additional stop words
                  preprocess: bool = False,  # Clean data from numbers and punctuation
                  time_freq: str ='',        # Aggregation period: 'Y'/'M'
-                 n_breaks: int =''          # Number of breaks: min. 2
+                 n_breaks: int =''          # Number of breakpoints: min. 2
 )
 ```
 

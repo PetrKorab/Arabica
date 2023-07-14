@@ -12,7 +12,7 @@ Text data is often recorded as a time series with significant variability over t
 * **Time-series n-gram analysis**: n-gram frequencies over a period
 * **Text visualization**: n-gram heatmap, line plot, word cloud
 * **Sentiment analysis**: VADER sentiment classifier
-* **Financial sentiment analysis** FinVADER classifier
+* **Financial sentiment analysis** with FinVADER
 * **Structural breaks identification**: Jenks Optimization Method
 
 It automatically cleans data from punctuation on input. It can also apply all or a selected combination of the following cleaning operations:

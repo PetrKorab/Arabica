@@ -94,7 +94,7 @@ def cappuccino(text: str,                # Text
 
 * [VADER](https://ojs.aaai.org/index.php/ICWSM/article/view/14550) is a lexicon and rule-based sentiment classifier attuned explicitly to sentiments expressed in social media
   
-* [FinVADER](https://pypi.org/project/finvader/) improves VADER's classification accuracy, including two financial lexicons
+* [FinVADER](https://pypi.org/project/finvader/) improves VADER's classification accuracy on financial texts, including two financial lexicons
 
 Structural breaks in the time series are identified with the **Fisher-Jenks algorithm** (Jenks, 1977. Optimal data classification for choropleth maps).
 

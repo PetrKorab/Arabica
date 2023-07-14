@@ -60,7 +60,8 @@ The data looks like this:
                  model = 'vader',      # Use VADER classifier
                  time_freq = 'Y',      # Yearly aggregation
                  preprocess = True,    # Clean data - punctuation + numbers
-                 skip = None,         # No other strings removed
+                 skip = ["brrrr",
+                     "donald trump"],  # Remove additional stop words
                  n_breaks = None)      # No structural break analysis
 
 
@@ -96,7 +97,8 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
                       model = 'vader',
                       time_freq = 'Y',
                       preprocess = True,
-                      skip = None,
+                      skip = ["brrrr",
+                             "donald trump"], 
                       n_breaks = None)
           
 

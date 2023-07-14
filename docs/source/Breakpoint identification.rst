@@ -14,7 +14,7 @@ The implemented models are:
 
 * **FinVADER** improves VADER's classification accuracy, including two financial lexicons. It should be applied to texts in the financial and economic domain.
 
-Break points are identified with **Fisher-Jenks Natural Breaks algorithm**. The method was originally published in George Jenks’ (1977) Optimal Data Classification for Choropleth Maps. The method primarily derived from Walter Fisher’s article ‘On grouping for maximum homogeneity‘ (1958) has become a popular statistical method of breakpoint analysis since then.
+Break points are identified with **Fisher-Jenks** Natural Breaks **algorithm**. The method was originally published in George Jenks’ (1977) *Optimal Data Classification for Choropleth Maps*. The method primarily derived from Walter Fisher’s *On grouping for maximum homogeneity* (1958) has become a popular statistical method of breakpoint analysis since then.
 
     
 ------

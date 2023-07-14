@@ -19,7 +19,7 @@ It automatically cleans data from punctuation on input. It can also apply all or
 
 * Remove digits from the text
 * Remove the standard list(s) of stopwords
-* Remove an additional list of specific strings
+* Remove an additional list of stop words
 
 Arabica works with **texts** of languages based on the Latin alphabet, uses `cleantext` for punctuation cleaning, and enables stop words removal for languages in the `NLTK` corpus of stopwords.
 

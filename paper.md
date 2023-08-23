@@ -59,7 +59,8 @@ from the titles of articles published in the leading economics journals (e.g., E
 Journal of Political Economy, American Economic Review, Quarterly Journal of Economics, 
 and Review of Economic Studies).
 
-[Figure 1. wordcloud](wordcloud.png)
+[Figure 1. word cloud](heatmap.png)
+
 
 A heatmap in Fig.2 plots the most frequent terms with a specified frequency. 
 

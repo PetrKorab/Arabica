@@ -70,7 +70,7 @@ analysis with breakpoint identification is presented as a line plot In Fig.4.
 
 [Figure 3. Line plot.](line plot.png)
 
-[Figure 4. Sentiment analysis.](sentiment analysis.png)
+[Figure 4. Sentiment and breakpoint analysis.](sentiment and breakpoint analysis.png)
 
 The meta-data is collected from Constellate.org.
 
@@ -84,8 +84,6 @@ Arabica is well-documented: its API reference and a comprehensive tutorial can b
 at https://arabica.readthedocs.io. For easy installation, the package is included in 
 the Python Package Index. Its code repository and issue tracker are currently hosted 
 on GitHub at https://github.com/PetrKorab/Arabica.
-
-
 
 # Statement of need
 
@@ -104,7 +102,6 @@ insights into the qualitative changes in text data that are, as such, generated 
 human behavior. This involves extension of word cloud visualisation, and financial 
 sentiment analysis for time-series text analysis.
 
-
 # Dependencies
 
 For most processing operations, Arabica uses data structures and methods from numpy, 
@@ -113,18 +110,6 @@ and pandas [@McKinney:2013]. It leverages nltk for natural language processing [
 [@Wilkinson:2005] and Matplotlib [@Hunter:2007] for visualization. It also depends on 
 vaderSentiment [@Hutto:2014], FinVADER [@Koráb, 2023], and jenkspy [@Viry:2023] 
 to implement sentiment and breakpoint analysis.
-
-
-# Figures
-
-Figures can be included like this:
-![Figure 1.\label{fig:example}](figure.png)
-
-
-and referenced from text using \autoref{fig:example}.
-
-Figure sizes can be customized by adding an optional second parameter:
-![Caption for example figure.](figure.png){ width=20% }
 
 # Acknowledgements
 

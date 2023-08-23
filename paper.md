@@ -57,7 +57,7 @@ once to clean datasets from multilingual regions.
 As an example, a word cloud in Fig.1 displays the most frequent bigrams (two consecutive words) 
 from the titles of articles published in the leading economics journals (e.g., Econometrica,
 Journal of Political Economy, American Economic Review, Quarterly Journal of Economics, 
-and Review of Economic Studies).
+and Review of Economic Studies). The meta-data is collected from Constellate.org.
 
 [Figure 1. Word cloud](heatmap.png)
 
@@ -71,8 +71,6 @@ analysis with breakpoint identification is presented as a line plot In Fig.4.
 [Figure 3. Line plot.](line_plot.png)
 
 [Figure 4. Sentiment and breakpoint analysis.](sentiment_and_breakpoint_analysis.png)
-
-The meta-data is collected from Constellate.org.
 
 The package has more general use for exploratory analysis of time-series text datasets, 
 mainly in social sciences. In business economics, it improves customer satisfaction 

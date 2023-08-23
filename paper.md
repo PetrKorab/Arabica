@@ -54,19 +54,25 @@ It provides standard cleaning operations for lower-casing, punctuation, numbers,
 stopword removal. It is possible to remove more sets of stop words from ntlk.corpus at 
 once to clean datasets from multilingual regions. 
 
-As an example, a word cloud in Fig.1 displays the most frequent 
-bigrams (two consecutive words) from the titles of articles published in the leading 
-economics journals (e.g., Econometrica, Journal of Political Economy, American Economic 
-Review, Quarterly Journal of Economics, and Review of Economic Studies). A heatmap in Fig.2 
-plots the most frequent terms with a specified frequency. The line plot in Fig.3
- displays the most frequent concepts in an alternative form, and sentiment 
+As an example, a word cloud in Fig.1 displays the most frequent bigrams (two consecutive words) 
+from the titles of articles published in the leading economics journals (e.g., Econometrica,
+Journal of Political Economy, American Economic Review, Quarterly Journal of Economics, 
+and Review of Economic Studies). The meta-data is collected from Constellate.org.
+
+[Figure 1. Word cloud.](wordcloud.png)
+
+A heatmap in Fig.2 plots the most frequent terms with a specified frequency. 
+
+[Figure 2. Heatmap.](heatmap.png)
+
+The line plot in Fig.3 displays the most frequent concepts in an alternative form, and sentiment 
 analysis with breakpoint identification is presented as a line plot In Fig.4.
 
-Figure 1: Word cloud (top left), heatmap (top right), line plot (bottom left), and 
-sentiment analysis with structural breaks (bottom right). The meta-data is collected 
-from Constellate.org.
+[Figure 3. Line plot.](line plot.png)
 
-[Figure 1. Line plot.](line.png)
+[Figure 4. Sentiment analysis.](sentiment analysis.png)
+
+The meta-data is collected from Constellate.org.
 
 The package has more general use for exploratory analysis of time-series text datasets, 
 mainly in social sciences. In business economics, it improves customer satisfaction 

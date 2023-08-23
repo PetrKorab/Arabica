@@ -59,11 +59,11 @@ from the titles of articles published in the leading economics journals (e.g., E
 Journal of Political Economy, American Economic Review, Quarterly Journal of Economics, 
 and Review of Economic Studies).
 
-[Figure 1. Word cloud.](wordcloud.png)
+[Figure 1. wordcloud](wordcloud.png)
 
 A heatmap in Fig.2 plots the most frequent terms with a specified frequency. 
 
-[Figure 2. heatmap.](heatmap.png)
+[Figure 2. heatmap](heatmap.png)
 
 The line plot in Fig.3 displays the most frequent concepts in an alternative form, and sentiment 
 analysis with breakpoint identification is presented as a line plot In Fig.4.

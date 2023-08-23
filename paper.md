@@ -57,7 +57,7 @@ once to clean datasets from multilingual regions.
 As an example, a word cloud in Fig.1 displays the most frequent bigrams (two consecutive words) 
 from the titles of articles published in the leading economics journals (e.g., Econometrica,
 Journal of Political Economy, American Economic Review, Quarterly Journal of Economics, 
-and Review of Economic Studies). The meta-data is collected from Constellate.org.
+and Review of Economic Studies).
 
 [Figure 1. Word cloud.](wordcloud.png)
 

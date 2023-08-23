@@ -66,9 +66,7 @@ Figure 1: Word cloud (top left), heatmap (top right), line plot (bottom left), a
 sentiment analysis with structural breaks (bottom right). The meta-data is collected 
 from Constellate.org.
 
-
-![Figure 1.\label{fig:example}](line.png)
-[Caption for example figure.](line.png)
+[Figure 1. Line plot.](line.png)
 
 The package has more general use for exploratory analysis of time-series text datasets, 
 mainly in social sciences. In business economics, it improves customer satisfaction 

@@ -59,7 +59,7 @@ from the titles of articles published in the leading economics journals (e.g., E
 Journal of Political Economy, American Economic Review, Quarterly Journal of Economics, 
 and Review of Economic Studies). The meta-data is collected from Constellate.org.
 
-[Figure 1. Wordcloud](wordcloud.png)
+[Figure 1. Wordcloud](word cloud.png)
 
 A heatmap in Fig.2 plots the most frequent terms with a specified frequency. 
 

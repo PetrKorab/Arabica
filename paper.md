@@ -63,7 +63,7 @@ and Review of Economic Studies).
 
 A heatmap in Fig.2 plots the most frequent terms with a specified frequency. 
 
-[Figure 2. Heatmap.](heatmap.png)
+[Figure 2. heatmap.](heatmap.png)
 
 The line plot in Fig.3 displays the most frequent concepts in an alternative form, and sentiment 
 analysis with breakpoint identification is presented as a line plot In Fig.4.

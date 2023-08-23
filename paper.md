@@ -68,9 +68,9 @@ A heatmap in Fig.2 plots the most frequent terms with a specified frequency.
 The line plot in Fig.3 displays the most frequent concepts in an alternative form, and sentiment 
 analysis with breakpoint identification is presented as a line plot In Fig.4.
 
-[Figure 3. Line plot.](line plot.png)
+[Figure 3. Line plot.](line_plot.png)
 
-[Figure 4. Sentiment and breakpoint analysis.](sentiment and breakpoint analysis.png)
+[Figure 4. Sentiment and breakpoint analysis.](sentiment_and_breakpoint_analysis.png)
 
 The meta-data is collected from Constellate.org.
 

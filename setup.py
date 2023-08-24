@@ -27,6 +27,8 @@ with open("README.md", "r") as fh:
                             'wordcloud == 1.8.2.2',
                             'jenkspy == 0.3.2',
                             'vaderSentiment == 3.3.2',
-                            'cleantext == 1.1.4'],
+                            'cleantext == 1.1.4',
+                            'mizani == 0.9.2',
+                            'pillow == 9.4.0'],
         license='OSI Approved :: Apache Software License'
     )

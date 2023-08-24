@@ -74,7 +74,7 @@ collected from Constellate.org.
 ![Figure 3.\label{fig:Line plot}](line_plot.png)
 [Figure 3. Line plot.](line_plot.png)
 
-![Figure 4.\label{fig:Sentiment and breakpoint analysis}](sentiment and breakpoint analysis.png)
+![Figure 4.\label{fig:Sentiment and breakpoint analysis}](sentiment_and_breakpoint_analysis.png)
 [Figure 4. Sentiment and breakpoint analysis.](sentiment_and_breakpoint_analysis.png)
 
 The package has more general use for exploratory analysis of time-series text datasets, 

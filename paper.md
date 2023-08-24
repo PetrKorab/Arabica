@@ -55,7 +55,7 @@ stopword removal. It is possible to remove more sets of stop words from ntlk.cor
 once to clean datasets from multilingual regions. 
 
 As an example, a word cloud in Figure 1 displays the most frequent bigrams (two consecutive
-words) from the titles of articles published in the leading economics journals over 2000 - 
+words) from the titles of articles published in the leading economics journals over 1990 - 
 2017 (Econometrica, Journal of Political Economy, American Economic Review, Quarterly 
 Journal of Economics, and Review of Economic Studies). 
 

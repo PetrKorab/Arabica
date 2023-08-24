@@ -65,7 +65,7 @@ shows aggregated sentiment with two turning points (the 2007 - 2009 financial cr
 and the end of the Great Moderation period in economics in 2002). The meta-data is 
 collected from Constellate.org.
 
-[Figure 1. Wordcloud](wordcloud.png)
+[Figure 1. Wordcloud](word_cloud.png)
 
 [Figure 2. Heatmap](heatmap.png)
 

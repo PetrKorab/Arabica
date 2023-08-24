@@ -22,7 +22,7 @@ copyright = '2023, Petr Korab'
 author = 'Petr Korab'
 
 # The full version, including alpha/beta/rc tags
-release = '1.6.9'
+release = '1.7.1'
 
 
 # -- General configuration ---------------------------------------------------

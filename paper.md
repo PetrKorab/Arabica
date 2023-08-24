@@ -59,7 +59,6 @@ leading economic journals from 1990 - 2017  Econometrica, Journal of Political E
 American Economic Review, Quarterly Journal of Economics, and Review of Economic Studies). 
 The meta-data is collected from Constellate.org. 
 
-
 A word cloud in Figure 1 displays the most frequent bigrams (two consecutive words) 
 representing concepts, theories, and models that were central to researchers’ 
 attention throughout the period. A heatmap in Figure 2 adds a time dimension and
@@ -86,10 +85,10 @@ measurement through product reviews analysis. In politology and behavioral econo
 it enables detailed text mining of social media interactions. Similarly, in finance, 
 it simplifies financial sentiment analysis of news headlines.
 
-Arabica is well-documented: its API reference and a comprehensive tutorial can be found 
-at https://arabica.readthedocs.io. For easy installation, the package is included in 
-the Python Package Index. Its code repository and issue tracker are currently hosted 
-on GitHub at https://github.com/PetrKorab/Arabica.
+Arabica is well-documented: its API reference and comprehensive tutorials can be found 
+at https://arabica.readthedocs.io. For easy installation, the package is included in
+the Python Package Index. Its code repository and issue tracker are hosted on 
+GitHub at https://github.com/PetrKorab/Arabica.
 
 # Statement of need
 

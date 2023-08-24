@@ -69,7 +69,7 @@ and Figure 4. shows aggregated sentiment with two turning points (the 2007 - 200
 financial crisis and the end of the Great Moderation period in economics in 2002). 
 
 ![Figure 1.\label{fig:Word cloud}](word_cloud.png)
-[Figure 1. Word_cloud.](word_cloud.png)
+[Figure 1. Word cloud.](word_cloud.png)
 
 ![Figure 2.\label{fig:Heatmap}](heatmap.png)
 [Figure 2. Heatmap.](heatmap.png)

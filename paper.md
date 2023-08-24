@@ -56,8 +56,8 @@ once to clean datasets from multilingual regions.
 
 As an example, a word cloud in Figure 1 displays the most frequent bigrams (two consecutive
 words) from the titles of articles published in the leading economics journals over 2000 - 
-2017 (e.g., Econometrica, Journal of Political Economy, American Economic Review, 
-Quarterly Journal of Economics, and Review of Economic Studies). 
+2017 (Econometrica, Journal of Political Economy, American Economic Review, Quarterly 
+Journal of Economics, and Review of Economic Studies). 
 
 A heatmap in Figure 2 plots the most frequent terms with a specified frequency. The line plot 
 in Figure 3 displays the most frequent concepts in an alternative form, and Figure 4.

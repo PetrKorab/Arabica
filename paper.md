@@ -54,10 +54,10 @@ It provides standard cleaning operations for lower-casing, punctuation, numbers,
 stopword removal. It is possible to remove more sets of stop words from ntlk.corpus at 
 once to clean datasets from multilingual regions. 
 
-As an example, a word cloud in Figure 1 displays the most frequent bigrams (two consecutive 
-words) from the titles of articles published in the leading economics journals (e.g., 
-Econometrica, Journal of Political Economy, American Economic Review, Quarterly Journal 
-of Economics, and Review of Economic Studies). 
+As an example, a word cloud in Figure 1 displays the most frequent bigrams (two consecutive
+words) from the titles of articles published in the leading economics journals over 2000 - 
+2017 (e.g., Econometrica, Journal of Political Economy, American Economic Review, 
+Quarterly Journal of Economics, and Review of Economic Studies). 
 
 A heatmap in Figure 2 plots the most frequent terms with a specified frequency. The line plot 
 in Figure 3 displays the most frequent concepts in an alternative form, and Figure 4.
@@ -65,9 +65,9 @@ shows aggregated sentiment with two turning points (the 2007 - 2009 financial cr
 and the end of the Great Moderation period in economics in 2002). The meta-data is 
 collected from Constellate.org.
 
-[Figure 1. Wordcloud](word_cloud.png)
+[Figure 1. Wordcloud.](word_cloud.png)
 
-[Figure 2. Heatmap](heatmap.png)
+[Figure 2. Heatmap.](heatmap.png)
 
 [Figure 3. Line plot.](line_plot.png)
 

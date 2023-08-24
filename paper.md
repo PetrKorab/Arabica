@@ -60,9 +60,9 @@ words) from the titles of articles published in the leading economics journals o
 Journal of Economics, and Review of Economic Studies). 
 
 A heatmap in Figure 2 plots the most frequent terms with a specified frequency. The line plot 
-in Figure 3 displays the most frequent concepts in an alternative form, and Figure 4.
-shows aggregated sentiment with two turning points (the 2007 - 2009 financial crisis 
-and the end of the Great Moderation period in economics in 2002). The meta-data is 
+in Figure 3 displays the most frequent concepts in an alternative form for a shorter period, 
+and Figure 4. shows aggregated sentiment with two turning points (the 2007 - 2009 financial 
+crisis and the end of the Great Moderation period in economics in 2002). The meta-data is 
 collected from Constellate.org.
 
 ![Figure 1.\label{fig:Word cloud}](word_cloud.png)

@@ -65,8 +65,9 @@ A heatmap in Figure 2 plots the most frequent terms with a specified frequency.
 
 [Figure 2. Heatmap](heatmap.png)
 
-The line plot in Figure 3 displays the most frequent concepts in an alternative form, and sentiment 
-analysis with breakpoint identification is presented as a line plot in Figure 4.
+The line plot in Figure 3 displays the most frequent concepts in an alternative form, 
+and Figure 4. shows aggregated sentiment with two turning points (the 2007 - 2009 
+financial crisis and the end of the Great Moderation period in economics in 2002). 
 
 [Figure 3. Line plot.](line_plot.png)
 

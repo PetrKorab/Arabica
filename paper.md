@@ -54,19 +54,19 @@ It provides standard cleaning operations for lower-casing, punctuation, numbers,
 stopword removal. It is possible to remove more sets of stop words from ntlk.corpus at 
 once to clean datasets from multilingual regions. 
 
-As an example, a word cloud in Fig.1 displays the most frequent bigrams (two consecutive words) 
+As an example, a word cloud in Figure 1 displays the most frequent bigrams (two consecutive words) 
 from the titles of articles published in the leading economics journals (e.g., Econometrica,
 Journal of Political Economy, American Economic Review, Quarterly Journal of Economics, 
 and Review of Economic Studies). The meta-data is collected from Constellate.org.
 
 [Figure 1. Wordcloud](wordcloud.png)
 
-A heatmap in Fig.2 plots the most frequent terms with a specified frequency. 
+A heatmap in Figure 2 plots the most frequent terms with a specified frequency. 
 
 [Figure 2. Heatmap](heatmap.png)
 
-The line plot in Fig.3 displays the most frequent concepts in an alternative form, and sentiment 
-analysis with breakpoint identification is presented as a line plot In Fig.4.
+The line plot in Figure 3 displays the most frequent concepts in an alternative form, and sentiment 
+analysis with breakpoint identification is presented as a line plot in Figure 4.
 
 [Figure 3. Line plot.](line_plot.png)
 

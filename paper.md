@@ -65,12 +65,16 @@ shows aggregated sentiment with two turning points (the 2007 - 2009 financial cr
 and the end of the Great Moderation period in economics in 2002). The meta-data is 
 collected from Constellate.org.
 
-[Figure 1. Wordcloud.](word_cloud.png)
+![Figure 1.\label{fig:Word cloud}](word_cloud.png)
+[Figure 1. Word_cloud.](word_cloud.png)
 
+![Figure 2.\label{fig:Heatmap}](heatmap.png)
 [Figure 2. Heatmap.](heatmap.png)
 
+![Figure 3.\label{fig:Line plot}](line_plot.png)
 [Figure 3. Line plot.](line_plot.png)
 
+![Figure 4.\label{fig:Sentiment and breakpoint analysis}](sentiment_and_breakpoint_analysis.png)
 [Figure 4. Sentiment and breakpoint analysis.](sentiment_and_breakpoint_analysis.png)
 
 The package has more general use for exploratory analysis of time-series text datasets, 

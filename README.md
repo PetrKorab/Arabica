@@ -69,7 +69,7 @@ def arabica_freq(text: str,                # Text
                  max_words: int = '',      # Maximum of most frequent n-grams displayed for each period
                  stopwords: [],            # Languages for stop words
                  skip: [],                 # Remove additional stop words
-                 numbers: bool = False,    # Remove all digits
+                 numbers: bool = False,    # Remove numbers
                  lower_case: bool = False  # Lowercase text
 ) 
 ```

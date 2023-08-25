@@ -119,7 +119,7 @@ general-language and financial texts.
 
 # Acknowledgements
 
-We acknowledge comments on empirical applications and the visualization design of 
-the library.
+We acknowledge comments from Jarko Fidrmuc on empirical applications and the 
+visualization design of the library.
 
 # References

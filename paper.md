@@ -46,7 +46,7 @@ provides a frequency summarization of the key topics in the meta-dataset, (2) vi
 module displays key-term frequencies in a heatmap, line plot, and word cloud, (3) sentiment 
 and structural breakpoint analysis evaluates sentiment from research article titles and 
 identifies turning points in the sentiment of published research. It uses VADER [@Hutto:2014] 
-and FinVADER (@FinVADER:2023), the updated model with financial lexicons, to classify 
+and FinVADER [@FinVADER:2023], the updated model with financial lexicons, to classify 
 sentiment. Clustering-based Fisher-Jenks algorithm [@Jenks:1977] finds break points in 
 the data.
 

@@ -118,3 +118,8 @@ jenkspy [@jenkspy:2023] to implement sentiment and breakpoint analysis of
 general-language and financial texts.
 
 # Acknowledgements
+
+We acknowledge comments on empirical applications and the visualization design of 
+the library.
+
+# References

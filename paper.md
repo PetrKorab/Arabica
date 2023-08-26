@@ -95,7 +95,7 @@ GitHub at https://github.com/PetrKorab/Arabica.
 With Arabica, it is possible to visualize and analyze textual data in novel ways. 
 These are some of the package’s distinguishing features: 
 
-• Unlike the current packages to perform meta-analysis (e.g., @White:2017; @Mikolajewicz:2019; 
+• Unlike the current packages to perform meta-analysis (e.g., @NETWORK:2017; @Mikolajewicz:2019; 
 @Balduzzi:2023), the package leverages text mining methods 
 for in-depth analysis of research meta-data.
 
@@ -111,7 +111,7 @@ and financial sentiment classification for time-series text analysis.
 
 For most processing operations, Arabica uses data structures and methods from 
 numpy and pandas [@McKinney:2013]. It leverages nltk for natural language 
-processing [@Loper:2002] and cleantext [@Gudiwada:2021] for data pre-processing. 
+processing [@Loper:2002] and cleantext [@cleantext:2021] for data pre-processing. 
 It uses Plotnine [@Wilkinson:2005] and Matplotlib [@Hunter:2007] for visualization. 
 It also depends on vaderSentiment [@Hutto:2014], FinVADER [@FinVADER, 2023], and 
 jenkspy [@jenkspy:2023] to implement sentiment and breakpoint analysis of 

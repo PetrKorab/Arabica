@@ -22,7 +22,7 @@ affiliations:
    index: 1
  - name: Lentiamo, Czech Republic
    index: 2
- - name: Brno University of Technology, Department of Radio Electornics, Czech Republic
+ - name: Brno University of Technology, Department of Radio Electronics, Czech Republic
    index: 3
 date: 25 August 2023
 bibliography: paper.bib
@@ -102,8 +102,8 @@ for in-depth analysis of research meta-data.
 • Existing text analysis packages, such as Texthero [@texthero:2021] and TextBlob 
 [@textblob:2021] provide methods that explicitly focus on cross-sectional datasets 
 and datasets without time variation. This perspective completely omits the time 
-variability in text datasets. The time-series text approach provides additional 
-insights into the qualitative changes in text data that are, as such, generated 
+variability in text data. The time-series text approach provides additional 
+insights into the qualitative changes in text datasets that are, as such, generated 
 by human behavior. It involves the package's extension of the word cloud graph 
 and financial sentiment classification for time-series text analysis.
 

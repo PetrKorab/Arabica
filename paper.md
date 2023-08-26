@@ -99,7 +99,7 @@ These are some of the package’s distinguishing features:
 @Balduzzi:2023), the package leverages text mining methods 
 for in-depth analysis of research meta-data.
 
-• Existing text analysis packages, such as texthero [@texthero:2021] and TextBlob 
+• Existing text analysis packages, such as Texthero [@texthero:2021] and TextBlob 
 [@textblob:2021] provide methods that explicitly focus on cross-sectional datasets 
 and datasets without time variation. This perspective completely omits the time 
 variability in text datasets. The time-series text approach provides additional 

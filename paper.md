@@ -107,6 +107,12 @@ insights into the qualitative changes in text datasets that are, as such, genera
 by human behavior. It involves the package's extension of the word cloud graph 
 and financial sentiment classification for time-series text analysis.
 
+• While some existing text-processing packages (e.g. [@PyArabic:2022]) focus on a 
+specific group of languages, Arabica offers text-mining methods for all Latin 
+Alphabet languages, including the stopwords removal of 18 lists of stopwords 
+included in the NLTK corpus of stopwords. It allows removing more sets of 
+stopwords at once to clean datasets from multilingual regions.
+
 # Dependencies
 
 For most processing operations, Arabica uses data structures and methods from 

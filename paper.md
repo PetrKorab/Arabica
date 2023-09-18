@@ -115,11 +115,11 @@ included in the NLTK corpus of stopwords.
 # Dependencies
 
 For most processing operations, Arabica uses data structures and methods from 
-numpy and pandas [@McKinney:2013]. It leverages nltk for natural language 
-processing [@Loper:2002] and cleantext [@cleantext:2021] for data pre-processing. 
+Numpy and Pandas [@McKinney:2013]. It leverages NLTK for natural language 
+processing [@Loper:2002] and Cleantext [@cleantext:2021] for data pre-processing. 
 It uses Plotnine [@Wilkinson:2005] and Matplotlib [@Hunter:2007] for visualization. 
-It also depends on vaderSentiment [@Hutto:2014], FinVADER [@finvader:2023], and 
-jenkspy [@jenkspy:2023] to implement sentiment and breakpoint analysis of 
+It also depends on VaderSentiment [@Hutto:2014], FinVADER [@finvader:2023], and 
+Jenkspy [@jenkspy:2023] to implement sentiment and breakpoint analysis of 
 general-language and financial texts.
 
 # Acknowledgements

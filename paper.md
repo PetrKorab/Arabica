@@ -51,8 +51,8 @@ sentiment. Clustering-based Fisher-Jenks algorithm [@Jenks:1977] finds break poi
 the data.
 
 It provides standard cleaning operations for lower-casing, punctuation, numbers, and 
-stopword removal. It is possible to remove more sets of stop words from ntlk.corpus at 
-once to clean datasets from multilingual regions. 
+stopword removal. It allows removing more sets of stopwords from the NLTK corpus at once 
+to clean datasets collected in multilingual regions.
 
 As an example, the package helps analyze trends in economic research published in the 
 leading economic journals (Econometrica, Journal of Political Economy, American Economic 
@@ -110,8 +110,7 @@ and financial sentiment classification for time-series text analysis.
 • While some existing text-processing packages (e.g. [@pyarabic:2022]) focus on a 
 specific group of languages, Arabica offers text-mining methods for all Latin 
 Alphabet languages, including the stopwords removal of 18 lists of stopwords 
-included in the NLTK corpus of stopwords. It allows removing more sets of 
-stopwords at once to clean datasets from multilingual regions.
+included in the NLTK corpus of stopwords. 
 
 # Dependencies
 

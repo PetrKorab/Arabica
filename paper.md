@@ -46,7 +46,7 @@ provides a frequency summarization of the key topics in the meta-dataset, (2) vi
 module displays key-term frequencies in a heatmap, line plot, and word cloud, (3) sentiment 
 and structural breakpoint analysis evaluates sentiment from research article titles and 
 identifies turning points in the sentiment of published research. It uses VADER [@Hutto:2014] 
-and FinVADER [@FinVADER:2023], the updated model with financial lexicons, to classify 
+and FinVADER [@finvader:2023], the updated model with financial lexicons, to classify 
 sentiment. Clustering-based Fisher-Jenks algorithm [@Jenks:1977] finds break points in 
 the data.
 
@@ -95,7 +95,7 @@ GitHub at https://github.com/PetrKorab/Arabica.
 With Arabica, it is possible to visualize and analyze textual data in novel ways. 
 These are some of the package’s distinguishing features: 
 
-• Unlike the current packages to perform meta-analysis (e.g., @NETWORK:2017; @Mikolajewicz:2019; 
+• Unlike the current packages to perform meta-analysis (e.g., @network:2017; @Mikolajewicz:2019; 
 @Balduzzi:2023), the package leverages text mining methods 
 for in-depth analysis of research meta-data.
 
@@ -118,7 +118,7 @@ For most processing operations, Arabica uses data structures and methods from
 numpy and pandas [@McKinney:2013]. It leverages nltk for natural language 
 processing [@Loper:2002] and cleantext [@cleantext:2021] for data pre-processing. 
 It uses Plotnine [@Wilkinson:2005] and Matplotlib [@Hunter:2007] for visualization. 
-It also depends on vaderSentiment [@Hutto:2014], FinVADER [@FinVADER:2023], and 
+It also depends on vaderSentiment [@Hutto:2014], FinVADER [@finvader:2023], and 
 jenkspy [@jenkspy:2023] to implement sentiment and breakpoint analysis of 
 general-language and financial texts.
 

@@ -120,14 +120,14 @@ For more examples of coding, read these  tutorials:
 
 **General use:**
 
-* Sentiment Analysis and Structural Breaks in Time-Series Text Data [here](https://medium.com/towards-data-science/sentiment-analysis-and-structural-breaks-in-time-series-text-data-8109c712ca2)                        
-* Visualization Module in Arabica Speeds Up Text Data Exploration [here](https://medium.com/towards-data-science/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce)                                                                                                                          
+* Sentiment Analysis and Structural Breaks in Time-Series Text Data [here](https://towardsdatascience.com/sentiment-analysis-and-structural-breaks-in-time-series-text-data-8109c712ca2?sk=ce5c69171ba026fee631d1b23520d6e3)                      
+* Visualization Module in Arabica Speeds Up Text Data Exploration [here](https://towardsdatascience.com/visualization-module-in-arabica-speeds-up-text-data-exploration-47114ad646ce?sk=e54bc7d170ea3ecb76fb45dc869d4a44)                                                                                                                        
 * Text as Time Series: Arabica 1.0 Brings New Features for Exploratory Text Data Analysis [here](https://towardsdatascience.com/text-as-time-series-arabica-1-0-brings-new-features-for-exploratory-text-data-analysis-88eaabb84deb?sk=229ec0602d0b8514f25bce501ed9ecb9)   
 
 **Applications:**
 
-* **Business Intelligence:** Customer Satisfaction Measurement with N-gram and Sentiment Analysis [here](https://towardsdatascience.com/customer-satisfaction-measurement-with-n-gram-and-sentiment-analysis-547e291c13a6)                       
-* **Research meta-data analysis:** Research Article Meta-data Description Made Quick and Easy [here](https://pub.towardsai.net/research-article-meta-data-description-made-quick-and-easy-57754e54b550)
+* **Business Intelligence:** Customer Satisfaction Measurement with N-gram and Sentiment Analysis [here](https://towardsdatascience.com/customer-satisfaction-measurement-with-n-gram-and-sentiment-analysis-547e291c13a6?sk=62f9decb619744c96c49735ff09653c3)                       
+* **Research meta-data analysis:** Research Article Meta-data Description Made Quick and Easy [here](https://pub.towardsai.net/research-article-meta-data-description-made-quick-and-easy-57754e54b550?sk=82477c74a159855f211b09b53026dedc)
 * **Twitter tweets analysis**
 
 ---

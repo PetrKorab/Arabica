@@ -6,7 +6,8 @@
 Welcome to Arabica's documentation!
 ===================================
 **Arabica** is a python library for exploratory data analysis specifically designed for time-series text data.
-It reflects the reality that many text datasets are currently collected as repeated observations over time (Twitter tweets, research metadata, product reviews, newspaper headlines etc.).
+It reflects the reality that many text datasets are collected as repeated observations over time (social media conversation, 
+research metadata, product reviews, newspaper headlines, central bankers' communication, etc.).
 
 * **Descriptive n-gram analysis**: n-gram frequencies
 * **Time-series n-gram analysis**: n-gram frequencies over a period

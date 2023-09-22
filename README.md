@@ -6,7 +6,7 @@
 # Arabica
 **Python package for exploratory text data analysis**
 
-Text data is often recorded as a time series with significant variability over time. Some examples of time-series text data include social media conversations, research metadata, product reviews, newspaper headlines, and central bankers’ communication. Arabica makes exploratory analysis of these datasets simple by providing:
+Text data is often recorded as a time series with significant variability over time. Some examples of time-series text data include social media conversations, product reviews, research metadata, central bankers’ communication, and newspaper headlines. Arabica makes exploratory analysis of these datasets simple by providing:
 
 * **Descriptive n-gram analysis**: n-gram frequencies
 * **Time-series n-gram analysis**: n-gram frequencies over a period

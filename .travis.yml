@@ -1,0 +1,9 @@
+
+language: python
+python:
+  - "3.8"
+  - "3.10"
+install:
+  - pip install arabica
+script:
+  - pytest

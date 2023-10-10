@@ -1,24 +1,12 @@
-# CircleCI configuration file
 version: 2.1
-
 jobs:
-  # Job one with a unique name
-  say_hello:
+  build:
     docker:
-     - image: cimg/base:2022.05
+      - image: cimg/base:current
+    resource_class: petrkorab/arabica
     steps:
-      - run: echo "Say hello to YAML!"
-  # Job two with a unique name
-  say_goodbye:
-    docker:
-     - image: cimg/base:2022.05
-    steps:
-      - run: echo "Say goodbye to YAML!"
-
+      - run: echo "Hi I'm on a Container Runner!"
 workflows:
-  # Name of workflow
-  hello_and_goodbye:
-    # List of jobs that will run
+  build-workflow:
     jobs:
-      - say_hello
-      - say_goodbye
+      - build

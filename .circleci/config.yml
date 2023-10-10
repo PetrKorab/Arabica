@@ -24,3 +24,7 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+            steps:
+      - add_ssh_keys:
+            fingerprints:
+              - "SHA256:mXV4fwR8uHei6T1tUI+kkKmyesvZoxT8B6OIa+DNIi0 email@example.com"

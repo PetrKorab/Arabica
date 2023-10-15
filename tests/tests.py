@@ -1,4 +1,4 @@
-## This test replicates graphs in the paper submitted to JOSS - bigram word cloud, bigram heatmap heatmap, bigram line plot, 
+## Test replicates graphs in the paper submitted to JOSS - bigram word cloud, bigram heatmap heatmap, bigram line plot, 
 ## and line plot for financial sentiment analysis
 ## Graphs to be saved manually as .jpg/.png
 

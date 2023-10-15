@@ -1,6 +1,6 @@
 ## This test replicates graphs in the paper submitted to JOSS - bigram word cloud, bigram heatmap heatmap, bigram line plot, 
 ## and line plot for financial sentiment analysis
-## Graphs need to be saved manually as .jpg/.png
+## Graphs to be saved manually as .jpg/.png
 
 
 import pandas as pd

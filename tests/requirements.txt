@@ -1,0 +1,2 @@
+arabica==1.7.4
+pandas==1.4.0

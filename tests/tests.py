@@ -25,6 +25,9 @@ cappuccino(text = data['title'],
            lower_case = True)                 # Lowercase text
 
 
+print("word cloud generated, save it manually as jpg./.png)
+
+
 # N-gram analysis: time-series visualization
 # Heatmap
 from arabica import cappuccino
@@ -41,6 +44,8 @@ cappuccino(text = data['title'],
            numbers = True,                    # Remove numbers
            lower_case = True)                 # Lowercase text
 
+
+print("heatmap generated, save it manually as jpg./.png)
 
 # N-gram analysis: time-series visualization
 # Line plot
@@ -59,6 +64,9 @@ cappuccino(text = data['title'],
            lower_case = True)                 # Lowercase text
 
 
+print("lineplot generated, save it manually as jpg./.png)
+
+
 # Financial sentiment and structural break analysis
 # Line plot with two breakpoints
 
@@ -72,3 +80,5 @@ coffee_break(text = data['title'],
              preprocess = True,                # Clean data - digits and punctuation
              skip = None,                      # Remove additional stop words
              n_breaks = 2)                     # Find 2 breakpoints
+
+print("lineplot with sentiment and breakpoint analysis results generated, save it manually as jpg./.png)

@@ -25,7 +25,7 @@ cappuccino(text = data['title'],
            lower_case = True)                 # Lowercase text
 
 
-print("word cloud generated, save manually as jpg./.png")
+print("word cloud generated, save manually as .jpg/.png")
 
 
 # N-gram analysis: time-series visualization
@@ -45,7 +45,7 @@ cappuccino(text = data['title'],
            lower_case = True)                 # Lowercase text
 
 
-print("heatmap generated, save manually as jpg./.png")
+print("heatmap generated, save manually as .jpg/.png")
 
 # N-gram analysis: time-series visualization
 # Line plot
@@ -64,7 +64,7 @@ cappuccino(text = data['title'],
            lower_case = True)                 # Lowercase text
 
 
-print("lineplot generated, save manually as jpg./.png")
+print("lineplot generated, save manually as .jpg/.png")
 
 
 # Financial sentiment and structural break analysis
@@ -81,4 +81,4 @@ coffee_break(text = data['title'],
              skip = None,                      # Remove additional stop words
              n_breaks = 2)                     # Find 2 breakpoints
 
-print("lineplot with sentiment and breakpoint analysis results generated, save manually as jpg./.png")
+print("lineplot with sentiment and breakpoint analysis results generated, save manually as .jpg/.png")

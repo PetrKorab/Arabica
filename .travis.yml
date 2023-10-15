@@ -1,3 +1,5 @@
+before_script: cd tests
+
 language: python  # Adjust this based on your project's programming language
 
 branches:

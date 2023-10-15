@@ -16,7 +16,7 @@ python:
 
 # Install dependencies
 install:
-  - pip install -r requirements.txt  # Adjust for your project
+  - pip install -r requirements_tests.txt  # Adjust for your project
 
 # Run tests
 script:

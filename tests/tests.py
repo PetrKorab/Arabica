@@ -18,7 +18,7 @@ cappuccino(text = data['title'],
            plot = 'wordcloud',
            ngram = 2,                         # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
            time_freq = 'ungroup',             # No time aggregation
-           max_words = 150,                   # Displays 150 most frequent bigrams
+           max_words = 100,                   # Displays 150 most frequent bigrams
            stopwords = ['english'],           # Remove English stopwords
            skip = None,                       # Remove additional stop words
            numbers = True,                    # Remove numbers
@@ -34,7 +34,7 @@ cappuccino(text = data['title'],
            date_format = 'us',                # Uses US-style date format to parse dates
            plot = 'heatmap',
            ngram = 2,                         # N-gram size, 1 = unigram, 2 = bigram
-           time_freq = 'Y',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
+           time_freq = 'M',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
            max_words = 6,                     # Displays 6 most frequent bigrams for each period
            stopwords = ['english'],           # Remove English stopwords
            skip = None,                       # Remove additional stopwords
@@ -52,7 +52,7 @@ cappuccino(text = data['title'],
            plot = 'line',
            ngram = 2,                         # N-gram size, 1 = unigram, 2 = bigram
            time_freq = 'Y',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
-           max_words = 4,                     # Displays 6 most frequent bigrams for each period
+           max_words = 5,                     # Displays 6 most frequent bigrams for each period
            stopwords = ['english'],           # Remove English stopwords
            skip = None,                       # Remove additional stopwords
            numbers = True,                    # Remove numbers

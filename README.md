@@ -112,7 +112,7 @@ def coffee_break(text: str,                 # Text
 )
 ```
 
-## Documentation, examples and tutorials
+## 📄 Documentation, examples and tutorials
 
 * Read the [documentation](https://arabica.readthedocs.io/en/latest/index.html)
 
@@ -132,4 +132,4 @@ For more examples of coding, read these  tutorials:
 * **Social media analysis**
 ---
 
-Please visit [here](https://github.com/PetrKorab/arabica/issues) for any questions, issues, bugs, and suggestions.
+💬 Please visit [here](https://github.com/PetrKorab/arabica/issues) for any questions, issues, bugs, and suggestions.

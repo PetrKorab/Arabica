@@ -89,6 +89,7 @@ def cappuccino(text: str,                # Text
                skip: [],                 # Remove additional stop words
                numbers: bool = False,    # Remove numbers
                lower_case: bool = False  # Lowercase text
+)
 ```
 
 **coffee_break**  provides sentiment analysis and breakpoint identification in aggregated time series of sentiment. The implemented models are:

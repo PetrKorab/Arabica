@@ -65,8 +65,8 @@ removal) and returns a dataframe with aggregated unigrams, bigrams, and trigrams
 def arabica_freq(text: str,                # Text
                  time: str,                # Time
                  date_format: str,         # Date format: 'eur' - European, 'us' - American
-                 time_freq: str = '',      # Aggregation period: 'Y'/'M'/'D', if no aggregation: 'ungroup'
-                 max_words: int = '',      # Maximum of most frequent n-grams displayed for each period
+                 time_freq: str,           # Aggregation period: 'Y'/'M'/'D', if no aggregation: 'ungroup'
+                 max_words: int,           # Maximum of most frequent n-grams displayed for each period
                  stopwords: [],            # Languages for stop words
                  skip: [],                 # Remove additional stop words
                  numbers: bool = False,    # Remove numbers
@@ -81,10 +81,10 @@ removal) and provides plots for descriptive (word cloud) and time-series (heatma
 def cappuccino(text: str,                # Text
                time: str,                # Time
                date_format: str,         # Date format: 'eur' - European, 'us' - American
-               plot: str = '',           # Chart type: 'wordcloud'/'heatmap'/'line'
-               ngram: int = '',          # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
-               time_freq: str = '',      # Aggregation period: 'Y'/'M', if no aggregation: 'ungroup'
-               max_words int = '',       # Maximum of most frequent n-grams displayed for each period
+               plot: str,                # Chart type: 'wordcloud'/'heatmap'/'line'
+               ngram: int,               # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
+               time_freq: str,           # Aggregation period: 'Y'/'M', if no aggregation: 'ungroup'
+               max_words int,            # Maximum of most frequent n-grams displayed for each period
                stopwords: [],            # Languages for stop words
                skip: [],                 # Remove additional stop words
                numbers: bool = False,    # Remove numbers
@@ -108,8 +108,8 @@ def coffee_break(text: str,                 # Text
                  model: str,                # Sentiment classifier, 'vader' - general language, 'finvader' - financial text                
                  skip: [],                  # Remove additional stop words
                  preprocess: bool = False,  # Clean data from numbers and punctuation
-                 time_freq: str ='',        # Aggregation period: 'Y'/'M'
-                 n_breaks: int =''          # Number of breakpoints: min. 2
+                 time_freq: str,            # Aggregation period: 'Y'/'M'
+                 n_breaks: int              # Number of breakpoints: min. 2
 )
 ```
 

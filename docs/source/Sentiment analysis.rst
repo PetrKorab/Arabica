@@ -1,10 +1,7 @@
 Sentiment analysis
 =====
 
-**Arabica** takes text data as the input, enables digits and punctuation cleaning, and provides time-series sentiment analysis with a pre-trained sentiment classifier.
-
-**coffee_brek** calculates sentiment in each row of the dataset, aggregates it over a specified period, and returns a
-plot and a dataframe with a corresponding time series.
+**coffee_break** takes text data as the input, enables digits and punctuation cleaning, and provides time-series sentiment analysis with a pre-trained sentiment classifier. It calculates sentiment in each row of the dataset, aggregates it over a specified period, and returns a plot and a dataframe with a corresponding time series.
 
 ------
 

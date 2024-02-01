@@ -1,0 +1,50 @@
+# test_your_module.py
+import unittest
+import pandas as pd
+from arabica import arabica_freq  # Replace 'your_module' with the actual module name
+
+class TestArabicaFreq(unittest.TestCase):
+
+    def test_arabica_freq(self):
+        # Test data
+        text = ["Some sample text.", "Another example."]
+        time = ["2016-08-30", "2016-08-31"]
+        date_format = "eur"
+        stopwords = ["stop", "words"]
+        skip = ["skip", "these"]
+        time_freq = "M"
+        max_words = 5
+        numbers = True
+        lower_case = True
+
+        # Call the function
+        result = arabica_freq(text=text,
+                              time=time,
+                              date_format=date_format,
+                              stopwords=stopwords,
+                              skip=skip,
+                              time_freq=time_freq,
+                              max_words=max_words,
+                              numbers=numbers,
+                              lower_case=lower_case)
+
+        # Assert the result has the expected structure
+        self.assertIsInstance(result, pd.DataFrame)
+        self.assertTrue("period" in result.columns)
+        self.assertTrue("unigram" in result.columns)
+        self.assertTrue("bigram" in result.columns)
+        self.assertTrue("trigram" in result.columns)
+
+        # You can add more specific assertions based on your expectations for the output
+        # For example, check if the DataFrame has the expected number of rows or columns
+        self.assertEqual(len(result), len(text))
+        self.assertEqual(len(result.columns), 4)  # Including the index column
+        # Add more assertions based on the specific behavior of your function
+
+
+if __name__ == '__main__':
+    try:
+        import unittest
+        unittest.main(argv=[''], exit=False)
+    except SystemExit:
+        pass

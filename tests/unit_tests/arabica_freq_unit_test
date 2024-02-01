@@ -1,4 +1,3 @@
-# test_your_module.py
 import unittest
 import pandas as pd
 from arabica import arabica_freq  # Replace 'your_module' with the actual module name

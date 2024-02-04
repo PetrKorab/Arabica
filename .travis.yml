@@ -20,3 +20,5 @@ script:
   - python paper_graphs.py 
   - python arabica_freq_unit_test.py
   - python cappuccino_unit_test.py
+  - python coffee_break_unit_test.py
+  

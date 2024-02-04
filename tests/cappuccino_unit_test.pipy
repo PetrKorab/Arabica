@@ -1,3 +1,8 @@
+## Test for visualization method: cappuccino
+## It relies on the n-gram frequency matrix from arabica_freq
+## n-gram frequencies are visualised with Matplotlib or Plotnine
+
+
 import unittest
 import pandas as pd
 from arabica import cappuccino
@@ -49,8 +54,6 @@ def test_cappuccino_wordcloud_ungroup(self):
 
         # Perform assertions based on the expected behavior
         self.assertIsNone(result)  # Assuming picture is None when using line plot for monthly frequency
-
-    # Add more test cases for other scenarios...
 
 if __name__ == '__main__':
     unittest.main(argv=[''], exit=False)

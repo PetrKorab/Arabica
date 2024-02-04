@@ -24,8 +24,8 @@ def test_cappuccino_wordcloud_ungroup(self):
         ngram = 1
         time_freq = "ungroup"
         max_words = 10
-        numbers = False
-        lower_case = False
+        numbers = True
+        lower_case = True
 
         # Call the cappuccino function
         result = cappuccino(text, time, date_format, stopwords, skip, plot_type,
@@ -45,8 +45,8 @@ def test_cappuccino_wordcloud_ungroup(self):
         ngram = 1
         time_freq = "M"
         max_words = 10
-        numbers = False
-        lower_case = False
+        numbers = True
+        lower_case = True
 
         # Call the cappuccino function
         result = cappuccino(text, time, date_format, stopwords, skip, plot_type,

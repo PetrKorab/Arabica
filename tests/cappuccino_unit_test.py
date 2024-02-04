@@ -16,7 +16,7 @@ class TestCappuccinoFunction(unittest.TestCase):
 
 
 def test_cappuccino_wordcloud(self):
-        # Provide test input
+        # test input
         date_format = "us"
         stopwords = ['english']
         skip = None,
@@ -86,19 +86,19 @@ def test_cappuccino_heatmap(self):
 
         # Call the cappuccino function
         result_heatmap = cappuccino(text=self.data['text'],
-                                      time=self.data['time'],
-                                      date_format = date_format, 
-                                      stopwords = stopwords, 
-                                      skip = skip, 
-                                      plot_type = plot_type,
-                                      ngram = ngram, 
-                                      time_freq = time_freq, 
-                                      max_words = max_words,
-                                      numbers = numbers, 
-                                      lower_case = lower_case)        
+                                    time=self.data['time'],
+                                    date_format=date_format, 
+                                    stopwords=stopwords, 
+                                    skip=skip, 
+                                    plot_type=plot_type,
+                                    ngram=ngram, 
+                                    time_freq=time_freq, 
+                                    max_words=max_words,
+                                    numbers=numbers, 
+                                    lower_case=lower_case)        
 
         # Perform assertions based on the expected behavior
-        self.assertIsNone(result_heatmap)  # Assuming picture is None when using line plot for monthly frequency
+        self.assertIsNone(result_heatmap)  # Assuming picture is None when using heatmap for monthly frequency
 
 if __name__ == '__main__':
     unittest.main(argv=[''], exit=False)

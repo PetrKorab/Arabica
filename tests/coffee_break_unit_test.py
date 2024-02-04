@@ -6,8 +6,8 @@ import numpy as np
 from arabica import coffee_break
 
 class TestCoffeeBreakFunction(unittest.TestCase):
+    
     #test data#
-
     data = pd.DataFrame({
         'text': ['Same folks said daikon paste could treat a cytokine storm #PfizerBioNTech https://t.co/xeHhIMg1kF',
                 '''While the world has been on the wrong side of history this year, hopefully, the biggest vaccination effort we've evâ€¦ https://t.co/dlCHrZjkhm''',

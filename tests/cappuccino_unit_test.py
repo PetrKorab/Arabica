@@ -8,7 +8,7 @@ import pandas as pd
 from arabica import cappuccino
 
 class TestCappuccinoFunction(unittest.TestCase):
-
+    # test data
     data = pd.DataFrame({
         'text': ["You may find yourself trying to decide between comparable crystallized ginger offerings from Reeds",
                  "Reed’s has a lovely raw cane sugar flavor, and is sweeter and more mellow than The Ginger People’s."],
@@ -16,7 +16,6 @@ class TestCappuccinoFunction(unittest.TestCase):
 
 
 def test_cappuccino_wordcloud(self):
-        # test input
         date_format = "us"
         stopwords = ['english']
         skip = None,

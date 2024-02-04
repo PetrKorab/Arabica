@@ -1,6 +1,6 @@
 before_script: cd tests
 
-language:
+language: python
 
 branches:
   only:
@@ -8,9 +8,7 @@ branches:
     - /^pull\//
     
 python:
-- "3.10.0"
-  # - 3.8
-  # - 3.9
+ - "3.9"
 
 # Install dependencies
 install:

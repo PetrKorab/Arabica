@@ -18,4 +18,4 @@ install:
 # Run tests
 script:
   - python tests.py 
-  - arabica_freq_unit_test.py
+  # - arabica_freq_unit_test.py

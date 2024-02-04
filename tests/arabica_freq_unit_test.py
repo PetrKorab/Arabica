@@ -1,3 +1,7 @@
+## Test for descriptive n-gram method: arabica_freq
+## N-gram frequency matrix from arabica_freq is also used in the visualization method - cappuccino; its functionality is therefore essential
+
+
 import unittest
 import pandas as pd
 from arabica import arabica_freq

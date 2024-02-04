@@ -8,7 +8,6 @@ from arabica import arabica_freq
 from collections import Counter
 
 class TestArabicaFreq(unittest.TestCase):
-
     # test data
     data = pd.DataFrame({
         'text': ["You may find yourself trying to decide between comparable crystallized ginger offerings from Reeds",
@@ -33,7 +32,6 @@ class TestArabicaFreq(unittest.TestCase):
 
 
     def test_arabica_freq(self):
-        # Test data
         date_format = "eur"
         stopwords = None
         skip = ["skip", "these"]

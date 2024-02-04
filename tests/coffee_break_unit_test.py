@@ -1,9 +1,12 @@
+## Test for sentiment analysis and structural breakpoint identification method
+
 import unittest
 import pandas as pd
 import numpy as np
 from arabica import coffee_break
 
 class TestCoffeeBreakFunction(unittest.TestCase):
+    #test data#
 
     data = pd.DataFrame({
         'text': ['Same folks said daikon paste could treat a cytokine storm #PfizerBioNTech https://t.co/xeHhIMg1kF',
@@ -93,7 +96,7 @@ class TestCoffeeBreakFunction(unittest.TestCase):
         date_format = "us"
         model = "vader"
         skip = None
-        preprocess = False
+        preprocess = True
         time_freq = "M"
         n_breaks = 3
 
@@ -112,6 +115,7 @@ class TestCoffeeBreakFunction(unittest.TestCase):
         self.assertEqual(len(result), 1)
         self.assertTrue("period" in result.columns)
         self.assertTrue("sentiment" in result.columns)
+        self.assertIsNone(resul)  # Assuming picture is None when using line plot for monthly frequency
 
 
 if __name__ == '__main__':

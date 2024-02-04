@@ -15,7 +15,7 @@ class TestCappuccinoFunction(unittest.TestCase):
         'time': ["2016-08-30", "2016-08-31"]})
 
 
-def test_cappuccino_wordcloud_ungroup(self):
+def test_cappuccino_wordcloud(self):
         # Provide test input
         date_format = "us"
         stopwords = []
@@ -34,7 +34,7 @@ def test_cappuccino_wordcloud_ungroup(self):
         # Perform assertions based on the expected behavior
         self.assertIsNone(result)  # Assuming picture is None when using wordcloud
 
-    def test_cappuccino_line_M(self):
+    def test_cappuccino_line(self):
         # Provide test input
         text = "Some example text for testing."
         time = "date_column"
@@ -51,6 +51,27 @@ def test_cappuccino_wordcloud_ungroup(self):
         # Call the cappuccino function
         result = cappuccino(text, time, date_format, stopwords, skip, plot_type,
                             ngram, time_freq, max_words, numbers, lower_case)
+
+
+    def test_cappuccino_heatmap(self):
+        # Provide test input
+        text = "Some example text for testing."
+        time = "date_column"
+        date_format = "us"
+        stopwords = []
+        skip = []
+        plot_type = "heatmap"
+        ngram = 1
+        time_freq = "M"
+        max_words = 10
+        numbers = True
+        lower_case = True
+
+        # Call the cappuccino function
+        result = cappuccino(text, time, date_format, stopwords, skip, plot_type,
+                            ngram, time_freq, max_words, numbers, lower_case)
+
+        
 
         # Perform assertions based on the expected behavior
         self.assertIsNone(result)  # Assuming picture is None when using line plot for monthly frequency

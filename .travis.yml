@@ -9,6 +9,7 @@ branches:
     
 python:
  - "3.9"
+ - "3.10"
 
 # Install dependencies
 install:

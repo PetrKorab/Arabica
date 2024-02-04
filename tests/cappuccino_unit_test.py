@@ -18,8 +18,8 @@ class TestCappuccinoFunction(unittest.TestCase):
 def test_cappuccino_wordcloud(self):
         # Provide test input
         date_format = "us"
-        stopwords = []
-        skip = []
+        stopwords = ['english']
+        skip = None,
         plot_type = "wordcloud"
         ngram = 1
         time_freq = "ungroup"
@@ -28,20 +28,27 @@ def test_cappuccino_wordcloud(self):
         lower_case = True
 
         # Call the cappuccino function
-        result_wordcloud = cappuccino(text, time, date_format, stopwords, skip, plot_type,
-                            ngram, time_freq, max_words, numbers, lower_case)
+        result_wordcloud = cappuccino(text=self.data['text'],
+                                      time=self.data['time'],
+                                      time=time, 
+                                      date_format = date_format, 
+                                      stopwords = stopwords, 
+                                      skip = skip, 
+                                      plot_type = plot_type,
+                                      ngram = ngram, 
+                                      time_freq = time_freq, 
+                                      max_words = max_words,
+                                      numbers = numbers, 
+                                      lower_case = lower_case)
 
         # Perform assertions based on the expected behavior
         self.assertIsNone(result_wordcloud)  # Assuming picture is None when using wordcloud
     
 
 def test_cappuccino_line(self):
-        # Provide test input
-        text = "Some example text for testing."
-        time = "date_column"
         date_format = "us"
-        stopwords = []
-        skip = []
+        stopwords = ['english']
+        skip = None
         plot_type = "line"
         ngram = 1
         time_freq = "M"
@@ -50,8 +57,18 @@ def test_cappuccino_line(self):
         lower_case = True
 
         # Call the cappuccino function
-        result_line = cappuccino(text, time, date_format, stopwords, skip, plot_type,
-                            ngram, time_freq, max_words, numbers, lower_case)
+        result_line = cappuccino(text=self.data['text'],
+                                      time=self.data['time'],
+                                      time=time, 
+                                      date_format = date_format, 
+                                      stopwords = stopwords, 
+                                      skip = skip, 
+                                      plot_type = plot_type,
+                                      ngram = ngram, 
+                                      time_freq = time_freq, 
+                                      max_words = max_words,
+                                      numbers = numbers, 
+                                      lower_case = lower_case)
 
 
         # Perform assertions based on the expected behavior
@@ -59,12 +76,9 @@ def test_cappuccino_line(self):
 
 
 def test_cappuccino_heatmap(self):
-        # Provide test input
-        text = "Some example text for testing."
-        time = "date_column"
         date_format = "us"
-        stopwords = []
-        skip = []
+        stopwords = ['english']
+        skip = None
         plot_type = "heatmap"
         ngram = 1
         time_freq = "M"
@@ -73,10 +87,18 @@ def test_cappuccino_heatmap(self):
         lower_case = True
 
         # Call the cappuccino function
-        result_heatmap = cappuccino(text, time, date_format, stopwords, skip, plot_type,
-                            ngram, time_freq, max_words, numbers, lower_case)
-
-        
+        result_heatmap = cappuccino(text=self.data['text'],
+                                      time=self.data['time'],
+                                      time=time, 
+                                      date_format = date_format, 
+                                      stopwords = stopwords, 
+                                      skip = skip, 
+                                      plot_type = plot_type,
+                                      ngram = ngram, 
+                                      time_freq = time_freq, 
+                                      max_words = max_words,
+                                      numbers = numbers, 
+                                      lower_case = lower_case)        
 
         # Perform assertions based on the expected behavior
         self.assertIsNone(result_heatmap)  # Assuming picture is None when using line plot for monthly frequency

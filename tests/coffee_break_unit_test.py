@@ -112,7 +112,7 @@ class TestCoffeeBreakFunction(unittest.TestCase):
         # Perform assertions based on the expected behavior
         self.assertTrue("period" in result.index.names)   # Returns a dataframe with a period column
         self.assertTrue("sentiment" in result.columns)    # Returns a dataframe with a sentiment columns
-        self.assertIsNone(result)                         # Returns a picture with graphical output, assuming picture is None when using line plot for monthly frequency
+        self.assertIsNotNone(result)                      # Returns a picture with graphical output, assuming picture is not None when using line plot for monthly frequency
 
 
 if __name__ == '__main__':

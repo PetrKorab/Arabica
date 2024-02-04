@@ -44,7 +44,7 @@ class TestArabicaFreq(unittest.TestCase):
         result = arabica_freq(text=self.data['text'],
                               time=self.data['time'],
                               date_format=date_format,
-                              stopwords=None,
+                              stopwords=stopwords,
                               skip=skip,
                               time_freq=time_freq,
                               max_words=max_words,

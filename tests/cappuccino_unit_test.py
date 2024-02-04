@@ -28,13 +28,14 @@ def test_cappuccino_wordcloud(self):
         lower_case = True
 
         # Call the cappuccino function
-        result = cappuccino(text, time, date_format, stopwords, skip, plot_type,
+        result_wordcloud = cappuccino(text, time, date_format, stopwords, skip, plot_type,
                             ngram, time_freq, max_words, numbers, lower_case)
 
         # Perform assertions based on the expected behavior
-        self.assertIsNone(result)  # Assuming picture is None when using wordcloud
+        self.assertIsNone(result_wordcloud)  # Assuming picture is None when using wordcloud
+    
 
-    def test_cappuccino_line(self):
+def test_cappuccino_line(self):
         # Provide test input
         text = "Some example text for testing."
         time = "date_column"
@@ -49,11 +50,15 @@ def test_cappuccino_wordcloud(self):
         lower_case = True
 
         # Call the cappuccino function
-        result = cappuccino(text, time, date_format, stopwords, skip, plot_type,
+        result_line = cappuccino(text, time, date_format, stopwords, skip, plot_type,
                             ngram, time_freq, max_words, numbers, lower_case)
 
 
-    def test_cappuccino_heatmap(self):
+        # Perform assertions based on the expected behavior
+        self.assertIsNone(result_line)  # Assuming picture is None when using line plot for monthly frequency
+
+
+def test_cappuccino_heatmap(self):
         # Provide test input
         text = "Some example text for testing."
         time = "date_column"
@@ -68,13 +73,13 @@ def test_cappuccino_wordcloud(self):
         lower_case = True
 
         # Call the cappuccino function
-        result = cappuccino(text, time, date_format, stopwords, skip, plot_type,
+        result_heatmap = cappuccino(text, time, date_format, stopwords, skip, plot_type,
                             ngram, time_freq, max_words, numbers, lower_case)
 
         
 
         # Perform assertions based on the expected behavior
-        self.assertIsNone(result)  # Assuming picture is None when using line plot for monthly frequency
+        self.assertIsNone(result_heatmap)  # Assuming picture is None when using line plot for monthly frequency
 
 if __name__ == '__main__':
     unittest.main(argv=[''], exit=False)

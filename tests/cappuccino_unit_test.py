@@ -32,7 +32,7 @@ def test_cappuccino_wordcloud(self):
                                       date_format = date_format, 
                                       stopwords = stopwords, 
                                       skip = skip, 
-                                      plo = plot,
+                                      plot = plot,
                                       ngram = ngram, 
                                       time_freq = time_freq, 
                                       max_words = max_words,
@@ -56,16 +56,16 @@ def test_cappuccino_line(self):
 
         # Call the cappuccino function
         result_line = cappuccino(text=self.data['text'],
-                                      time=self.data['time'],
-                                      date_format = date_format, 
-                                      stopwords = stopwords, 
-                                      skip = skip, 
-                                      plot = plot,
-                                      ngram = ngram, 
-                                      time_freq = time_freq, 
-                                      max_words = max_words,
-                                      numbers = numbers, 
-                                      lower_case = lower_case)
+                                 time=self.data['time'],
+                                 date_format = date_format, 
+                                 stopwords = stopwords, 
+                                 skip = skip, 
+                                 plot = plot,
+                                 ngram = ngram, 
+                                 time_freq = time_freq, 
+                                 max_words = max_words,
+                                 numbers = numbers, 
+                                 lower_case = lower_case)
 
 
         # Perform assertions based on the expected behavior
@@ -76,7 +76,7 @@ def test_cappuccino_heatmap(self):
         date_format = "us"
         stopwords = ['english']
         skip = None
-        plot_type = "heatmap"
+        plot = "heatmap"
         ngram = 1
         time_freq = "M"
         max_words = 10

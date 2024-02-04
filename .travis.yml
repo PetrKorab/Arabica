@@ -19,3 +19,4 @@ install:
 script:
   - python tests.py 
   - python arabica_freq_unit_test.py
+  - python cappuccino_unit_test.pipy

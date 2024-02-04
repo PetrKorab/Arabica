@@ -17,6 +17,6 @@ install:
 
 # Run tests
 script:
-  - python tests.py 
+  - python paper_graphs.py 
   - python arabica_freq_unit_test.py
   - python cappuccino_unit_test.pipy

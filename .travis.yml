@@ -1,23 +1,21 @@
 before_script: cd tests
 
-language: python  # Adjust this based on your project's programming language
+language:
 
 branches:
   only:
     - main
     - /^pull\//
     
-
-# Specify the version(s) of your language you want to test with
 python:
   - 3.8
   - 3.9
-  # Add more versions if needed
 
 # Install dependencies
 install:
-  - pip install -r requirements_tests.txt  # Adjust for your project
+  - pip install -r requirements_tests.txt 
 
 # Run tests
 script:
-  - python tests.py  # Adjust for your project
+  - python tests.py 
+  - arabica_freq_unit_test.py

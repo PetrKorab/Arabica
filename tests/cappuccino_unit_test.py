@@ -19,7 +19,7 @@ def test_cappuccino_wordcloud(self):
         date_format = "us"
         stopwords = ['english']
         skip = None,
-        plot_type = "wordcloud"
+        plot = "wordcloud"
         ngram = 1
         time_freq = "ungroup"
         max_words = 10
@@ -32,7 +32,7 @@ def test_cappuccino_wordcloud(self):
                                       date_format = date_format, 
                                       stopwords = stopwords, 
                                       skip = skip, 
-                                      plot_type = plot_type,
+                                      plo = plot,
                                       ngram = ngram, 
                                       time_freq = time_freq, 
                                       max_words = max_words,
@@ -40,7 +40,7 @@ def test_cappuccino_wordcloud(self):
                                       lower_case = lower_case)
 
         # Perform assertions based on the expected behavior
-        self.assertIsNone(result_wordcloud)  # Returns a wordcloud picture, assuming picture is None when using wordcloud
+        self.assertIsNotNone(result_wordcloud)  # Returns a wordcloud picture, assuming picture is not None when using wordcloud
     
 
 def test_cappuccino_line(self):
@@ -60,7 +60,7 @@ def test_cappuccino_line(self):
                                       date_format = date_format, 
                                       stopwords = stopwords, 
                                       skip = skip, 
-                                      plot_type = plot_type,
+                                      plot = plot,
                                       ngram = ngram, 
                                       time_freq = time_freq, 
                                       max_words = max_words,
@@ -69,7 +69,7 @@ def test_cappuccino_line(self):
 
 
         # Perform assertions based on the expected behavior
-        self.assertIsNone(result_line)  # Returns a line plot picture, assuming picture is None when using line plot for monthly frequency
+        self.assertIsNotNone(result_wordcloud)                  # Returns a line plot picture, assuming picture is None when using line plot for monthly frequency
 
 
 def test_cappuccino_heatmap(self):
@@ -89,7 +89,7 @@ def test_cappuccino_heatmap(self):
                                     date_format=date_format, 
                                     stopwords=stopwords, 
                                     skip=skip, 
-                                    plot_type=plot_type,
+                                    plot=plot,
                                     ngram=ngram, 
                                     time_freq=time_freq, 
                                     max_words=max_words,
@@ -97,7 +97,7 @@ def test_cappuccino_heatmap(self):
                                     lower_case=lower_case)        
 
         # Perform assertions based on the expected behavior
-        self.assertIsNone(result_heatmap)  # Returns a heatmap picture, assuming picture is None when using heatmap for monthly frequency
+        self.assertIsNotNone(result_heatmap)  # Returns a heatmap picture, assuming picture is not None when using heatmap for monthly frequency
 
 if __name__ == '__main__':
     unittest.main(argv=[''], exit=False)

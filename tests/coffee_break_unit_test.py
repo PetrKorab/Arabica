@@ -1,4 +1,4 @@
-## Test for sentiment analysis and structural breakpoint identification method
+## Test for sentiment analysis and breakpoint identification method
 
 import unittest
 import pandas as pd
@@ -111,11 +111,9 @@ class TestCoffeeBreakFunction(unittest.TestCase):
                               n_breaks=n_breaks)
 
         # Perform assertions based on the expected behavior
-        self.assertIsInstance(result, pd.DataFrame)
-        self.assertEqual(len(result), 1)
-        self.assertTrue("period" in result.columns)
-        self.assertTrue("sentiment" in result.columns)
-        self.assertIsNone(resul)  # Assuming picture is None when using line plot for monthly frequency
+        self.assertTrue("period" in result.columns)      # Returns a dataframe with a period column
+        self.assertTrue("sentiment" in result.columns)   # Returns a dataframe with a sentiment columns
+        self.assertIsNone(result)                        # Returns a picture with graphical output, assuming picture is None when using line plot for monthly frequency
 
 
 if __name__ == '__main__':

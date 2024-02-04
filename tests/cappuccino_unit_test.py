@@ -30,7 +30,6 @@ def test_cappuccino_wordcloud(self):
         # Call the cappuccino function
         result_wordcloud = cappuccino(text=self.data['text'],
                                       time=self.data['time'],
-                                      time=time, 
                                       date_format = date_format, 
                                       stopwords = stopwords, 
                                       skip = skip, 
@@ -59,7 +58,6 @@ def test_cappuccino_line(self):
         # Call the cappuccino function
         result_line = cappuccino(text=self.data['text'],
                                       time=self.data['time'],
-                                      time=time, 
                                       date_format = date_format, 
                                       stopwords = stopwords, 
                                       skip = skip, 
@@ -89,7 +87,6 @@ def test_cappuccino_heatmap(self):
         # Call the cappuccino function
         result_heatmap = cappuccino(text=self.data['text'],
                                       time=self.data['time'],
-                                      time=time, 
                                       date_format = date_format, 
                                       stopwords = stopwords, 
                                       skip = skip, 

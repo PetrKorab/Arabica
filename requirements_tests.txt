@@ -1,2 +1,2 @@
-arabica==1.7.4
+arabica==1.7.7
 pandas==1.4.0

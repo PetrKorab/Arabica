@@ -9,6 +9,7 @@ from collections import Counter
 
 class TestArabicaFreq(unittest.TestCase):
 
+    # test data
     data = pd.DataFrame({
         'text': ["You may find yourself trying to decide between comparable crystallized ginger offerings from Reeds",
                  "Reed’s has a lovely raw cane sugar flavor, and is sweeter and more mellow than The Ginger People’s."],
@@ -37,7 +38,7 @@ class TestArabicaFreq(unittest.TestCase):
         stopwords = None
         skip = ["skip", "these"]
         time_freq = "ungroup"
-        max_words = 5
+        max_words = 3
         numbers = True
         lower_case = True
 

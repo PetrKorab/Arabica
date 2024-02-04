@@ -41,7 +41,7 @@ def test_cappuccino_wordcloud(self):
                                       lower_case = lower_case)
 
         # Perform assertions based on the expected behavior
-        self.assertIsNone(result_wordcloud)  # Assuming picture is None when using wordcloud
+        self.assertIsNone(result_wordcloud)  # Returns a wordcloud picture, assuming picture is None when using wordcloud
     
 
 def test_cappuccino_line(self):
@@ -70,7 +70,7 @@ def test_cappuccino_line(self):
 
 
         # Perform assertions based on the expected behavior
-        self.assertIsNone(result_line)  # Assuming picture is None when using line plot for monthly frequency
+        self.assertIsNone(result_line)  # Returns a line plot picture, assuming picture is None when using line plot for monthly frequency
 
 
 def test_cappuccino_heatmap(self):
@@ -98,7 +98,7 @@ def test_cappuccino_heatmap(self):
                                     lower_case=lower_case)        
 
         # Perform assertions based on the expected behavior
-        self.assertIsNone(result_heatmap)  # Assuming picture is None when using heatmap for monthly frequency
+        self.assertIsNone(result_heatmap)  # Returns a heatmap picture, assuming picture is None when using heatmap for monthly frequency
 
 if __name__ == '__main__':
     unittest.main(argv=[''], exit=False)

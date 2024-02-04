@@ -69,7 +69,7 @@ def test_cappuccino_line(self):
 
 
         # Perform assertions based on the expected behavior
-        self.assertIsNotNone(result_wordcloud)                  # Returns a line plot picture, assuming picture is None when using line plot for monthly frequency
+        self.assertIsNotNone(result_line)                  # Returns a line plot picture, assuming picture is not None when using line plot for monthly frequency
 
 
 def test_cappuccino_heatmap(self):

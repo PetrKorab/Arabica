@@ -14,7 +14,7 @@ class TestCoffeeBreakFunction(unittest.TestCase):
                  "Facts are immutable, Senator, even when you're not ethically sturdy enough to acknowledge them. (1) You were born iâ€¦ https://t.co/jqgV18kch4",
                  "Explain to me again why we need a vaccine @BorisJohnson @MattHancock #whereareallthesickpeople #PfizerBioNTechâ€¦ https://t.co/KxbSRoBEHq",
                  "Does anyone have any useful advice/guidance for whether the COVID vaccine is safe whilst breastfeeding?â€¦ https://t.co/EifsyQoeKN",
-                 "ID19Vaccine Monday, #US says',                               
+                 "ID19Vaccine Monday, #US says",                               
                  'Anyone wondering why day after #PfizerBioNTech approval in the UK people were getting vaccinated but all we are tolâ€¦ https://t.co/tPSyL9CUYE',
                  "Trump announces #vaccine rollout 'in less than 24 hours",
                  "The first Americans will be vaccinated againstâ€¦ https://t.co/P9esXr3zpS",

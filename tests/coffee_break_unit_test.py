@@ -2,7 +2,6 @@
 
 import unittest
 import pandas as pd
-import numpy as np
 from arabica import coffee_break
 
 class TestCoffeeBreakFunction(unittest.TestCase):

@@ -66,7 +66,7 @@ class TestCoffeeBreakFunction(unittest.TestCase):
                               n_breaks=n_breaks)
 
         # Perform assertions based on the expected behavior
-        self.assertTrue("period" in result.index.names)   # Returns a dataframe with a period column
+        self.assertTrue("period" in result.index.names)   # Returns a dataframe with a period index
         self.assertTrue("sentiment" in result.columns)    # Returns a dataframe with a sentiment columns
         self.assertIsNotNone(result)                      # Returns a picture with graphical output, assuming picture is not None
 

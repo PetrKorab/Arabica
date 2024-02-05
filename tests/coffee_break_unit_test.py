@@ -25,7 +25,6 @@ class TestCoffeeBreakFunction(unittest.TestCase):
                  "â¦@realDonaldTrumpâ©: â€śApprove the #vaccine or youâ€¦ https://t.co/f64cOP5DV6",
                  'Interesting and very detailed article showing up how a well tested #supplychain, with #sharedvisibility will help dâ€¦ https://t.co/yt3vn67mVg',
                  "đź’‰ #Vaccine #TrumpVaccine #AstraZeneca #PfizerBioNTech #Pfizervaccine #PfizerCovidVaccine #Pfizer's COVID-19 belongâ€¦ https://t.co/ldxQhN6uix",
-                 "@ZubyMusic 6 deaths so far."
                  """It's only death, nothing to worry about then đź¤"""],
 
         'time': ['21/09/2020 15:27',

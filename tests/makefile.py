@@ -5,7 +5,7 @@ PYTHON = "python3.9"
 TEST_FILES = ["arabica_freq_unit_test.py",
               "cappuccino_unit_test.py",
               "coffee_break_unit_test.py",
-              "paper_graphs_unit_test.py"]  # Assuming you have a file named paper_graphs_unit_test.py
+              "paper_graphs.py"]  # Assuming you have a file named paper_graphs_unit_test.py
 
 # Targets
 def test():

@@ -2,24 +2,17 @@ import subprocess
 
 # Variables
 PYTHON = "python3.9"
-TEST_FILE_1 = "arabica_freq_unit_test.py"
-TEST_FILE_2 = "cappuccino_unit_test.py"
-TEST_FILE_3 = "coffee_break_unit_test.py"
-TEST_FILE_4 = "paper_graphs.py"
-
-
-paper_graphs.py
-
+TEST_FILES = ["arabica_freq_unit_test.py",
+              "cappuccino_unit_test.py",
+              "coffee_break_unit_test.py",
+              "paper_graphs_unit_test.py"]  # Assuming you have a file named paper_graphs_unit_test.py
 
 # Targets
 def test():
     """Run unit tests."""
     print("Running tests...")
-    subprocess.run([PYTHON, "-m", "unittest", TEST_FILE_1])
-    subprocess.run([PYTHON, "-m", "unittest", TEST_FILE_2])
-    subprocess.run([PYTHON, "-m", "unittest", TEST_FILE_3])
-    subprocess.run([PYTHON, "-m", "unittest", TEST_FILE_4])
-
+    for test_file in TEST_FILES:
+        subprocess.run([PYTHON, "-m", "unittest", test_file])
 
 def clean():
     """Clean up generated files."""

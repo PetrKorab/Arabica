@@ -4,6 +4,8 @@ import subprocess
 PYTHON = "python3.9"
 TEST_FILE_1 = "arabica_freq_unit_test.py"
 TEST_FILE_2 = "cappuccino_unit_test.py"
+TEST_FILE_3 = "coffee_break_unit_test.py"
+
 
 # Targets
 def test():
@@ -11,6 +13,8 @@ def test():
     print("Running tests...")
     subprocess.run([PYTHON, "-m", "unittest", TEST_FILE_1])
     subprocess.run([PYTHON, "-m", "unittest", TEST_FILE_2])
+    subprocess.run([PYTHON, "-m", "unittest", TEST_FILE_3])
+
 
 def clean():
     """Clean up generated files."""

@@ -2,7 +2,7 @@ import subprocess
 
 # Variables
 PYTHON = "python3.9"
-TEST_FILE = "test_arabica.py"
+TEST_FILE = "arabica_freq_unit_test.py"
 
 # Targets
 def test():

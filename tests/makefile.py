@@ -2,13 +2,15 @@ import subprocess
 
 # Variables
 PYTHON = "python3.9"
-TEST_FILE = "arabica_freq_unit_test.py"
+TEST_FILE_1 = "arabica_freq_unit_test.py"
+TEST_FILE_2 = "cappuccino_unit_test.py"
 
 # Targets
 def test():
     """Run unit tests."""
     print("Running tests...")
-    subprocess.run([PYTHON, "-m", "unittest", TEST_FILE])
+    subprocess.run([PYTHON, "-m", "unittest", TEST_FILE_1])
+    subprocess.run([PYTHON, "-m", "unittest", TEST_FILE_2])
 
 def clean():
     """Clean up generated files."""

@@ -2,7 +2,7 @@
 
 # Variables
 PYTHON := python3
-TEST_FILE := test_arabica.py
+TEST_FILE := arabica_freq_unit_test.py
 
 .PHONY: test clean
 

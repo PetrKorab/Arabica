@@ -1,7 +1,7 @@
 # Makefile for running tests and other tasks
 
 # Variables
-PYTHON := python3
+PYTHON :=> 3.9
 TEST_FILE := arabica_freq_unit_test.py
 
 .PHONY: test clean

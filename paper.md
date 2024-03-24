@@ -11,19 +11,17 @@ authors:
   - name: Petr Koráb
     orcid: 0000-0003-2513-8981
     corresponding: true
-    affiliation: "1, 2"
+    affiliation: "1"
   - name: Jitka Poměnková
     orcid: 0000-0002-8060-0086
     equal-contrib: false
-    affiliation: 3
+    affiliation: 2
 
 affiliations:
  - name: Zeppelin University in Friedrichshafen, Germany
    index: 1
- - name: Lentiamo, Czech Republic
-   index: 2
  - name: Brno University of Technology, Department of Radio Electronics, Czech Republic
-   index: 3
+   index: 2
 date: 25 August 2023
 bibliography: paper.bib
 aas-doi: 10.3847/xxxxx 

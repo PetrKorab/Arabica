@@ -93,8 +93,8 @@ GitHub at https://github.com/PetrKorab/Arabica.
 With Arabica, it is possible to visualize and analyze textual data in novel ways. 
 These are some of the package’s distinguishing features: 
 
-• Unlike the current packages to perform meta-analysis ([@network:2017]; [@Mikolajewicz:2019]; 
-[@Balduzzi:2023]), the package leverages text mining methods 
+• Unlike the current packages to perform meta-analysis [@network:2017]; [@Mikolajewicz:2019]; 
+[@Balduzzi:2023], the package leverages text mining methods 
 for in-depth analysis of research meta-data.
 
 • Existing text analysis packages, such as Texthero [@texthero:2021] and TextBlob 
@@ -105,7 +105,7 @@ insights into the qualitative changes in text datasets that are, as such, genera
 by human behavior. It involves the package's extension of the word cloud graph 
 and financial sentiment classification for time-series text analysis.
 
-• While some existing text-processing packages (e.g. [@pyarabic:2022]) focus on a 
+• While some existing text-processing packages, e.g. [@pyarabic:2022] focus on a 
 specific group of languages, Arabica offers text-mining methods for all Latin 
 Alphabet languages, including the stopwords removal of 18 lists of stopwords 
 included in the NLTK corpus of stopwords. 

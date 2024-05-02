@@ -15,7 +15,7 @@ def cappuccino(text: str,                  # Text
                time: str,                  # Time
                date_format: str,           # Date format: 'eur' - European, 'us' - American
                stopwords: [],              # Languages for stop words
-               skip: [ ],                  # Remove additional strings
+               skip: [],                  # Remove additional strings
                plot: str = '',             # Chart type: 'wordcloud'/'heatmap'/'line'
                ngram: int = '',            # N-gram size, 1 = unigram, 2 = bigram, 3 = trigram
                time_freq: str = '',        # Aggregation period: 'Y'/'M', if no aggregation: 'ungroup'
@@ -492,8 +492,79 @@ def cappuccino(text: str,                  # Text
             else:
                 sys.exit('Incorrect value for plot parameter. Allowed: "wordcloud"')
 
+        elif time_freq == "Y":
+            period = result['period']
+            subset = result['trigram']
+            subset = subset.dropna()
+            subset_expand = subset.str.split(pat=",", expand=True)
+            
+            cols = (' '.join(w) for w in zip(subset_expand.columns[::3].astype(str), subset_expand.columns[1::3].astype(str), subset_expand.columns[2::3].astype(str)))
+            subset_expand_adj = pd.DataFrame(subset_expand.iloc[:, ::3].astype(str).values +
+                                             ' ' + subset_expand.iloc[:, 1::3].astype(str).values +
+                                             ' ' + subset_expand.iloc[:, 2::3].astype(str).values +
+                                             " ", index=subset_expand.index, columns=cols)
+
+            subset_expand_adj.columns = ['trigram' + str(i + 1) for i in range(len(subset_expand_adj.columns))]
+            subset_expand_adj["id"] = subset_expand_adj.index
+
+
+            test = subset_expand_adj.merge(period, left_index = True, right_index = True)
+            reshaped = pd.wide_to_long(test, ['trigram'], i="id", j="period")
+            period_re = reshaped['period']
+            period_re.reset_index(drop=True, inplace=True)
+            reshaped_unigram = reshaped['trigram']
+            reshaped_unigram.reset_index(drop=True, inplace=True)
+            reshaped_unigram = reshaped_unigram.str.split(pat=": ", expand=True)
+            reshaped_unigram = reshaped_unigram.rename(columns={0: 'trigram', 1: 'frequency'})
+            reshaped_unigram = reshaped_unigram.dropna()
+            reshaped_unigram['frequency'] = reshaped_unigram['frequency'].astype(int)
+            reshaped_unigram = reshaped_unigram.merge(period_re, left_index = True, right_index = True)
+
+            if plot == 'line':
+                reshaped_unigram_wide = pd.pivot(reshaped_unigram, index = 'trigram', columns = 'period', values = 'frequency')
+                reshaped_unigram_wide = reshaped_unigram_wide.fillna(0)
+                year_list=list(reshaped_unigram_wide.columns)
+                reshaped_unigram_wide = pd.melt(reshaped_unigram_wide, value_vars=year_list,value_name='frequency', ignore_index=False)
+                reshaped_unigram_wide = reshaped_unigram_wide.reset_index()
+                reshaped_unigram_max = reshaped_unigram_wide.groupby(['trigram'], sort=False)['frequency'].max()
+                reshaped_unigram_max = reshaped_unigram_max.reset_index()
+                reshaped_unigram_wide = reshaped_unigram_wide.merge(reshaped_unigram_max, on = ['trigram','frequency'], how = 'left', indicator=True)
+                reshaped_unigram_wide['label'] = np.where(reshaped_unigram_wide['_merge']=='both', reshaped_unigram_wide['trigram'], '')
+                reshaped_unigram_wide = reshaped_unigram_wide[['trigram', 'frequency', 'period','label']]
+
+
+                fig = (ggplot(reshaped_unigram_wide)
+                       + geom_point(aes(x = 'period', y = 'frequency',color = 'trigram'))
+                       + geom_line(aes(x = 'period', y = 'frequency', color = 'trigram',group='trigram'))
+                       + geom_label(aes(x = 'period', y = 'frequency', label = 'label',size = 0.2), nudge_y=0.3)
+                       + scale_size_continuous(guide = None)
+                       + guides(color=guide_legend(nrow=40))
+                       + theme_minimal()
+                       + theme(axis_title_x=element_text(colour = "black",size = 7),
+                               axis_title_y=element_text(colour="black", size = 7),
+                               axis_title=element_text(face="bold"),
+                               axis_text_x=element_text(colour = "black", rotation=45, hjust=1, size = 7),
+                               legend_text = element_text(size=7),
+                               legend_title = element_text(size=10),
+                               legend_key_height = 0.5,
+                               legend_key_width = 0.5,
+                               figure_size=(5 + max_words, (1 + (max_words * 1.0))),
+                               panel_grid_major = element_blank(),
+                               panel_background = element_rect(colour = "white", fill = "white"),
+                               plot_background = element_rect(colour = 'white',fill = "white"))
+                       ).draw(show=False, return_ggplot=True)
+                plt.gcf().set_dpi(1200)
+                picture = plt.show()
+
+
+            else:
+                sys.exit('Incorrect value for plot parameter. Allowed: "line"')
+
+
+
+
         else:
-            sys.exit('Incorrect value for time_freq parameter. Allowed: "ungroup"')
+            sys.exit('Incorrect value for time_freq parameter. Allowed: "ungroup", "Y"')
 
     else:
         sys.exit("Incorrect value for ngram parameter. Allowed: 1,2,3.")

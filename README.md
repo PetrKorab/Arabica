@@ -112,7 +112,7 @@ def coffee_break(text: str,                 # Text
 )
 ```
 
-## 📄 Documentation, examples and tutorials
+## Documentation, examples and tutorials
 
 * Read the [documentation](https://arabica.readthedocs.io/en/latest/index.html)
 
@@ -132,4 +132,20 @@ For more examples of coding, read these  tutorials:
 * **Social media analysis**
 ---
 
-💬 Please visit [here](https://github.com/PetrKorab/arabica/issues) for any questions, issues, bugs, and suggestions.
+## Citation
+
+Using **arabica** in a paper or thesis? Please cite this paper:
+
+```bibtex
+
+@article{Koráb:2024,
+  author   = {{Koráb}, J. and {Poměnková}, J.},
+  title    = {arabica},
+  subtitle = {Arabica: A Python package for exploratory analysis of text data},
+  journal  = {Journal of Open Source Software},
+  volume   = {},
+  number   = {},
+  pages    = {},
+  year     = {2024},
+  doi      = {10.21105/joss.06186},
+}

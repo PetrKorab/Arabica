@@ -132,6 +132,10 @@ For more examples of coding, read these  tutorials:
 * **Social media analysis**
 ---
 
+
+💬 Please visit [here](https://github.com/PetrKorab/arabica/issues) for any questions, issues, bugs, and suggestions.
+
+
 ## Citation
 
 Using **arabica** in a paper or thesis? Please cite this paper:

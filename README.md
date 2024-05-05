@@ -151,5 +151,5 @@ Using **arabica** in a paper or thesis? Please cite this paper:
   number   = {},
   pages    = {},
   year     = {2024},
-  doi      = {10.21105/joss.06186},
+  doi      = {doi.org/10.21105/joss.06186},
 }

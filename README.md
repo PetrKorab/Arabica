@@ -143,7 +143,7 @@ Using **arabica** in a paper or thesis? Please cite this paper:
 ```bibtex
 
 @article{Koráb:2024,
-  author   = {{Koráb}, J. and {Poměnková}, J.},
+  author   = {{Koráb}, P., and {Poměnková}, J.},
   title    = {arabica},
   subtitle = {Arabica: A Python package for exploratory analysis of text data},
   journal  = {Journal of Open Source Software},

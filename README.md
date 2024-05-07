@@ -147,9 +147,9 @@ Using **arabica** in a paper or thesis? Please cite this paper:
   title    = {arabica},
   subtitle = {Arabica: A Python package for exploratory analysis of text data},
   journal  = {Journal of Open Source Software},
-  volume   = {},
-  number   = {},
-  pages    = {},
+  volume   = {97},
+  number   = {9},
+  pages    = {6186},
   year     = {2024},
   doi      = {doi.org/10.21105/joss.06186},
 }

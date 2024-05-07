@@ -144,8 +144,7 @@ Using **arabica** in a paper or thesis? Please cite this paper:
 
 @article{Koráb:2024,
   author   = {{Koráb}, P., and {Poměnková}, J.},
-  title    = {arabica},
-  subtitle = {Arabica: A Python package for exploratory analysis of text data},
+  title    = {Arabica: A Python package for exploratory analysis of text data},
   journal  = {Journal of Open Source Software},
   volume   = {97},
   number   = {9},

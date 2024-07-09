@@ -3,7 +3,7 @@
 
 
 # Arabica
-**Python package for time-series text mining**
+**Python package for text mining of time-series data**
 
 Text data is often recorded as a time series with significant variability over time. Some examples of time-series text data include social media conversations, product reviews, research metadata, central bankers’ communication, and newspaper headlines. Arabica makes exploratory analysis of these datasets simple by providing:
 

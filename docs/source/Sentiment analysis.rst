@@ -53,13 +53,13 @@ The data looks like this:
 
     coffee_break(text = data['text'],
                  time = data['date'],
-                 date_format = 'eur',  # Read dates in European format
-                 model = 'vader',      # Use VADER classifier
-                 time_freq = 'Y',      # Yearly aggregation
-                 preprocess = True,    # Clean data - punctuation + numbers
-                 skip = ["brrrr",
-                     "donald trump"],  # Remove additional stop words
-                 n_breaks = None)      # No structural break analysis
+                 date_format = 'eur',                # Read dates in European format
+                 model = 'vader',                    # Use VADER classifier
+                 time_freq = 'Y',                    # Yearly aggregation
+                 preprocess = True,                  # Clean data - punctuation + numbers
+                 skip = ['https://t.co/dlCHrZjkhm',  # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
+                         'https://t.co/xeHhIMg1kF'],  
+                 n_breaks = None)                    # No structural break analysis
 
 
 
@@ -94,8 +94,8 @@ At the same time, Arabica returns a dataframe with the corresponding data. The t
                       model = 'vader',
                       time_freq = 'Y',
                       preprocess = True,
-                      skip = ["brrrr",
-                             "donald trump"], 
+                      skip = ['https://t.co/dlCHrZjkhm',  
+                             'https://t.co/xeHhIMg1kF'],  
                       n_breaks = None)
           
 

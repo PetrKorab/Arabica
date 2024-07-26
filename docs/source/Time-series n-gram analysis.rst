@@ -7,12 +7,10 @@ It automatically cleans data from punctuation (using `cleantext <https://pypi.or
 
 * Remove digits from the text
 * Remove standard list(s) of stop words (using `NLTK <https://www.nltk.org/>`_)
-* Remove an additional specific list of words
+* Remove extended list of stopwords (currently for `English only <https://github.com/PetrKorab/Arabica/blob/main/stopwords_extended.py>`_)
+* Remove an additional specific list of strings. 
 
-
-**Stop words** are generally the most common words in a language with no significant meaning, such as *"is"*, *"am"*, *"the"*, *"this"*, *"are"*, etc.
-They are often filtered out because they bring low or zero information value. Arabica enables stopword removal for languages in the
-`NLTK <https://www.nltk.org/>`_ corpus.
+Arabica enables stopword removal for languages in the `NLTK <https://www.nltk.org/>`_ corpus and an extended curated list of English stop words.
 
 To print all available languages:
 
@@ -70,13 +68,15 @@ The data looks like this:
 
 It procceeds in this way:
 
-* **additional stop words** cleaning, if ``skip is not None``
+* **additional strings** cleaning, if ``skip is not None``
 
 * **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case = True``
 
 * **punctuation** cleaning - performs automatically
 
 * **stop words** removal, if ``stopwords is not None``
+
+* **extended stop words** removal, if ``stopwords_extened is not None``
 
 * **digits** removal, , if ``numbers = True``
 
@@ -89,13 +89,14 @@ It procceeds in this way:
 
    arabica_freq(text = data['headline'],
                 time = data['date'],
-                date_format = 'us',          # Uses US-style date format to parse dates
-                time_freq = 'M',             # Aggregation period: 'D' = daily, 'M' = monthly, 'Y' = yearly
-                max_words = 3,               # Displays thee most n-grams for each period
-                stopwords = ['english'],     # Remove English set of stopwords
-                skip = ['<br />'],           # Remove additional stop words
-                numbers = True,              # Remove numbers
-                lower_case = True)           # Lowercase text
+                date_format = 'us',              # Uses US-style date format to parse dates
+                time_freq = 'M',                 # Aggregation period: 'D' = daily, 'M' = monthly, 'Y' = yearly
+                max_words = 3,                   # Displays thee most n-grams for each period
+                stopwords = ['english'],         # Remove English set of stopwords
+                stopwords_extened = ['english'], # Remove extended list of English stopwords
+                skip = ['<br />'],               # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
+                numbers = True,                  # Remove numbers
+                lower_case = True)               # Lowercase text
 
 
 The output is a dataframe with n-grams in monthly frequency:

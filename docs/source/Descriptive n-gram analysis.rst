@@ -7,7 +7,8 @@ It automatically cleans data from punctuation (using `cleantext <https://pypi.or
 
 * Remove digits from the text
 * Remove standard list(s) of stop words (using `NLTK <https://www.nltk.org/>`_)
-* Remove an additional specific list of words
+* Remove extended list of stopwords (currently for English only)
+* Remove an additional specific list of strings
 
 
 **Stop words** are generally the most common words in a language with no significant meaning, such as *"is"*, *"am"*, *"the"*, *"this"*, *"are"*, etc.
@@ -82,13 +83,14 @@ It procceeds in this way:
 
    arabica_freq(text = data['review'],
                 time = data['time'],
-                date_format = 'us',          # Use US-style date format to parse dates
-                time_freq = 'ungroup',       # Calculate n-grams frequencies without period aggregation
-                max_words = 10,              # Display 10 most frequent unigrams, bigrams, and trigrams
-                stopwords = ['english'],     # Remove English set of stopwords
-                skip = ['<br />'],           # Remove additional stop words
-                numbers = True,              # Remove numbers
-                lower_case = True)           # Lowercase text
+                date_format = 'us',              # Use US-style date format to parse dates
+                time_freq = 'ungroup',           # Calculate n-grams frequencies without period aggregation
+                max_words = 10,                  # Display 10 most frequent unigrams, bigrams, and trigrams
+                stopwords = ['english'],         # Remove English set of stopwords
+                stopwords_extened = ['english'], # Remove extended list of English stopwords
+                skip = ['<br />'],               # Remove additional stop words
+                numbers = True,                  # Remove numbers
+                lower_case = True)               # Lowercase text
 
 The output is a dataframe with n-gram frequencies:
 

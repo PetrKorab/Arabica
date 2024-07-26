@@ -10,12 +10,13 @@ It automatically cleans data from punctuation (using `cleantext <https://pypi.or
 
 * Remove digits from the text
 * Remove standard list(s) of stop words (using `NLTK <https://www.nltk.org/>`_)
-* Remove an additional specific list of words
-
+* Remove extended list of stopwords (currently for `English only <https://github.com/PetrKorab/Arabica/blob/main/stopwords_extended.py>`_)
+* Remove an additional specific list of strings. 
 
 **Stop words** are generally the most common words in a language with no significant meaning, such as *"is"*, *"am"*, *"the"*, *"this"*, *"are"*, etc.
-They are often filtered out because they bring low or zero information value. Arabica enables stopword removal for languages in the
-`NLTK <https://www.nltk.org/>`_ corpus.
+They are often filtered out because they bring low or zero information value. 
+
+Arabica enables stopword removal for languages in the `NLTK <https://www.nltk.org/>`_ corpus and an extended curated list of English stop words.
 
 To print all available languages:
 

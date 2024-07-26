@@ -68,7 +68,9 @@ def arabica_freq(text: str,                # Text
                  max_words: int,           # Maximum of most frequent n-grams displayed for each period
                  stopwords: [],            # Languages for stop words
                  stopwords_extended: [],   # Languages for extended stop words list
-                 skip: [],                 # Remove additional stop words
+                 skip: [],                 # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
+                 numbers = True,           # Remove numbers
+                 lower_case = True)        # Lowercase text
                  numbers: bool = False,    # Remove numbers
                  lower_case: bool = False  # Lowercase text
 ) 
@@ -87,7 +89,7 @@ def cappuccino(text: str,                # Text
                max_words int,            # Maximum of most frequent n-grams displayed for each period
                stopwords: [],            # Languages for stop words
                stopwords_extended: [],   # Languages for extended stop words list
-               skip: [],                 # Remove additional stop words
+               skip: [],                 # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
                numbers: bool = False,    # Remove numbers
                lower_case: bool = False  # Lowercase text
 )
@@ -107,7 +109,7 @@ def coffee_break(text: str,                 # Text
                  time: str,                 # Time
                  date_format: str,          # Date format: 'eur' - European, 'us' - American
                  model: str,                # Sentiment classifier, 'vader' - general language, 'finvader' - financial text                
-                 skip: [],                  # Remove additional stop words
+                 skip: [],                  # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
                  preprocess: bool = False,  # Clean data from numbers and punctuation
                  time_freq: str,            # Aggregation period: 'Y'/'M'
                  n_breaks: int              # Number of breakpoints: min. 2

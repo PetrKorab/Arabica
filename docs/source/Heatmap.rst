@@ -43,13 +43,15 @@ The data looks liks this:
 
 It procceeds in this way:
 
-* **additional stop words** cleaning, if ``skip is not None``
+* **additional strings** cleaning, if ``skip is not None``
 
 * **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case = True``
 
 * **punctuation** cleaning - performs automatically
 
 * **stop words** removal, if ``stopwords is not None``
+
+* **extended stop words** removal, if ``stopwords_extened is not None``
 
 * **digits** removal, , if ``numbers = True``
 
@@ -66,7 +68,8 @@ It procceeds in this way:
               time_freq = 'M',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
               max_words = 10,                    # Displays 10 most frequent unigrams (words) for each period
               stopwords = ['english'],           # Remove English stopwords
-              skip = ['covid','Donald Trump'],   # Remove additional stop words
+              stopwords_extened = ['english'],   # Remove extended list of English stopwords
+              skip = ['covid','Donald Trump'],   # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
               numbers = True,                    # Remove numbers
               lower_case = True)                 # Lowercase text
 

@@ -41,7 +41,7 @@ The data looks liks this:
 
 It procceeds in this way:
 
-* **additional stop words** cleaning, if ``skip is not None``
+* **additional strings** cleaning, if ``skip is not None``
 
 * **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case = True``
 
@@ -49,8 +49,9 @@ It procceeds in this way:
 
 * **stop words** removal, if ``stopwords is not None``
 
-* **digits** removal, , if ``numbers = True``
+* **extended stop words** removal, if ``stopwords_extened is not None``
 
+* **digits** removal, , if ``numbers = True``
 
 * n-gram frequencies for each headline are calculated, aggregated by monthly frequency, and displayed in a line plot.
 
@@ -65,7 +66,8 @@ It procceeds in this way:
               time_freq = 'M',                  # Aggregation period, 'M' = monthly, 'Y' = yearly
               max_words = 6,                    # Displays 6 most frequent unigrams (words) for each period
               stopwords = ['english'],          # Remove English stopwords
-              skip = ['covid','donald trump'],  # Remove additional stop words
+              stopwords_extened = ['english'],  # Remove extended list of English stopwords
+              skip = ['covid','donald trump'],  # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
               numbers = True,                   # Remove numbers
               lower_case = True)                # Lowercase text
 

@@ -12,8 +12,9 @@ It automatically cleans data from punctuation (using `cleantext <https://pypi.or
 
 
 **Stop words** are generally the most common words in a language with no significant meaning, such as *"is"*, *"am"*, *"the"*, *"this"*, *"are"*, etc.
-They are often filtered out because they bring low or zero information value. Arabica enables stopword removal for languages in the
-`NLTK <https://www.nltk.org/>`_ corpus and an extended curated list of English stop words.
+They are often filtered out because they bring low or zero information value. 
+
+Arabica enables stopword removal for languages in the `NLTK <https://www.nltk.org/>`_ corpus and an extended curated list of English stop words.
 
 To print all available languages:
 

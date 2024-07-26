@@ -88,7 +88,7 @@ It procceeds in this way:
                 max_words = 10,                  # Display 10 most frequent unigrams, bigrams, and trigrams
                 stopwords = ['english'],         # Remove English set of stopwords
                 stopwords_extened = ['english'], # Remove extended list of English stopwords
-                skip = ['<br />'],               # Remove additional stop words
+                skip = ['<br />'],               # Remove additional strings
                 numbers = True,                  # Remove numbers
                 lower_case = True)               # Lowercase text
 

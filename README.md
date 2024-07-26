@@ -5,10 +5,10 @@
 # Arabica
 **Python package for text mining of time-series data**
 
-Text data is often recorded as a time series with significant variability over time. Some examples of time-series text data include social media conversations, product reviews, research metadata, central bankers’ communication, and newspaper headlines. Arabica makes exploratory analysis of these datasets simple by providing:
+Text data is often recorded as a time series with significant variability over time. Some examples of time-series text data include social media conversations, product reviews, research metadata, central banker communication, and newspaper headlines. Arabica makes exploratory analysis of these datasets simple by providing:
 
 * **Descriptive n-gram analysis**: n-gram frequencies
-* **Time-series n-gram analysis**: n-gram frequencies over a period
+* **Time-series n-gram analysis**: n-gram frequencies over a perio
 * **Text visualization**: n-gram heatmap, line plot, word cloud
 * **Sentiment analysis**: VADER sentiment classifier
 * **Financial sentiment analysis**: with FinVADER

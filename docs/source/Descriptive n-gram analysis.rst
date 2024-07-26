@@ -74,6 +74,8 @@ It procceeds in this way:
 
 * **stop words** removal, if ``stopwords is not None``
 
+* ** extended stop words** removal, if ``stopwords_extened is not None``
+
 * **digits** removal, , if ``numbers = True``
 
 * n-gram frequencies for each headline are calculated and summed for the whole dataset.

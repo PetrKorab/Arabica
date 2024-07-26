@@ -7,7 +7,7 @@ It automatically cleans data from punctuation (using `cleantext <https://pypi.or
 
 * Remove digits from the text
 * Remove standard list(s) of stop words (using `NLTK <https://www.nltk.org/>`_)
-* Remove extended list of stopwords (currently for English only)
+* Remove extended list of stopwords (currently for `English only <https://github.com/PetrKorab/Arabica/blob/main/stopwords_extended.py>`_)
 * Remove an additional specific list of strings
 
 

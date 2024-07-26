@@ -8,7 +8,7 @@ It automatically cleans data from punctuation (using `cleantext <https://pypi.or
 * Remove digits from the text
 * Remove standard list(s) of stop words (using `NLTK <https://www.nltk.org/>`_)
 * Remove extended list of stopwords (currently for `English only <https://github.com/PetrKorab/Arabica/blob/main/stopwords_extended.py>`_)
-* Remove an additional specific list of strings
+* Remove an additional specific list of strings. 
 
 
 **Stop words** are generally the most common words in a language with no significant meaning, such as *"is"*, *"am"*, *"the"*, *"this"*, *"are"*, etc.
@@ -66,7 +66,7 @@ By randomly picking a product from the reviews, a subset of 25 reviews looks lik
 
 It procceeds in this way:
 
-* **additional stop words** cleaning, if ``skip is not None``
+* **additional strings** cleaning, if ``skip is not None``
 
 * **lowercasing**: reviews are made lowercase so that capital letters don't affect n-gram calculations (e.g., "Tree" is not treated differently from "tree"), if ``lower_case = True``
 
@@ -74,7 +74,7 @@ It procceeds in this way:
 
 * **stop words** removal, if ``stopwords is not None``
 
-* ** extended stop words** removal, if ``stopwords_extened is not None``
+* **extended stop words** removal, if ``stopwords_extened is not None``
 
 * **digits** removal, , if ``numbers = True``
 
@@ -90,7 +90,7 @@ It procceeds in this way:
                 max_words = 10,                  # Display 10 most frequent unigrams, bigrams, and trigrams
                 stopwords = ['english'],         # Remove English set of stopwords
                 stopwords_extened = ['english'], # Remove extended list of English stopwords
-                skip = ['<br />'],               # Remove additional strings
+                skip = ['<br />'],               # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
                 numbers = True,                  # Remove numbers
                 lower_case = True)               # Lowercase text
 

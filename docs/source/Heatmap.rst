@@ -62,13 +62,13 @@ It procceeds in this way:
 
    cappuccino(text = data['headline'],
               time = data['date'],
-              date_format = 'us',               # Uses US-style date format to parse dates
+              date_format = 'us',                # Uses US-style date format to parse dates
               plot = 'heatmap',
               ngram = 1,                         # N-gram size, 1 = unigram, 2 = bigram
               time_freq = 'M',                   # Aggregation period, 'M' = monthly, 'Y' = yearly
               max_words = 10,                    # Displays 10 most frequent unigrams (words) for each period
               stopwords = ['english'],           # Remove English stopwords
-              stopwords_extened = ['english'],   # Remove extended list of English stopwords
+              stopwords_ext = ['english'],       # Remove extended list of English stopwords
               skip = ['<br />'],                 # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
               numbers = True,                    # Remove numbers
               lower_case = True)                 # Lowercase text

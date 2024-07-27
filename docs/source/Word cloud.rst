@@ -68,7 +68,7 @@ It procceeds in this way:
               time_freq = 'ungroup',              # No period aggregation
               max_words = 150,                    # Displays 150 most frequent bigrams
               stopwords = ['english'],            # Remove English stopwords
-              stopwords_extened = ['english'],    # Remove extended list of English stopwords
+              stopwords_ext = ['english'],        # Remove extended list of English stopwords
               skip = ['<br />'],                  # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
               numbers = True,                     # Remove numbers
               lower_case = True)                  # Lowercase text 

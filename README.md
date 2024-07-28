@@ -67,7 +67,7 @@ def arabica_freq(text: str,                # Text
                  time_freq: str,           # Aggregation period: 'Y'/'M'/'D', if no aggregation: 'ungroup'
                  max_words: int,           # Maximum of most frequent n-grams displayed for each period
                  stopwords: [],            # Languages for stop words
-                 stopwords_ext: [],        # Languages for extended stop words list
+                 stopwords_ext: [],        # Languages for extended stop words list, currently provided lists: 'english'
                  skip: [],                 # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
                  numbers = True,           # Remove numbers
                  lower_case = True)        # Lowercase text
@@ -88,7 +88,7 @@ def cappuccino(text: str,                # Text
                time_freq: str,           # Aggregation period: 'Y'/'M', if no aggregation: 'ungroup'
                max_words int,            # Maximum of most frequent n-grams displayed for each period
                stopwords: [],            # Languages for stop words
-               stopwords_ext: [],        # Languages for extended stop words list
+               stopwords_ext: [],        # Languages for extended stop words list, currently provided lists: 'english'
                skip: [],                 # Remove additional strings. Cuts the characters out without tokenization, useful for specific or rare characters. Be careful not to bias the dataset.
                numbers: bool = False,    # Remove numbers
                lower_case: bool = False  # Lowercase text

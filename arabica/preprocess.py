@@ -8,9 +8,12 @@ from cleantext import clean
 
 def preprocess(text):
     input = clean(str(text), punct=True, extra_spaces=True)
-    output = input.replace('“', '')
-    output_out = output.replace('”', '')
-    return output_out
+    output = input.replace('“',' ')
+    output = output.replace('”',' ')
+    output = output.replace('.',' ')
+    output = output.replace('-',' ')
+
+    return output
 
 
 def lower_casing(text):
@@ -23,4 +26,3 @@ def preprocess_sentiment(text):
     output = clean(str(text), punct=True,
                    numbers = True)
     return output
-

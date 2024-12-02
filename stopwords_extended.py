@@ -1,4 +1,4 @@
-#curated list by Sean Bleier: https://gist.github.com/sebleier/554280 
+# curated list by Sean Bleier: https://gist.github.com/sebleier/554280 
 
 stopwords_extended = [
 "0o", "0s", "3a", "3b", "3d", "6b", "6o", "a", "a1", "a2", "a3", "a4", "ab", "able", "about",
